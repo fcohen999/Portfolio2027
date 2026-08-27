@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Type scale comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Space+Grotesk:wght@500;700&family=Newsreader:ital,wght@0,400;1,400;0,500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F5F1EA; --bg2:#EDE6D8; --ink:#2A2622; --muted:#6B6258; --line:#D9D0BF; --accent:#B4552D;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);}
+  .option{padding:64px 64px 80px;border-bottom:1px solid var(--line);}
+  .option:last-child{border-bottom:none;}
+  .label{font-family:Archivo,sans-serif;font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;}
+  .desc{font-family:Archivo,sans-serif;font-weight:400;font-size:14px;color:var(--muted);margin-bottom:40px;max-width:640px;line-height:1.5;}
+  .eyebrow{font-family:Archivo,sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;}
+  h1{margin:0 0 20px;line-height:1.08;letter-spacing:-0.01em;}
+  .sub{margin:0 0 32px;max-width:620px;}
+  .stats{display:flex;gap:0;margin-bottom:40px;}
+  .stat{padding:0 32px;border-left:1px solid var(--line);}
+  .stat:first-child{border-left:none;padding-left:0;}
+  .stat .num{font-weight:800;font-size:36px;color:var(--accent);display:block;line-height:1;}
+  .stat .cap{font-family:Archivo,sans-serif;font-weight:500;font-size:13px;letter-spacing:.02em;color:var(--muted);}
+  .body-copy{max-width:620px;font-size:18px;line-height:1.6;}
+
+  /* Option A: Archivo only */
+  .optA h1{font-family:"Archivo Expanded",Archivo,sans-serif;font-weight:800;font-size:52px;}
+  .optA .sub{font-family:Archivo,sans-serif;font-weight:400;font-size:20px;color:var(--muted);}
+  .optA .stat .num{font-family:"Archivo Expanded",Archivo,sans-serif;}
+  .optA .body-copy{font-family:Archivo,sans-serif;font-weight:400;}
+
+  /* Option B: Archivo Expanded + Newsreader */
+  .optB h1{font-family:"Archivo Expanded",Archivo,sans-serif;font-weight:800;font-size:52px;}
+  .optB .sub{font-family:Newsreader,serif;font-style:italic;font-weight:400;font-size:22px;color:var(--muted);}
+  .optB .stat .num{font-family:"Archivo Expanded",Archivo,sans-serif;}
+  .optB .body-copy{font-family:Newsreader,serif;font-weight:400;}
+
+  /* Option C: Space Grotesk + Fraunces */
+  .optC h1{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:52px;}
+  .optC .sub{font-family:Fraunces,serif;font-style:italic;font-weight:400;font-size:22px;color:var(--muted);}
+  .optC .stat .num{font-family:"Space Grotesk",sans-serif;font-weight:700;}
+  .optC .body-copy{font-family:Fraunces,serif;font-weight:400;}
+</style>
+</head>
+<body>
+
+  <div class="option optA">
+    <div class="label">Option A — Archivo only</div>
+    <div class="desc">Single grotesque family carries headline and body. Most architectural / squared-off. Editorial quality comes from scale and spacing, not from a serif.</div>
+    <div class="eyebrow">Sound Transit — 2025</div>
+    <h1>Turning an Unactionable Accessibility Audit Into a Strategy Engineering Could Execute</h1>
+    <p class="sub">Accessibility Lead, reframing a stalled 7,000-page audit around systemic impact instead of ticket count.</p>
+    <div class="stats">
+      <div class="stat"><span class="num">160</span><span class="cap">PAGES, DOWN FROM 7,000+</span></div>
+      <div class="stat"><span class="num">29</span><span class="cap">SHARED TEMPLATES</span></div>
+      <div class="stat"><span class="num">4</span><span class="cap">TOOLS BUILT</span></div>
+    </div>
+    <p class="body-copy">Sound Transit had already run an accessibility audit before I joined. It produced thousands of Jira tickets — and stalled there. I reframed the program around systemic impact: fixing shared templates instead of chasing individual page tickets.</p>
+  </div>
+
+  <div class="option optB">
+    <div class="label">Option B — Archivo Expanded headline + Newsreader body (recommended)</div>
+    <div class="desc">Squared, heavy grotesque headline for architecture; a warm serif underneath for the actual prose. Most directly answers "editorial + warm" while keeping the square-edge system in the headline weight.</div>
+    <div class="eyebrow">Sound Transit — 2025</div>
+    <h1>Turning an Unactionable Accessibility Audit Into a Strategy Engineering Could Execute</h1>
+    <p class="sub">Accessibility Lead, reframing a stalled 7,000-page audit around systemic impact instead of ticket count.</p>
+    <div class="stats">
+      <div class="stat"><span class="num">160</span><span class="cap">PAGES, DOWN FROM 7,000+</span></div>
+      <div class="stat"><span class="num">29</span><span class="cap">SHARED TEMPLATES</span></div>
+      <div class="stat"><span class="num">4</span><span class="cap">TOOLS BUILT</span></div>
+    </div>
+    <p class="body-copy">Sound Transit had already run an accessibility audit before I joined. It produced thousands of Jira tickets — and stalled there. I reframed the program around systemic impact: fixing shared templates instead of chasing individual page tickets.</p>
+  </div>
+
+  <div class="option optC">
+    <div class="label">Option C — Space Grotesk headline + Fraunces body</div>
+    <div class="desc">Space Grotesk is a close cousin of Archivo — similar squared/technical character, slightly more humanist lowercase. Fraunces brings real personality (wonky optical-size variation) — more expressive/warm than Newsreader, but risks reading less "understated."</div>
+    <div class="eyebrow">Sound Transit — 2025</div>
+    <h1>Turning an Unactionable Accessibility Audit Into a Strategy Engineering Could Execute</h1>
+    <p class="sub">Accessibility Lead, reframing a stalled 7,000-page audit around systemic impact instead of ticket count.</p>
+    <div class="stats">
+      <div class="stat"><span class="num">160</span><span class="cap">PAGES, DOWN FROM 7,000+</span></div>
+      <div class="stat"><span class="num">29</span><span class="cap">SHARED TEMPLATES</span></div>
+      <div class="stat"><span class="num">4</span><span class="cap">TOOLS BUILT</span></div>
+    </div>
+    <p class="body-copy">Sound Transit had already run an accessibility audit before I joined. It produced thousands of Jira tickets — and stalled there. I reframed the program around systemic impact: fixing shared templates instead of chasing individual page tickets.</p>
+  </div>
+
+</body>
+</html>

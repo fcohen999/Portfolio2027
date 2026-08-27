@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound Transit — Fiona Cohen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">FIONA COHEN</a>
+    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
+    <nav class="links">
+      <a href="index.html">Work</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <a class="back-link" href="index.html">← Work</a>
+
+  <div class="cs-title">
+    <p class="eyebrow">Sound Transit — 2025</p>
+    <h1>Turning an unactionable accessibility audit into a strategy engineering could execute</h1>
+    <p class="subhead">Accessibility Lead, reframing a stalled 7,000-page audit around systemic impact instead of ticket count.</p>
+  </div>
+
+  <div class="cs-stats">
+    <div class="stat"><span class="num">160</span><span class="caption">PAGES, DOWN FROM 7,000+</span></div>
+    <div class="stat"><span class="num">29</span><span class="caption">SHARED TEMPLATES</span></div>
+    <div class="stat"><span class="num">4</span><span class="caption">TOOLS BUILT</span></div>
+    <div class="stat"><span class="num">3</span><span class="caption">PHASE STRATEGY</span></div>
+  </div>
+
+  <div class="cs-hero">
+    <div class="img-ph" style="aspect-ratio:16/9;">sound-transit-hero.jpg</div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">The Problem</p>
+    <div class="content">
+      <p>Sound Transit had already run an accessibility audit before I joined. It produced thousands of Jira tickets — and stalled there. Thousands of disconnected findings against a 7,000+ page site gave engineering no way to prioritize: every ticket looked equally urgent, and equally impossible to act on at that volume. The program needed a different frame, not more findings.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">My Role</p>
+    <div class="content">
+      <p>I came in as Accessibility Lead responsible for turning that audit into a strategy engineering could actually execute — which meant deciding what <em>not</em> to fix as much as what to fix. That's a scoping call, not a QA task: I was the one who decided the site's real accessibility risk lived in a few hundred pages and two dozen shared templates, not in exhaustively clearing every one of the original tickets.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Approach</p>
+    <div class="content">
+      <p>I reduced the 7,000+ page site to the 160 highest-traffic pages and 29 shared templates that actually determined coverage — the insight being that fixing a handful of shared templates fixes every page that inherits from them, while chasing individual page tickets does not compound the same way.</p>
+      <p>To make that reframing operational rather than just a slide, I built four reusable applications covering audit collection, aggregation, deduplication, and analytics — turning thousands of scattered findings into structured data that could actually surface which issues were systemic versus one-off, and which fixes would move the most pages at once.</p>
+      <p>I also built a repeatable manual testing system: automating the routine, mechanical checks, defining testing protocols for what still needed a human, and creating a workflow a team member could run consistently under my direction — so the program didn't depend on me personally to keep generating findings.</p>
+      <p>From there I set a three-phase remediation strategy — shared components first, then templates, then isolated issues — which gave engineering an explicit order of operations instead of an undifferentiated backlog, and directed their effort toward the fixes with the greatest system-wide impact.</p>
+    </div>
+    <div class="cs-breakout">
+      <div class="breakout-compare">
+        <span class="from">7,000+ pages</span>
+        <span class="arrow">→</span>
+        <span class="to">160 pages / 29 templates</span>
+        <p class="caption" style="margin-top:16px;">SCOPED TO THE COVERAGE THAT ACTUALLY MATTERED</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Bringing Teams Along</p>
+    <div class="content">
+      <p>None of this works if it's just a methodology I hand off. I brought the client and engineering teams around this approach — the shift from "clear every ticket" to "fix the templates that matter" is a hard sell to a team that's already been told the compliance risk is 7,000 pages deep — and then transferred the tooling, documentation, and training needed for them to continue independently, since the goal was a program that outlasted my engagement.</p>
+      <div class="shot-grid">
+        <div class="img-ph" style="aspect-ratio:4/3;">sound-transit-tool-01.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">sound-transit-tool-02.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Outcome</p>
+    <div class="content">
+      <p>The engagement moved Sound Transit from a stalled, unworkable audit to a scoped, prioritized, and tooled remediation program: a defined set of 160 pages and 29 templates instead of an undifferentiated 7,000+, four purpose-built tools instead of a spreadsheet of Jira tickets, and a three-phase plan the client's own team could execute and extend after I left.</p>
+    </div>
+  </div>
+
+  <div class="cs-footer-nav">
+    <a href="index.html">← Back to work</a>
+    <a href="case-study-cdc-onelab-reach.html">CDC OneLab REACH →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="contact-row">
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Email</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="copyright caption">© Fiona Cohen</p>
+  </div>
+</footer>
+
+</body>
+</html>
