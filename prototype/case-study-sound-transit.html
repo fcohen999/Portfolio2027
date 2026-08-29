@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound Transit — Fiona Cohen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">FIONA COHEN</a>
+    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
+    <nav class="links">
+      <a href="index.html">Work</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <a class="back-link" href="index.html">← Work</a>
+
+  <div class="cs-title">
+    <p class="eyebrow">Sound Transit — 2024–2025 · Accessibility Lead</p>
+    <h1>Turning an unactionable accessibility audit into a strategy engineering could execute</h1>
+    <p class="subhead">An 8-month engagement, extended beyond its original scope, reframing a stalled 5,000+ page accessibility backlog around systemic risk instead of ticket count.</p>
+  </div>
+
+  <div class="cs-stats">
+    <div class="stat"><span class="num">5,000+</span><span class="caption">TOTAL PAGES</span></div>
+    <div class="stat"><span class="num">160 / 29</span><span class="caption">HIGHEST-TRAFFIC PAGES / SHARED TEMPLATES SCOPED</span></div>
+    <div class="stat"><span class="num">4</span><span class="caption">REUSABLE APPLICATIONS DESIGNED &amp; BUILT</span></div>
+    <div class="stat"><span class="num">~80%</span><span class="caption">OF ISSUES TRACED TO SHARED COMPONENTS</span></div>
+    <div class="stat"><span class="num">3-PHASE</span><span class="caption">REMEDIATION STRATEGY, CLIENT-OWNED POST-ENGAGEMENT</span></div>
+  </div>
+
+  <div class="cs-hero">
+    <div class="img-ph" style="aspect-ratio:16/9;">sound-transit-hero.jpg</div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">The Problem</p>
+    <div class="content">
+      <p>Sound Transit's site had already been through an accessibility audit before I joined — it produced thousands of Jira tickets and stalled there. Every ticket looked equally urgent, because the backlog treated each occurrence as its own problem, even when dozens traced back to one shared component. As a public transit agency, Sound Transit carries real ADA litigation exposure — this wasn't a polish project, it was risk management, and I was the person relied on to make sure that risk actually got closed, not just documented.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">My Role</p>
+    <div class="content">
+      <p>My title was Accessibility Lead, but the job was closer to design and technical strategist: I owned the call on what not to fix as much as what to fix — including telling the client that their existing plan, clear all 7,000+ tickets, was the wrong plan. I designed the audit methodology, built the software to run it at scale, analyzed the resulting data, authored the remediation strategy, and trained the developers who'd carry it forward without me. Every deliverable existed to support one decision: where the site's real risk actually lived, and what order of operations would retire the most of it fastest.</p>
+    </div>
+  </div>
+
+  <div class="pull-quote">
+    <p class="quote-text">"I had to tell the client that their existing plan — clear all 7,000+ tickets — was the wrong plan."</p>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Reframing the Scope</p>
+    <div class="content">
+      <p>Auditing 5,000+ pages individually was the wrong unit of analysis — most of the site is generated from a small set of shared components and templates, so page-by-page tracking hides the real risk surface instead of revealing it. I scoped around two lenses instead: 160 highest-traffic pages, where rider impact concentrated, and 29 shared templates, the structural layer generating the rest of the site. Traffic told me what people used. Templates told me how the site was built. Where the interface demanded it, I broke scope down further still — route pages, for example, carried independent states (Schedule, Arrivals, Alerts, More Info) that each needed separate evaluation.</p>
+      <div class="shot-grid" style="grid-template-columns: 1fr;">
+        <div class="img-ph" style="aspect-ratio:16/9;">sound-transit-scoping-diagram.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Building the System</p>
+    <div class="content">
+      <p>Manual testing dropped straight into Jira couldn't produce the structured data a real strategy needs — it could only produce more tickets. So I designed a four-part, reusable system: URLs → Audit → Aggregate → Deduplicate → Analyze. An audit app turned URLs into structured findings. An aggregator normalized results across testing sources. A deduplicator — the pivotal piece — collapsed occurrences into root causes, so a component failing on 100 pages became one systemic issue, not 100 tickets. Analytics made the dataset queryable, which is how I found the number that shaped everything after: roughly 80% of all issues traced back to shared components.</p>
+      <p>I wasn't automating accessibility judgment — I was automating the work around it, so manual testing time went to the ambiguous cases that actually needed a human.</p>
+      <div class="shot-grid">
+        <div class="img-ph" style="aspect-ratio:4/3;">sound-transit-audit-app.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">sound-transit-deduplicator-before-after.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Defect Deep Dive</p>
+    <div class="content">
+      <h3>The Route-Page Tabs</h3>
+      <p>A tab component on route pages looked and worked fine visually — the kind of thing an automated scanner passes clean. Under screen-reader testing, activating a tab triggered a page refresh that broke the interaction entirely; a screen-reader user couldn't move between tabs the way the interface implied they could. I documented the actual behavior, diagnosed why the pattern broke, and used it to teach the dev team correct ARIA behavior going forward. A visually functional interface can still be completely unusable — the clearest proof in the engagement that automated scanning alone wasn't enough.</p>
+      <div class="shot-grid" style="grid-template-columns: 1fr;">
+        <div class="img-ph" style="aspect-ratio:16/9;">sound-transit-tab-defect.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">The Remediation Strategy</p>
+    <div class="content">
+      <p>The deduplicated data showed accessibility problems followed the site's own architecture — components, then templates, then pages — while the Jira backlog had flattened all three into one list. I rebuilt remediation around where a fix would actually propagate:</p>
+      <ul>
+        <li><strong>Phase 1 — "80%."</strong> Shared components first — one fix resolved every page inheriting from it. Highest leverage, went first regardless of the existing backlog's priority order.</li>
+        <li><strong>Phase 2 — "Template Pages."</strong> Narrower blast radius, still propagating across every page on that template.</li>
+        <li><strong>Phase 3 — "Everything Else."</strong> The long tail of isolated findings — explicitly deprioritized, since fixing these first would have reproduced the same trap the original 7,000-ticket backlog was already in.</li>
+      </ul>
+      <p>Fix once, resolve everywhere. The real move wasn't finding more issues — it was proving "thousands of tickets" was actually a two-dozen-components problem, and getting the client to act on that instead of the ticket count.</p>
+      <div class="shot-grid" style="grid-template-columns: 1fr;">
+        <div class="img-ph" style="aspect-ratio:16/9;">sound-transit-remediation-diagram.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Outcome</p>
+    <div class="content">
+      <p>Convincing the client to abandon a plan they'd already committed to in writing took walking their team and engineering leads through the data directly, then training developers on the underlying concepts — ARIA, semantic structure, focus and keyboard behavior — so the reframe would hold after I left. It did: the engagement was extended beyond its original scope on the strength of this approach, and Sound Transit ended with 160 pages and 29 templates instead of 5,000+ flat entries, a dataset proving ~80% of the problem was systemic, four reusable tools instead of a spreadsheet, and — for an agency carrying real litigation exposure — a defensible, evidence-based plan for closing that risk, not just a longer list of findings.</p>
+    </div>
+  </div>
+
+  <div class="cs-footer-nav">
+    <a href="index.html">← Back to work</a>
+    <a href="case-study-cdc-onelab-reach.html">CDC OneLab REACH →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="contact-row">
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Email</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="copyright caption">© Fiona Cohen</p>
+  </div>
+</footer>
+
+</body>
+</html>

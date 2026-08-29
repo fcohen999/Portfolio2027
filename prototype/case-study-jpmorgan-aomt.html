@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JPMorgan Asset Outage Modeling Tool — Fiona Cohen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">FIONA COHEN</a>
+    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
+    <nav class="links">
+      <a href="index.html">Work</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <a class="back-link" href="index.html">← Work</a>
+
+  <div class="cs-title">
+    <p class="eyebrow">JPMorgan Chase</p>
+    <h1>Modeling cascading infrastructure failure, grounded in one analyst's real workflow</h1>
+    <p class="subhead">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team over 8 months.</p>
+  </div>
+
+  <div class="cs-stats">
+    <div class="stat"><span class="num">8 MO</span><span class="caption">ENGAGEMENT TIMELINE</span></div>
+    <div class="stat"><span class="num">2</span><span class="caption">CORE WORKFLOWS THE TOOL WAS SCOPED AROUND</span></div>
+    <div class="stat"><span class="num">3</span><span class="caption">PERSON TEAM — DESIGN LEAD, SPECIALIST, PM</span></div>
+  </div>
+
+  <div class="cs-hero">
+    <div class="img-ph" style="aspect-ratio:16/9;">jpmorgan-aomt-hero.jpg</div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">The Problem</p>
+    <div class="content">
+      <p>J.P. Morgan Chase's disaster management team needed to model the impact of essential service outages and cascading failures across critical financial infrastructure — the kind of scenario planning that directly feeds emergency preparation and regulatory compliance. Without a purpose-built tool, that analysis relied on manual, calculation-heavy workflows that ate into the time analysts should have spent on the actual strategic judgment calls.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">My Role</p>
+    <div class="content">
+      <p>I served as Reporting and Analytics Lead, working end-to-end from strategy through scoping, design, and final delivery, on a team with a Design Lead (Bill Hess), a Disaster Management Specialist (Meghan Hensley), and a PM (Eric Albright). My workstream owned the reporting and analytics side of the tool and the client relationship for that stream directly.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Approach</p>
+    <div class="content">
+      <p>I grounded the research in the disaster management team's actual workflow rather than assumptions: user interviews, workflow observation sessions, and a direct study of government disaster-readiness regulations, specifically to understand how dependencies between assets work in practice. That research surfaced a two-task core workflow — search across assets and compliance criteria, then map the interdependencies between them to expose cascading failure risk — and I used a concrete hypothetical scenario (modeling hurricane-season disruption to Florida's infrastructure) to keep every design decision tied to a real use case instead of an abstraction.</p>
+      <p>From that research, I made a specific interaction call: analysts needed to adjust their models without starting over, watching the impact of a criteria change in real time. That requirement drove a two-pane layout — criteria selection always visible on one side, the dependency view reacting live on the other — rather than a linear wizard-style flow that would have forced analysts to commit to criteria before seeing any impact. Because most analysts' actual workflow ended in Excel, I made data-table export a first-class action throughout, not an afterthought bolted onto the end.</p>
+      <div class="shot-grid">
+        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-aomt-criteria-panel.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-aomt-dependency-view.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Outcome</p>
+    <div class="content">
+      <p>AOMT gave J.P. Morgan's disaster management analysts a tool that automated the calculation-heavy parts of outage modeling, so their time went toward strategic judgment instead of manual analysis — while integrating with the Excel-based habits analysts already had, rather than asking them to abandon their existing workflow.</p>
+    </div>
+  </div>
+
+  <div class="cs-footer-nav">
+    <a href="case-study-jpmorgan-dashboards.html">← JPMorgan Risk Management Dashboards</a>
+    <a href="case-study-doj.html">DOJ Time to Hire →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="contact-row">
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Email</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="copyright caption">© Fiona Cohen</p>
+  </div>
+</footer>
+
+</body>
+</html>

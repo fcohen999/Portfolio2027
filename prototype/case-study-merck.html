@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merck — Fiona Cohen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">FIONA COHEN</a>
+    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
+    <nav class="links">
+      <a href="index.html">Work</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <a class="back-link" href="index.html">← Work</a>
+
+  <div class="cs-title">
+    <p class="eyebrow">Merck — Product Designer</p>
+    <h1>A project COVID shelved — and a client who came back with $500K in new work anyway</h1>
+    <p class="subhead">Product Designer, on a 3-person team — a geospatial tool for understanding HPV vaccination coverage gaps in under-served communities.</p>
+  </div>
+
+  <div class="cs-stats">
+    <div class="stat"><span class="num">1 MO</span><span class="caption">FROM RESEARCH TO FINAL DELIVERABLE</span></div>
+    <div class="stat"><span class="num">2</span><span class="caption">DATA CATEGORIES UNIFIED IN ONE MAP VIEW</span></div>
+    <div class="stat"><span class="num">$500K+</span><span class="caption">IN NEW MERCK CONTRACTS AFTER THIS PROJECT WAS SHELVED</span></div>
+  </div>
+
+  <div class="cs-hero">
+    <div class="img-ph" style="aspect-ratio:16/9;">merck-hero.jpg</div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">The Problem</p>
+    <div class="content">
+      <p>Merck needed to understand <em>why</em> HPV vaccination coverage was low in specific communities — not just where, but which combination of factors (awareness, misinformation, mobility, access to vaccination sites) was actually driving the gap in each place. Healthcare researchers needed a tool that could hold both medical data and social/community data at once, and let them cross-reference the two, since neither alone explained the coverage patterns Merck was seeing.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">My Role</p>
+    <div class="content">
+      <p>I worked as Product Designer on a 3-person team (Design Lead, Brand Design) to design a geospatial research and analytics tool — the HPV Vaccination Explorer — built for healthcare researchers first, with downstream use by Merck's marketing team to target awareness efforts in low-coverage areas.</p>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Approach</p>
+    <div class="content">
+      <p>The core design decision came out of user interviews: researchers' mental model split the data into two distinct categories — quantitative medical data (sex, age, infection rates) and qualitative social data, often called social determinants of health (income, education level, vaccine site accessibility). I designed the interface around that exact split rather than a generic filter panel: medical data became filters on the left with dynamic map overlays, while social determinants stayed permanently visible on the right, so researchers could cross-reference the two without losing either from view.</p>
+      <p>Because researchers needed to move between state, county, and area-code granularity, I introduced a choropleth visualization — which let them visually spot under-served areas at a glance, functioning as a heatmap, while still supporting drill-down into the specific data behind any given area. On top of that base layer, users could add further overlays (like vaccine administration locations) to test correlations between social and physical factors directly on the map, with a toggle to bring the social determinants panel data directly onto the map canvas for a combined view.</p>
+      <div class="shot-grid">
+        <div class="img-ph" style="aspect-ratio:4/3;">merck-doses-map.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">merck-choropleth.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">merck-overlays.jpg</div>
+        <div class="img-ph" style="aspect-ratio:4/3;">merck-sdoh-panel.jpg</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-section">
+    <p class="eyebrow label">Outcome</p>
+    <div class="content">
+      <p>COVID-19 forced Merck to shelve this project before it went into development — but the research and design work was strong enough that the client came back anyway. Merck's Director of Outcomes Research called the deliverables "outstanding," and the trust built through that one-month engagement led directly to Merck returning for additional projects, generating $500K+ in new contracts.</p>
+    </div>
+    <div class="cs-breakout">
+      <div class="breakout-compare" style="text-align:left;">
+        <p class="caption" style="font-style:italic; font-family:Newsreader,serif; font-size:20px; color:var(--ink); text-transform:none; letter-spacing:normal;">"[Final] deliverables are OUTSTANDING! I have enjoyed working on this project with this team and have learned so much. I remain optimistic that future projects are in store."</p>
+        <p class="caption" style="margin-top:16px;">— CARL E. JOHNSON, DIRECTOR OF OUTCOMES RESEARCH, MERCK</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cs-footer-nav">
+    <a href="case-study-doj.html">← DOJ Time to Hire</a>
+    <a href="case-study-yaffed.html">YAFFED →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="contact-row">
+      <a href="resume.html">Resume</a>
+      <a href="mailto:hello@fionacohendesign.com">Email</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="copyright caption">© Fiona Cohen</p>
+  </div>
+</footer>
+
+</body>
+</html>
