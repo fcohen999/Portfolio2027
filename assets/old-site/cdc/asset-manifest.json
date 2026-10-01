@@ -5,13 +5,15 @@
   "page_title": "Fiona Cohen • Product Designer in NYC",
   "summary": {
     "discovered": 88,
-    "downloaded": 17,
-    "duplicates_skipped": 61,
+    "downloaded": 16,
+    "duplicates_skipped": 62,
     "filtered_skipped": 10,
     "failures": 0,
     "ambiguous_resolution": 0
   },
-  "warnings": [],
+  "warnings": [
+    "Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)"
+  ],
   "assets": [
     {
       "order": 1,
@@ -627,40 +629,6 @@
         80,
         82,
         84
-      ]
-    },
-    {
-      "order": 87,
-      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
-      "original_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
-      "selected_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
-      "selected_via": "meta",
-      "local_path": "files/image-17.png",
-      "reused_existing_file": false,
-      "asset_type": "image",
-      "discovered_from": "meta-og:image",
-      "mime_type": "image/png",
-      "bytes": 92583,
-      "width": 2400,
-      "height": 1260,
-      "alt": "",
-      "caption": "",
-      "link_href": "",
-      "sha256": "f3bfb012b7aa6cb464cfedabaafe266b7976701e3dab838df761f5065ff7f9a9",
-      "higher_res_found": false,
-      "resolution_ambiguous": false,
-      "selection_note": "single source",
-      "candidates": [
-        {
-          "url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
-          "source": "meta"
-        }
-      ],
-      "all_source_urls": [
-        "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png"
-      ],
-      "also_referenced_at_order": [
-        88
       ]
     }
   ],

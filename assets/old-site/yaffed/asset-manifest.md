@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/yaffed
 - Fetched: 2026-10-01T03:52:54+00:00
-- Discovered 10 · downloaded 8 · duplicates 2 · filtered 0 · failures 0 · ambiguous resolution 0
+- Discovered 10 · downloaded 7 · duplicates 3 · filtered 0 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -15,4 +19,3 @@
 | 5 | [files/image-05.png](files/image-05.png) | image | 2880×2652 | no |  |  | https://framerusercontent.com/images/41lLat9AVoKMu645NPxu9feE.png |
 | 6 | [files/image-06.png](files/image-06.png) | image | 3840×2160 | no |  |  | https://framerusercontent.com/images/eUA8QsTi2vsm04rbyqQgsGHnGhg.png |
 | 7 | [files/image-07.png](files/image-07.png) | image | 1440×900 | no |  |  | https://framerusercontent.com/images/WQtxhR8tWGRCzb6dYmFLGvAPEo.png |
-| 9 | [files/image-08.png](files/image-08.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |

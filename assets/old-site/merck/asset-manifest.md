@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/merck
 - Fetched: 2026-10-01T03:51:37+00:00
-- Discovered 21 · downloaded 8 · duplicates 11 · filtered 2 · failures 0 · ambiguous resolution 0
+- Discovered 21 · downloaded 7 · duplicates 12 · filtered 2 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -15,7 +19,6 @@
 | 6 | [files/image-05.png](files/image-05.png) | image | 2190×1466 | yes |  |  | https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png |
 | 18 | [files/image-06.png](files/image-06.png) | image | 2190×1466 | no |  |  | https://framerusercontent.com/images/ZMatMLbYJr0R49nrXmIYGH7eSVc.png |
 | 19 | [files/image-07.png](files/image-07.png) | image | 4134×2230 | no |  |  | https://framerusercontent.com/images/8Rwzvd5YS2okYpUqggPgn02OngE.png |
-| 20 | [files/image-08.png](files/image-08.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |
 
 ## Filtered / skipped
 

@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/cdc
 - Fetched: 2026-10-01T03:52:26+00:00
-- Discovered 88 · downloaded 17 · duplicates 61 · filtered 10 · failures 0 · ambiguous resolution 0
+- Discovered 88 · downloaded 16 · duplicates 62 · filtered 10 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -24,7 +28,6 @@
 | 46 | [files/image-14.png](files/image-14.png) | image | 2880×3334 | no |  |  | https://framerusercontent.com/images/MCAJx0n1m7Ksi3hUhUvdNgbRFjE.png |
 | 47 | [files/image-15.png](files/image-15.png) | image | 2880×3218 | no |  |  | https://framerusercontent.com/images/xKuE2mRIFyX7ZF5hRvlQFIg58c.png |
 | 48 | [files/image-16.png](files/image-16.png) | image | 2880×3218 | yes |  |  | https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png |
-| 87 | [files/image-17.png](files/image-17.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |
 
 ## Filtered / skipped
 

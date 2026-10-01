@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/outage-modeler
 - Fetched: 2026-10-01T03:52:36+00:00
-- Discovered 18 · downloaded 11 · duplicates 7 · filtered 0 · failures 0 · ambiguous resolution 0
+- Discovered 18 · downloaded 10 · duplicates 8 · filtered 0 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -18,4 +22,3 @@
 | 9 | [files/image-07.png](files/image-07.png) | image | 405×251 | no |  |  | https://framerusercontent.com/images/nOoAee3tPR980ri3XKotl6Bmpw.png |
 | 10 | [files/image-08.png](files/image-08.png) | image | 1124×1226 | no |  |  | https://framerusercontent.com/images/R7VLqA3kxKMSwuuFCy59m2Tao.png |
 | 11 | [files/image-09.png](files/image-09.png) | image | 2400×1200 | no |  |  | https://framerusercontent.com/images/VkfdOsm8338v6Pj8ySYwYRdH4fM.png |
-| 17 | [files/image-10.png](files/image-10.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |

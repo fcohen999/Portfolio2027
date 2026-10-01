@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/erma
 - Fetched: 2026-10-01T03:51:54+00:00
-- Discovered 117 · downloaded 19 · duplicates 84 · filtered 14 · failures 0 · ambiguous resolution 0
+- Discovered 117 · downloaded 18 · duplicates 85 · filtered 14 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -26,7 +30,6 @@
 | 81 | [files/image-16.png](files/image-16.png) | image | 2407×1295 | no |  |  | https://framerusercontent.com/images/QTdcW0lay6wLtNYpS2sdGiYYLKM.png |
 | 82 | [files/image-17.png](files/image-17.png) | image | 2407×1295 | no |  |  | https://framerusercontent.com/images/CXcm4NGrLgY99PRdjTfFnSS4bik.png |
 | 83 | [files/image-18.png](files/image-18.png) | image | 2407×1295 | no |  |  | https://framerusercontent.com/images/WkS8o5an7Y1tQRHUD6PMKL8cTTs.png |
-| 116 | [files/image-19.png](files/image-19.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |
 
 ## Filtered / skipped
 

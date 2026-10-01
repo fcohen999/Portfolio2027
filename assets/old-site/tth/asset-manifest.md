@@ -2,7 +2,11 @@
 
 - Page: https://fionacohendesign.com/work/case/tth
 - Fetched: 2026-10-01T03:52:44+00:00
-- Discovered 53 · downloaded 13 · duplicates 34 · filtered 6 · failures 0 · ambiguous resolution 0
+- Discovered 53 · downloaded 12 · duplicates 35 · filtered 6 · failures 0 · ambiguous resolution 0
+
+## Warnings
+
+- Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)
 
 ## Downloaded
 
@@ -20,7 +24,6 @@
 | 10 | [files/image-10.png](files/image-10.png) | image | 2880×1608 | no |  |  | https://framerusercontent.com/images/DpWAO3sd94kpuiHTi76CiJzFk.png |
 | 11 | [files/image-11.png](files/image-11.png) | image | 2880×1608 | no |  |  | https://framerusercontent.com/images/redo1SR8F5COHidLGCztK6IjI00.png |
 | 12 | [files/image-12.png](files/image-12.png) | image | 2880×1608 | no |  |  | https://framerusercontent.com/images/29SMY5b3jLh8JyBB2UETaZ3YuA.png |
-| 52 | [files/image-13.png](files/image-13.png) | image | 2400×1260 | no |  |  | https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png |
 
 ## Filtered / skipped
 
