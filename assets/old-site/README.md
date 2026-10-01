@@ -13,6 +13,8 @@ source material for the redesign. One folder per page:
 | `tth/` | DOJ Time to Hire | 13 |
 | `yaffed/` | YAFFED.org | 8 |
 
+`contact-sheet.jpg` shows thumbnails of every image, grouped by page.
+
 Each folder holds the images in `files/`, plus `asset-manifest.md`. Open
 that file to see each image's size and original URL, with a thumbnail
 link to it. `asset-manifest.json` has the same information in a
