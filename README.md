@@ -15,6 +15,8 @@ Nothing here is published live.
 - `content/04-case-study-sport-shepherd.md` — Sport Shepherd skeleton (needs
   your input — see file)
 - `content/05-image-checklist.md` — exactly which images to export from Framer
+- `assets/old-site/` — full-resolution images from every page of the
+  current site, one folder per page (see its README)
 - `prototype/` — coded HTML/CSS prototype of the styling system (homepage,
   case study template, resume, type-scale comparison), responsive at mobile
   width. Open `prototype/index.html` directly in a browser.
