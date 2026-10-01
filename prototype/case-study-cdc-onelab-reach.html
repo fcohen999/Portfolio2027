@@ -4,18 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CDC OneLab REACH — Fiona Cohen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running"><span class="num">02 / 08</span>CDC — OneLab REACH<span class="sep">/</span><span data-current></span></p>
+    <nav aria-label="Site">
       <a href="index.html">Work</a>
       <a href="resume.html">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
@@ -23,84 +21,179 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="page">
 
-  <a class="back-link" href="index.html">← Work</a>
-
-  <div class="cs-title">
-    <p class="eyebrow">CDC — 2021</p>
-    <h1>A research deliverable that turned into a $9.2M client relationship</h1>
-    <p class="subhead">Design Lead — CDC OneLab REACH, an e-learning platform for nurses and first responders, grown from a solo research engagement into a 3-person team.</p>
-  </div>
-
-  <div class="cs-stats">
-    <div class="stat"><span class="num">$9.2M</span><span class="caption">IN ADDITIONAL CDC CONTRACTS FOLLOWING THIS ENGAGEMENT</span></div>
-    <div class="stat"><span class="num">2 → 3</span><span class="caption">TEAM GREW FROM SOLO TO A 3-PERSON TEAM UNDER MY LEAD</span></div>
-    <div class="stat"><span class="num">5 YRS</span><span class="caption">OF CONTINUED CDC WORK CREDITED TO THIS PROJECT</span></div>
-  </div>
-
-  <div class="cs-hero">
-    <div class="img-ph" style="aspect-ratio:16/9;">cdc-hero.jpg</div>
-  </div>
-
-  <div class="cs-section">
-    <p class="eyebrow label">The Problem</p>
-    <div class="content">
-      <p>CDC needed an e-learning platform for OneLab REACH to train nurses and first responders — but it also needed to read as a distinct product, not another interchangeable CDC informational site. Generic government visual language works for publishing information; it doesn't work for a platform people are expected to actually engage with for mandatory training.</p>
+  <header class="cs-head grid">
+    <p class="crumb key"><a href="index.html">← Index</a><span class="num">02 / 08</span></p>
+    <div class="title">
+      <p class="client-line">CDC — 2021</p>
+      <h1>A research deliverable that turned into a $9.2M client relationship</h1>
+      <p class="thesis">Design Lead — CDC OneLab REACH, an e-learning platform for nurses and first responders, grown from a solo research engagement into a 3-person team.</p>
     </div>
-  </div>
+    <dl class="facts">
+      <div><dt>$9.2M</dt><dd>In additional CDC contracts following this engagement</dd></div>
+      <div><dt>2 → 3</dt><dd>Team grew from solo to a 3-person team under my lead</dd></div>
+      <div><dt>5 yrs</dt><dd>Of continued CDC work credited to this project</dd></div>
+    </dl>
+  </header>
 
-  <div class="cs-section">
-    <p class="eyebrow label">My Role</p>
-    <div class="content">
-      <p>I ran this as a two-phase engagement: research first, design second. In phase one, I used quantitative analysis, user testing, and competitive analysis to produce a Report Summary — metrics-backed findings and recommendations, not just a design proposal. The CDC's response to that research quality is what won me the design and implementation phase, and eventually the flexible design system now supporting the platform's ongoing expansion.</p>
-    </div>
-  </div>
+  <dl class="meta-strip grid">
+    <div><dt class="key">Client</dt><dd>Centers for Disease Control and Prevention</dd></div>
+    <div><dt class="key">Role</dt><dd>Design Lead</dd></div>
+    <div><dt class="key">Year</dt><dd>2021</dd></div>
+    <div><dt class="key">Product</dt><dd>OneLab REACH, e-learning for nurses and first responders</dd></div>
+  </dl>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Approach</p>
+  <div class="cs-body grid">
+
+    <nav class="rail" aria-label="Case study sections">
+      <span class="key">Contents</span>
+      <ol>
+        <li><a href="#fig-landing"><span class="num">00</span><span>Landing page</span></a></li>
+        <li><a href="#problem"><span class="num">01</span><span>The Problem</span></a></li>
+        <li><a href="#role"><span class="num">02</span><span>My Role</span></a></li>
+        <li><a href="#approach"><span class="num">03</span><span>Approach</span></a>
+          <ol>
+            <li><a href="#fig-system">Figs. 2–3 — Design system</a></li>
+            <li><a href="#fig-entry">Fig. 4 — Entry points</a></li>
+            <li><a href="#fig-hub">Fig. 5 — My Learner Hub</a></li>
+          </ol>
+        </li>
+        <li><a href="#outcome"><span class="num">04</span><span>Outcome</span></a></li>
+      </ol>
+      <div class="progress" aria-hidden="true"><i></i></div>
+    </nav>
+
     <div class="content">
-      <p>The design system decision was deliberate: I moved away from typical government visual language toward a set of more saturated, CDC brand-adjacent colors, using tints and shades to expand the palette without losing consistency. For a training platform competing for attention against mandatory-compliance fatigue, that distinction mattered more than it would for a purely informational site.</p>
-      <p>The landing page had to do four things at once — drive sign-ups, cut bounce rate, route users to featured courses, and stay adaptable as content expanded — so I designed it as a system of prioritized entry points rather than a single static layout. Past the landing page, My Learner Hub became the retention mechanism: free course access got users in the door, but creating an account unlocked saved and in-progress content in one place, giving people a reason to convert beyond the content itself.</p>
-      <div class="shot-grid">
-        <div class="img-ph" style="aspect-ratio:4/3;">cdc-design-system-colors.jpg</div>
-        <div class="img-ph" style="aspect-ratio:4/3;">cdc-landing-page.jpg</div>
-        <div class="img-ph" style="aspect-ratio:4/3;">cdc-learner-hub.jpg</div>
-        <div class="img-ph" style="aspect-ratio:4/3;">cdc-favorited-courses.jpg</div>
+
+      <div class="fig-group lead" id="fig-landing">
+        <figure class="fig span-main" data-fig="Fig. 1">
+          <div class="plate-img matte-sm"><img src="../assets/old-site/cdc/files/image-11.png" width="2880" height="1234" alt="OneLab REACH landing page: sign-up pitch and Sign Up button beside a username and password log-in panel, under CDC branding and site navigation" data-label="1 — Landing page"></div>
+          <figcaption><span class="num">Fig. 1</span><span><b>Landing page, top.</b> Sign Up and Log In side by side under the OneLab REACH bar — My Learner Hub, Trainings, Resources.</span></figcaption>
+        </figure>
       </div>
-    </div>
-  </div>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Outcome</p>
-    <div class="content">
-      <p>The CDC called the research and design work "high quality" enough to "wow" their own stakeholders and build lasting trust — in their words, foundational to five years of continued work together. Concretely: the relationship generated $9.2M in additional CDC contracts, and I stayed on past the initial engagement, growing from a solo research lead into managing a team of two designers to deliver the follow-on work.</p>
-    </div>
-    <div class="cs-breakout">
-      <div class="breakout-compare" style="text-align:left;">
-        <p class="caption" style="font-style:italic; font-family:Newsreader,serif; font-size:20px; color:var(--ink); text-transform:none; letter-spacing:normal;">"[Fiona created a] high quality final deliverable for our project that 'wow'd' our clients and built trust with them. This research work will be the foundation of future development work with them for the coming 5 years."</p>
-        <p class="caption" style="margin-top:16px;">— CLAIRE DOUGER, CSELS ACCOUNT TEAM MANAGER, CDC</p>
+      <div class="band">
+        <section class="sec" id="problem">
+          <div class="sec-label"><span class="num">01</span><h2>The Problem</h2></div>
+          <div class="prose">
+            <p>CDC needed an e-learning platform for OneLab REACH to train nurses and first responders — but it also needed to read as a distinct product, not another interchangeable CDC informational site. Generic government visual language works for publishing information; it doesn't work for a platform people are expected to actually engage with for mandatory training.</p>
+          </div>
+        </section>
+        <section class="sec" id="role">
+          <div class="sec-label"><span class="num">02</span><h2>My Role</h2></div>
+          <div class="prose">
+            <p>I ran this as a two-phase engagement: research first, design second. In phase one, I used quantitative analysis, user testing, and competitive analysis to produce a Report Summary — metrics-backed findings and recommendations, not just a design proposal. The CDC's response to that research quality is what won me the design and implementation phase, and eventually the flexible design system now supporting the platform's ongoing expansion.</p>
+          </div>
+        </section>
       </div>
+
+      <section class="sec" id="approach">
+        <div class="sec-label"><span class="num">03</span><h2>Approach</h2></div>
+        <div class="prose">
+          <p>The design system decision was deliberate: I moved away from typical government visual language toward a set of more saturated, CDC brand-adjacent colors, using tints and shades to expand the palette without losing consistency. For a training platform competing for attention against mandatory-compliance fatigue, that distinction mattered more than it would for a purely informational site.</p>
+        </div>
+        <aside class="aside">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-system">Fig. 2</a> Design-system sheets<br>
+          <a class="link" href="#fig-cards">Fig. 3</a> Course cards
+        </aside>
+
+        <div class="fig-group" id="fig-system">
+          <div class="gh">
+            <h3>Design system</h3>
+            <p>The eight reference sheets, in order. Select any sheet to read it at full size.</p>
+          </div>
+          <figure class="fig span-main" data-fig="Fig. 2">
+            <div class="specimens">
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-03.png" width="3150" height="4068" loading="lazy" alt="Colors 1 of 2: brand and accent colors with tints and shades" data-label="2.1 — Colors 1/2"></div><p class="sp-label"><span class="num">2.1</span>Colors 1/2 — brand &amp; accent ramps</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-04.png" width="3150" height="4068" loading="lazy" alt="Colors 2 of 2: indicator colors, neutrals, backgrounds" data-label="2.2 — Colors 2/2"></div><p class="sp-label"><span class="num">2.2</span>Colors 2/2 — indicators, neutrals</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-05.png" width="3150" height="4068" loading="lazy" alt="Typography: type styles and type pairings" data-label="2.3 — Typography"></div><p class="sp-label"><span class="num">2.3</span>Typography — styles, pairings</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-06.png" width="3150" height="4068" loading="lazy" alt="Spacing: grid, spacers and elevation" data-label="2.4 — Spacing"></div><p class="sp-label"><span class="num">2.4</span>Spacing — grid, spacers, elevation</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-07.png" width="3150" height="4068" loading="lazy" alt="Buttons: standard buttons, pagination and breadcrumbs" data-label="2.5 — Buttons"></div><p class="sp-label"><span class="num">2.5</span>Buttons — pagination, breadcrumbs</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-08.png" width="3150" height="4068" loading="lazy" alt="Inputs: form fields and dropdowns in each state" data-label="2.6 — Inputs"></div><p class="sp-label"><span class="num">2.6</span>Inputs — fields, dropdowns</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-09.png" width="3150" height="4068" loading="lazy" alt="Cards 1 of 2: course cards, favorited course cards, course details cards" data-label="2.7 — Cards 1/2"></div><p class="sp-label"><span class="num">2.7</span>Cards 1/2 — course cards</p></figure>
+              <figure><div class="plate-img matte"><img src="../assets/old-site/cdc/files/image-10.png" width="3150" height="4068" loading="lazy" alt="Cards 2 of 2: media cards, slideshow split card, general information card" data-label="2.8 — Cards 2/2"></div><p class="sp-label"><span class="num">2.8</span>Cards 2/2 — media, slideshow, info</p></figure>
+            </div>
+            <figcaption><span class="num">Fig. 2</span><span><b>Design-system sheets.</b> Foundations (2.1–2.4), then components (2.5–2.8).</span></figcaption>
+          </figure>
+          <figure class="fig span-wide" id="fig-cards" data-fig="Fig. 3">
+            <div class="plate-img"><img src="../assets/old-site/cdc/files/image-02.png" width="1592" height="1300" loading="lazy" alt="Card components on the brand blue: media card with bookmark, Popular slideshow split card with Favorite This Course and View Course Overview, course cards with Resume buttons and 75% progress" data-label="3 — Course cards"></div>
+            <figcaption><span class="num">Fig. 3</span><span><b>Cards from the system, assembled.</b> Media card, slideshow split card, and in-progress course cards with Resume and progress.</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="prose" style="margin-top: var(--s5)">
+          <p>The landing page had to do four things at once — drive sign-ups, cut bounce rate, route users to featured courses, and stay adaptable as content expanded — so I designed it as a system of prioritized entry points rather than a single static layout. Past the landing page, My Learner Hub became the retention mechanism: free course access got users in the door, but creating an account unlocked saved and in-progress content in one place, giving people a reason to convert beyond the content itself.</p>
+        </div>
+        <aside class="aside" style="margin-top: var(--s5)">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-entry">Fig. 4</a> Landing-page entry points<br>
+          <a class="link" href="#fig-hub">Fig. 5</a> My Learner Hub
+        </aside>
+
+        <div class="fig-group" id="fig-entry">
+          <div class="gh">
+            <h3>Landing page, entry points</h3>
+            <p>Below the sign-up panel (Fig. 1): featured courses, then the reasons to join.</p>
+          </div>
+          <figure class="fig span-main" data-fig="Fig. 4">
+            <div class="duo">
+              <div class="plate-img"><img src="../assets/old-site/cdc/files/image-12.png" width="2880" height="1234" loading="lazy" alt="Featured Courses carousel: a Popular course card with Favorite This Course and View Course Overview, and Explore More Courses link" data-label="4a — Featured courses"></div>
+              <div class="plate-img"><img src="../assets/old-site/cdc/files/image-13.png" width="2880" height="1234" loading="lazy" alt="How OneLab REACH Supports Your Learning: Customized, Continuing Education, Mobile-friendly" data-label="4b — How it supports your learning"></div>
+            </div>
+            <figcaption><span class="num">Fig. 4</span><span><b>4a Featured Courses</b> — a carousel routing straight into a course, plus Explore More Courses. <b>4b How OneLab REACH Supports Your Learning</b> — customized for laboratory and testing professionals, continuing-education credits including P.A.C.E.®, mobile-friendly with downloadable materials.</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="fig-group" id="fig-hub">
+          <div class="gh">
+            <h3>My Learner Hub</h3>
+            <p>What an account unlocks. Tabs across the top: Overview, My Courses, Favorited Courses, Certificates, My Library.</p>
+          </div>
+          <figure class="fig span-main" data-fig="Fig. 5">
+            <div class="states cols-3">
+              <div class="st"><p class="st-label"><span class="num">5a</span><span><b>Overview.</b> Courses in progress with Resume and progress; favorites to register for; certificates earned.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/cdc/files/image-14.png" width="2880" height="3334" loading="lazy" alt="My Learner Hub overview: My Courses in progress, Favorited Courses, Certificates" data-label="5a — Hub overview"></div></div>
+              <div class="st"><p class="st-label"><span class="num">5b</span><span><b>Favorited Courses.</b> Saved courses, each with Register and its favorite marker.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/cdc/files/image-15.png" width="2880" height="3218" loading="lazy" alt="Favorited Courses tab: five saved courses with Register buttons" data-label="5b — Favorited courses"></div></div>
+              <div class="st"><p class="st-label"><span class="num">5c</span><span><b>Course details.</b> Begin Course, description, objectives, duration and P.A.C.E. credit, inside the hub.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/cdc/files/image-16.png" width="2880" height="3218" loading="lazy" alt="Course detail for Fundamentals of Handling Compressed Gas Cylinders: Begin Course, description, objectives" data-label="5c — Course details"></div></div>
+            </div>
+            <figcaption><span class="num">Fig. 5</span><span><b>Three account states.</b> Overview, a saved list, and one course — all under the same hub header and tabs.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="sec" id="outcome">
+        <div class="sec-label"><span class="num">04</span><h2>Outcome</h2></div>
+        <div class="prose">
+          <p>The CDC called the research and design work "high quality" enough to "wow" their own stakeholders and build lasting trust — in their words, foundational to five years of continued work together. Concretely: the relationship generated $9.2M in additional CDC contracts, and I stayed on past the initial engagement, growing from a solo research lead into managing a team of two designers to deliver the follow-on work.</p>
+        </div>
+        <blockquote class="quote">
+          <p>“[Fiona created a] high quality final deliverable for our project that ‘wow’d’ our clients and built trust with them. This research work will be the foundation of future development work with them for the coming 5 years.”</p>
+          <footer><b>Claire Douger</b><span>CSELS Account Team Manager, CDC</span></footer>
+        </blockquote>
+      </section>
+
     </div>
   </div>
 
-  <div class="cs-footer-nav">
-    <a href="case-study-sound-transit.html">← Sound Transit</a>
-    <a href="case-study-jpmorgan-dashboards.html">JPMorgan Risk Management Dashboards →</a>
-  </div>
+  <nav class="pager grid" aria-label="More case studies">
+    <a class="prev" href="case-study-sound-transit.html"><span class="key">← 01 Previous</span><span class="t">Sound Transit</span></a>
+    <a class="next" href="case-study-jpmorgan-dashboards.html"><span class="key">Next 03 →</span><span class="t">JPMorgan Risk Management Dashboards</span></a>
+  </nav>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="resume.html">Resume</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="resume.html">Resume</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 
+<script src="system.js"></script>
 </body>
 </html>

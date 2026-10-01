@@ -1,9 +1,9 @@
 # Visual system v2 (supersedes the look in `01-styling-spec.md`)
 
 Content and IA are unchanged. This replaces the visual layer only.
-Converted so far: `prototype/index.html`, `prototype/case-study-jpmorgan-dashboards.html`.
+Converted: the homepage and all eight case studies. `resume.html` and
+`type-scale-mockups.html` still use the old `styles.css`.
 Files: `prototype/system.css`, `prototype/system.js`, `prototype/fonts/`.
-The other pages still use the old `styles.css` until they are converted.
 
 ## Decisions
 
@@ -70,3 +70,71 @@ The other pages still use the old `styles.css` until they are converted.
 
 Activity Calendar, the fourth tab, has no asset in the archive. Fig. 1
 notes that it isn't pictured.
+
+## Asset maps, other case studies
+
+Every archived image is placed except the two flagged duplicates
+(`erma/image-01`, `cdc/image-01`).
+
+**Sound Transit.** Nothing in the archive. Two diagrams are built in HTML from
+figures already in the copy: the unit of analysis (5,000+ pages → 160 / 29) and
+the pipeline (URLs → Audit → Aggregate → Deduplicate → Analyze). The remediation
+phases are set as a three-column table. Five dashed "image pending" slots name
+the files the page still expects.
+
+**CDC** (`cdc/`, 16 files)
+
+| File | Figure |
+|---|---|
+| image-11 | Fig. 1, landing page top |
+| image-03 … -10 | Fig. 2.1–2.8, design-system sheets |
+| image-02 | Fig. 3, course cards |
+| image-12, -13 | Fig. 4a/b, landing-page entry points |
+| image-14, -15, -16 | Fig. 5a–c, My Learner Hub states |
+| **image-01** | **not placed.** The same card group as image-02 at a looser crop; image-02 is sharper. Needs your decision. |
+
+**AOMT** (`outage-modeler/`, 10 files, plus the homepage cover)
+
+| File | Figure |
+|---|---|
+| video-01.mp4 (poster: image-01) | Fig. 1, walkthrough. Has controls and never autoplays. |
+| home/image-04-outage-modeler | Fig. 2, analyst workflow diagram |
+| image-04 | Fig. 3, dependency model |
+| image-05 | Fig. 4, dependency patterns |
+| image-01, -02, -03 | Figs. 5–7, steps |
+| image-06, -07 | Details beside Figs. 6 and 7 |
+| image-08 | Fig. 8, dependent impacts |
+| image-09 | Fig. 9, export modal |
+
+**DOJ** (`tth/`, 12 files)
+
+| File | Figure |
+|---|---|
+| image-01 | Fig. 1, hiring case |
+| image-02 … -09 | Fig. 2.1–2.8, attachments component in 8 states |
+| image-10, -11, -12 | Fig. 3.1–3.3, completing a segment |
+
+**Merck** (`merck/`, 7 files)
+
+| File | Figure |
+|---|---|
+| image-02 | Fig. 1, explorer |
+| image-01 | Fig. 2, medical/social split |
+| image-04, -05, -03 | Fig. 3.1–3.3, choropleth from state to county |
+| image-06 | Fig. 4, location overlay |
+| image-07 | Fig. 5, social data on the map |
+
+**YAFFED** (`yaffed/`, 7 files)
+
+| File | Figure |
+|---|---|
+| image-01 | Fig. 1, homepage; reused as 7b "after" |
+| image-02 | Fig. 2, petition then donation |
+| image-04 | Fig. 3, donation modal |
+| image-03 | Fig. 4, sticky sidebar |
+| image-05 | Fig. 5, about section |
+| image-06 | Fig. 6, infographic templates |
+| image-07 | Fig. 7a, before |
+
+**Sport Shepherd.** Still waiting on content. The placeholder note is restyled
+and has one image-pending slot.

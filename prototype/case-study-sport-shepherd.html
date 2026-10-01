@@ -4,18 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sport Shepherd — Fiona Cohen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running"><span class="num">08 / 08</span>Sport Shepherd</p>
+    <nav aria-label="Site">
       <a href="index.html">Work</a>
       <a href="resume.html">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
@@ -23,42 +21,54 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="page">
 
-  <a class="back-link" href="index.html">← Work</a>
+  <header class="cs-head grid">
+    <p class="crumb key"><a href="index.html">← Index</a><span class="num">08 / 08</span></p>
+    <div class="title">
+      <p class="client-line">Sport Shepherd — Founder / 0→1</p>
+      <h1>A women's sports schedule aggregator, built from scratch</h1>
+      <p class="thesis">Founder and product lead — schedule aggregation, a social layer, AI-curated editorial, and two-sided data monetization, built with a small collaborator team.</p>
+    </div>
+  </header>
 
-  <div class="cs-title">
-    <p class="eyebrow">Sport Shepherd — Founder / 0→1</p>
-    <h1>A women's sports schedule aggregator, built from scratch</h1>
-    <p class="subhead">Founder and product lead — schedule aggregation, a social layer, AI-curated editorial, and two-sided data monetization, built with a small collaborator team.</p>
-  </div>
+  <dl class="meta-strip grid">
+    <div><dt class="key">Product</dt><dd>Sport Shepherd</dd></div>
+    <div><dt class="key">Role</dt><dd>Founder and product lead</dd></div>
+    <div><dt class="key">Stage</dt><dd>0 → 1</dd></div>
+    <div><dt class="key">Scope</dt><dd>Schedule aggregation, social layer, AI-curated editorial, two-sided data monetization</dd></div>
+  </dl>
 
-  <div class="cs-hero">
-    <div class="img-ph" style="aspect-ratio:16/9;">sport-shepherd-hero.jpg</div>
-  </div>
+  <div class="cs-body grid">
+    <div class="content solo">
 
-  <div class="cs-section">
-    <p class="eyebrow label">Placeholder — awaiting your content</p>
-    <div class="content">
-      <p>This page is laid out to the same template as the Sound Transit case study (The Gap → What I Built → Key Decisions → Current Iteration → Where It Stands), but the founder-voice narrative, real decisions/tradeoffs, traction numbers, and PRD excerpts for the fan-stats/check-in gamification work haven't been provided yet — see <code>content/04-case-study-sport-shepherd.md</code> for exactly what's needed. Once that content is in, this page gets rewritten section by section like the Sound Transit page.</p>
+      <figure class="fig" data-fig="Fig. 1" style="margin-bottom: var(--s5)">
+        <div class="pending"><span class="key">Image pending — sport-shepherd-hero.jpg</span></div>
+        <figcaption><span class="num">Fig. 1</span><span><b>Sport Shepherd.</b> Not in the archive yet.</span></figcaption>
+      </figure>
+
+      <section class="sec">
+        <div class="sec-label"><span class="num">—</span><h2>Placeholder — awaiting your content</h2></div>
+        <div class="prose">
+          <p>This page is laid out to the same template as the Sound Transit case study (The Gap → What I Built → Key Decisions → Current Iteration → Where It Stands), but the founder-voice narrative, real decisions/tradeoffs, traction numbers, and PRD excerpts for the fan-stats/check-in gamification work haven't been provided yet — see <code>content/04-case-study-sport-shepherd.md</code> for exactly what's needed. Once that content is in, this page gets rewritten section by section like the Sound Transit page.</p>
+        </div>
+      </section>
+
     </div>
   </div>
 
-  <div class="cs-footer-nav">
-    <a href="case-study-yaffed.html">← YAFFED</a>
-    <a href="index.html">Back to work →</a>
-  </div>
+  <nav class="pager grid" aria-label="More case studies">
+    <a class="prev" href="case-study-yaffed.html"><span class="key">← 07 Previous</span><span class="t">YAFFED</span></a>
+    <a class="next" href="index.html"><span class="key">Index →</span><span class="t">All work</span></a>
+  </nav>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="resume.html">Resume</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="resume.html">Resume</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 
