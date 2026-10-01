@@ -1,0 +1,72 @@
+# Visual system v2 (supersedes the look in `01-styling-spec.md`)
+
+Content and IA are unchanged. This replaces the visual layer only.
+Converted so far: `prototype/index.html`, `prototype/case-study-jpmorgan-dashboards.html`.
+Files: `prototype/system.css`, `prototype/system.js`, `prototype/fonts/`.
+The other pages still use the old `styles.css` until they are converted.
+
+## Decisions
+
+- **Type.** One family, Schibsted Grotesk (a grotesk drawn for a news
+  publisher), does all reading and display work. IBM Plex Mono is used only
+  for indexing: project and figure numbers, metadata keys, running labels.
+  The serif is gone. Sizes: case-study title 42, homepage statement 34,
+  section heading 22, thesis 20, body 16/1.6 at about 64ch, captions 13,
+  keys 11.5 mono. Both fonts are self-hosted under the SIL Open Font License.
+- **Colour.** Neutral paper `#F5F5F2`, ink `#141414`, two greys, a hairline
+  `#CDCDC7`. There is one accent, vermilion `#C8361A`. It marks figure and
+  section numbers, the current section, selected tabs, link hover and the one
+  typographic data plate, and nothing else. Colour otherwise comes from the work.
+- **Grid.** 12 columns, 24px gutters, 40px margins, 1440px max width.
+  - Homepage index: No. / Client and role / Case study / Image.
+  - Case study: a sticky contents rail (cols 1–3) and content (cols 4–12, a
+    9-column subgrid). Inside the content, prose takes 6 columns and margin
+    notes take 3. Figures span 9 columns, split 7+2 or 6+3, or use even two-up
+    grids.
+- **Figures.** Real screenshots sit on a flat grey matte, with no browser
+  chrome, device frames, rounded cards or shadows. Every figure has a numbered
+  caption. Clicking any figure opens it at full resolution, with an
+  "Actual size" toggle so dense UI can be inspected on a phone.
+- **Metadata.** Rule-separated key/value rows: the header strip, the facts
+  column for metrics, and the homepage index columns. There are no pills and
+  no KPI cards.
+- **Navigation.** A running header shows the project number and the current
+  section. The rail shows contents, the current section and reading progress.
+  On mobile it becomes a sticky horizontal section strip. Previous/next links
+  are numbered.
+- **Motion.** Only hover colour, the tab switch and the rail state. Everything
+  is turned off under `prefers-reduced-motion`. Without JS, tab panels stack.
+
+## Homepage changes worth knowing
+
+- About, the client list and the bio moved below the work index (they were
+  between the hero and the work). The wording is unchanged.
+- Projects 01–05 are featured rows. 06–08 are a compact "further work" table.
+  The order is unchanged.
+- Sound Transit has no imagery in the archive, so its slot uses a typographic
+  plate built from its own stated figures (~80%, 5,000+ pages). This is not a
+  mock screenshot.
+- ERMA's cover now uses the full Info Hub screen (`erma/files/image-02.png`)
+  instead of the old cropped chart cover (`home/files/image-02-erma.png`).
+  The old cover is only a cropped piece of the chart widget, so the full screen
+  shows the actual work better.
+
+## ERMA asset map (archive `assets/old-site/erma/`, 18 files)
+
+| File | Figure | Shows |
+|---|---|---|
+| image-05 | Fig. 1a | ERMA Home, Info Hub tab |
+| image-03 | Fig. 1b | Action Center tab |
+| image-04 | Fig. 1c | Measurement Viewer tab |
+| image-07.svg | Fig. 2a | Donut widget template (zone-coded) |
+| image-08.svg | Fig. 2b | Measurement Viewer widget template |
+| image-06 | Fig. 3 | Action Center widgets at high resolution |
+| image-13, image-14 | Fig. 4a/b | Staff widget card, two states |
+| image-12 | Fig. 5 | Modal template schematic |
+| image-09, -10, -11 | Fig. 6a–c | Three modals built on the template |
+| image-15 … -18 | Fig. 7A–D | Staff modal: default, month focus, total-line toggle, both |
+| image-02 | Homepage cover | Info Hub, unframed crop |
+| **image-01** | **not placed** | **Same Info Hub screen as image-05 (pixel diff after resizing shows only resampling). Needs your decision.** |
+
+Activity Calendar, the fourth tab, has no asset in the archive. Fig. 1
+notes that it isn't pictured.

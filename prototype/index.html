@@ -4,149 +4,183 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fiona Cohen — Senior Product Designer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
-      <a href="index.html">Work</a>
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running"><span class="num">00</span>Index of work</p>
+    <nav aria-label="Site">
+      <a href="index.html" aria-current="page">Work</a>
       <a href="resume.html">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
     </nav>
   </div>
 </header>
 
-<main class="wrap">
+<main class="page">
 
-  <section class="hero">
-    <p class="eyebrow">Senior Product Designer · Complex Systems · Data &amp; AI Products</p>
-    <h1>I design the systems that make complicated things usable — for federal agencies, banks, and transit riders.</h1>
-    <p class="lead">Eight years leading product design across government, finance, and healthcare — turning ambiguous, high-stakes problems into shared design systems and shippable products. Most recently at Guidehouse; prior senior/lead work at JPMorgan Chase, the U.S. DOJ, and Sound Transit.</p>
+  <section class="intro grid">
+    <p class="label key">Senior Product Designer<br>Complex Systems<br>Data &amp; AI Products</p>
+    <div class="statement">
+      <h1>I design the systems that make complicated things usable — for federal agencies, banks, and transit riders.</h1>
+      <p class="lead">Eight years leading product design across government, finance, and healthcare — turning ambiguous, high-stakes problems into shared design systems and shippable products. Most recently at Guidehouse; prior senior/lead work at JPMorgan Chase, the U.S. DOJ, and Sound Transit.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>8 yrs</dt><dd>Senior &amp; lead roles</dd></div>
+      <div><dt>$3M+</dt><dd>In contracts influenced</dd></div>
+      <div><dt>4</dt><dd>Sectors — gov, finance, health, transit</dd></div>
+    </dl>
+  </section>
 
-    <div class="stat-strip">
-      <div class="stat"><span class="num">8 YRS</span><span class="caption">SENIOR &amp; LEAD ROLES</span></div>
-      <div class="stat"><span class="num">$3M+</span><span class="caption">IN CONTRACTS INFLUENCED</span></div>
-      <div class="stat"><span class="num">4</span><span class="caption">SECTORS — GOV, FINANCE, HEALTH, TRANSIT</span></div>
+  <section aria-labelledby="work-h">
+    <h2 id="work-h" class="grid index-head">
+      <span class="c-num key">No.</span>
+      <span class="c-meta key">Client / role</span>
+      <span class="c-text key">Case study</span>
+      <span class="c-img key">Selected work, 01–05</span>
+    </h2>
+
+    <a class="entry grid" href="case-study-sound-transit.html">
+      <div class="c-num"><span class="num">01</span></div>
+      <div class="c-meta">
+        <p class="client">Sound Transit</p>
+        <p class="role">Accessibility Lead</p>
+        <p class="year">2024–2025</p>
+      </div>
+      <div class="c-text">
+        <h2>Turning an unactionable accessibility audit into a strategy engineering could execute</h2>
+        <p class="framing">An 8-month engagement, extended beyond scope, reframing a 5,000+ page backlog around systemic risk as Accessibility Lead.</p>
+        <p class="evidence">~80% of issues traced to shared components</p>
+        <span class="go">Read case study</span>
+      </div>
+      <div class="c-img">
+        <!-- No Sound Transit imagery in the archive yet: a typographic plate built from the case study's own figures stands in. -->
+        <div class="plate" role="img" aria-label="~80% of issues traced to shared components">
+          <span class="key">Audit finding</span>
+          <span></span>
+          <div>
+            <div class="big">~80%</div>
+            <p class="big-cap">of issues traced to shared components</p>
+            <div class="foot"><span class="key">Backlog: 5,000+ pages</span><span class="key">Systemic risk</span></div>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a class="entry grid" href="case-study-cdc-onelab-reach.html">
+      <div class="c-num"><span class="num">02</span></div>
+      <div class="c-meta">
+        <p class="client">CDC</p>
+        <p class="role">Design Lead</p>
+        <p class="year">2021</p>
+      </div>
+      <div class="c-text">
+        <h2>A research deliverable that turned into a $9.2M client relationship</h2>
+        <p class="framing">Design Lead for CDC OneLab REACH, grown from a solo research engagement into a 3-person team.</p>
+        <p class="evidence">$9.2M in follow-on contracts</p>
+        <span class="go">Read case study</span>
+      </div>
+      <div class="c-img">
+        <div class="cover contain"><img src="../assets/old-site/home/files/image-03-cdc.png" alt="CDC OneLab REACH: Featured Courses carousel" loading="lazy"></div>
+      </div>
+    </a>
+
+    <a class="entry grid" href="case-study-jpmorgan-dashboards.html">
+      <div class="c-num"><span class="num">03</span></div>
+      <div class="c-meta">
+        <p class="client">J.P. Morgan Chase</p>
+        <p class="role">UX Design Lead</p>
+      </div>
+      <div class="c-text">
+        <h2>Replacing a 1990s dashboard tool with a system built to stay affordable at scale</h2>
+        <p class="framing">UX Design Lead for ERMA, a centralized resiliency and risk-management platform.</p>
+        <p class="evidence">4-tab dashboard suite</p>
+        <span class="go">Read case study</span>
+      </div>
+      <div class="c-img">
+        <div class="cover"><img src="../assets/old-site/erma/files/image-02.png" alt="ERMA Home: record table above the Information Hub summary widgets" loading="lazy"></div>
+      </div>
+    </a>
+
+    <a class="entry grid" href="case-study-jpmorgan-aomt.html">
+      <div class="c-num"><span class="num">04</span></div>
+      <div class="c-meta">
+        <p class="client">J.P. Morgan Chase</p>
+        <p class="role">Reporting &amp; Analytics Lead</p>
+      </div>
+      <div class="c-text">
+        <h2>Modeling cascading infrastructure failure, grounded in one analyst's real workflow</h2>
+        <p class="framing">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team.</p>
+        <p class="evidence">8-month engagement</p>
+        <span class="go">Read case study</span>
+      </div>
+      <div class="c-img">
+        <div class="cover contain"><img src="../assets/old-site/home/files/image-04-outage-modeler.png" alt="Asset Outage Modeling Tool: analyst workflow diagram" loading="lazy"></div>
+      </div>
+    </a>
+
+    <a class="entry grid" href="case-study-doj.html">
+      <div class="c-num"><span class="num">05</span></div>
+      <div class="c-meta">
+        <p class="client">U.S. DOJ</p>
+        <p class="role">Design Lead, Office of the CIO</p>
+      </div>
+      <div class="c-text">
+        <h2>One hiring process, built to work across agencies that don't share a tech stack</h2>
+        <p class="framing">Design Lead for Time to Hire, built on a design system presented directly to the CIO.</p>
+        <p class="evidence">4-month build</p>
+        <span class="go">Read case study</span>
+      </div>
+      <div class="c-img">
+        <div class="cover"><img src="../assets/old-site/home/files/image-05-tth.png" alt="DOJ Time to Hire: candidate record with recruitment segments" loading="lazy"></div>
+      </div>
+    </a>
+
+    <div class="supporting">
+      <h2 class="grid sub-head">
+        <span class="c-num key">No.</span>
+        <span class="c-meta key">Client</span>
+        <span class="c-text key">Further work</span>
+        <span class="r-metric key" style="grid-column:8/11">Note</span>
+      </h2>
+
+      <a class="row grid" href="case-study-merck.html">
+        <span class="num">06</span>
+        <span class="r-client">Merck</span>
+        <span class="r-title">A project COVID shelved — and a client who came back with $500K in new work anyway<span class="r-framing">A geospatial tool for understanding HPV vaccination coverage gaps in under-served communities.</span></span>
+        <span class="r-metric">$500K+ in new contracts</span>
+        <span class="r-thumb"><img src="../assets/old-site/home/files/image-01-merck.png" alt="" loading="lazy"></span>
+      </a>
+      <a class="row grid" href="case-study-yaffed.html">
+        <span class="num">07</span>
+        <span class="r-client">YAFFED <span class="num" style="font-weight:400">2019</span></span>
+        <span class="r-title">A decade-long advocacy fight, won partly on the strength of a website<span class="r-framing">Design Lead &amp; Developer — brand, campaign site, and conversion strategy, built and coded solo.</span></span>
+        <span class="r-metric">3 conversion actions unified</span>
+        <span class="r-thumb"><img src="../assets/old-site/home/files/image-06-yaffed.png" alt="" loading="lazy"></span>
+      </a>
+      <a class="row grid" href="case-study-sport-shepherd.html">
+        <span class="num">08</span>
+        <span class="r-client">Sport Shepherd</span>
+        <span class="r-title">A women's sports schedule aggregator, built from scratch<span class="r-framing">Schedule aggregation, a social layer, AI-curated editorial, and two-sided monetization — built and iterated with a small team.</span></span>
+        <span class="r-metric">Founder · 0 → 1 product</span>
+        <span class="r-thumb none" aria-hidden="true"></span>
+      </a>
     </div>
   </section>
 
-  <section class="about-section">
-    <p class="eyebrow">About</p>
-    <p>I spearhead design and product work from early strategy through implementation and QA — not just the interface, but the research, the system it lives in, and the case for it to stakeholders ranging from individual contributors to a federal CIO.</p>
-    <p>That's meant leading design systems built to hold across organizations that don't share infrastructure (DOJ), scoping an unworkable 7,000-page accessibility audit down to what actually mattered (Sound Transit), and turning a single research deliverable into a multi-year, $9.2M client relationship (CDC). I've managed and mentored designers, presented technical and product direction to executive leadership, and stayed accountable for outcomes through implementation, not just the design file.</p>
-  </section>
-
-  <section class="index">
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-sound-transit.html">
-        <div class="img-ph">sound-transit-hero.jpg</div>
-        <div>
-          <p class="eyebrow">Sound Transit — 2024–2025</p>
-          <h2>Turning an unactionable accessibility audit into a strategy engineering could execute</h2>
-          <p class="framing">An 8-month engagement, extended beyond scope, reframing a 5,000+ page backlog around systemic risk as Accessibility Lead.</p>
-          <span class="metric">~80% of issues traced to shared components</span>
-        </div>
-      </a>
+  <section class="about grid" aria-labelledby="about-h">
+    <h2 id="about-h" class="label key">About</h2>
+    <div class="body">
+      <p>I spearhead design and product work from early strategy through implementation and QA — not just the interface, but the research, the system it lives in, and the case for it to stakeholders ranging from individual contributors to a federal CIO.</p>
+      <p>That's meant leading design systems built to hold across organizations that don't share infrastructure (DOJ), scoping an unworkable 7,000-page accessibility audit down to what actually mattered (Sound Transit), and turning a single research deliverable into a multi-year, $9.2M client relationship (CDC). I've managed and mentored designers, presented technical and product direction to executive leadership, and stayed accountable for outcomes through implementation, not just the design file.</p>
     </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-cdc-onelab-reach.html">
-        <div class="img-ph">cdc-hero.jpg</div>
-        <div>
-          <p class="eyebrow">CDC — 2021</p>
-          <h2>A research deliverable that turned into a $9.2M client relationship</h2>
-          <p class="framing">Design Lead for CDC OneLab REACH, grown from a solo research engagement into a 3-person team.</p>
-          <span class="metric">$9.2M in follow-on contracts</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-jpmorgan-dashboards.html">
-        <div class="img-ph">jpmorgan-dashboards-hero.jpg</div>
-        <div>
-          <p class="eyebrow">JPMorgan Chase</p>
-          <h2>Replacing a 1990s dashboard tool with a system built to stay affordable at scale</h2>
-          <p class="framing">UX Design Lead for ERMA, a centralized resiliency and risk-management platform.</p>
-          <span class="metric">4-tab dashboard suite</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-jpmorgan-aomt.html">
-        <div class="img-ph">jpmorgan-aomt-hero.jpg</div>
-        <div>
-          <p class="eyebrow">JPMorgan Chase</p>
-          <h2>Modeling cascading infrastructure failure, grounded in one analyst's real workflow</h2>
-          <p class="framing">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team.</p>
-          <span class="metric">8-month engagement</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-doj.html">
-        <div class="img-ph">doj-hero.jpg</div>
-        <div>
-          <p class="eyebrow">U.S. DOJ — Office of the CIO</p>
-          <h2>One hiring process, built to work across agencies that don't share a tech stack</h2>
-          <p class="framing">Design Lead for Time to Hire, built on a design system presented directly to the CIO.</p>
-          <span class="metric">4-month build</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-merck.html">
-        <div class="img-ph">merck-hero.jpg</div>
-        <div>
-          <p class="eyebrow">Merck — Product Designer</p>
-          <h2>A project COVID shelved — and a client who came back with $500K in new work anyway</h2>
-          <p class="framing">A geospatial tool for understanding HPV vaccination coverage gaps in under-served communities.</p>
-          <span class="metric">$500K+ in new contracts</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-yaffed.html">
-        <div class="img-ph">yaffed-hero.jpg</div>
-        <div>
-          <p class="eyebrow">YAFFED — 2019</p>
-          <h2>A decade-long advocacy fight, won partly on the strength of a website</h2>
-          <p class="framing">Design Lead &amp; Developer — brand, campaign site, and conversion strategy, built and coded solo.</p>
-          <span class="metric">3 conversion actions unified</span>
-        </div>
-      </a>
-    </div>
-
-    <div class="index-row">
-      <a class="row-link" href="case-study-sport-shepherd.html">
-        <div class="img-ph">sport-shepherd-hero.jpg</div>
-        <div>
-          <p class="eyebrow">Sport Shepherd — Founder / 0→1</p>
-          <h2>A women's sports schedule aggregator, built from scratch</h2>
-          <p class="framing">Schedule aggregation, a social layer, AI-curated editorial, and two-sided monetization — built and iterated with a small team.</p>
-          <span class="metric">0 → 1 product</span>
-        </div>
-      </a>
-    </div>
-
-  </section>
-
-  <section class="logo-strip">
-    <div class="wrap" style="padding:0;">
-      <p class="eyebrow">Who I've worked with</p>
-      <ul class="logo-list">
+    <div class="clients">
+      <span class="key">Who I've worked with</span>
+      <ul>
         <li>CDC</li>
         <li>Johnson &amp; Johnson</li>
         <li>U.S. Army</li>
@@ -157,22 +191,16 @@
         <li>U.S. Dept of Veterans Affairs</li>
       </ul>
     </div>
-  </section>
-
-  <section class="bio-close">
-    <p>I grew up in Hell's Kitchen, NYC, and graduated from MICA with a BFA in Graphic Design. Outside of work, I play piano, take on home improvement projects, and spend time with my little brother.</p>
+    <p class="bio">I grew up in Hell's Kitchen, NYC, and graduated from MICA with a BFA in Graphic Design. Outside of work, I play piano, take on home improvement projects, and spend time with my little brother.</p>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="resume.html">Resume</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="resume.html">Resume</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 

@@ -4,18 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JPMorgan Risk Management Dashboards — Fiona Cohen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running"><span class="num">03 / 08</span>J.P. Morgan Chase — ERMA<span class="sep">/</span><span data-current></span></p>
+    <nav aria-label="Site">
       <a href="index.html">Work</a>
       <a href="resume.html">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
@@ -23,82 +21,231 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="page">
 
-  <a class="back-link" href="index.html">← Work</a>
-
-  <div class="cs-title">
-    <p class="eyebrow">JPMorgan Chase</p>
-    <h1>Replacing a 1990s dashboard tool with a system built to stay affordable at scale</h1>
-    <p class="subhead">UX Design Lead — ERMA, a centralized resiliency and risk-management platform for bank compliance and planning.</p>
-  </div>
-
-  <div class="cs-stats">
-    <div class="stat"><span class="num">4</span><span class="caption">DASHBOARD TABS SPANNING RESILIENCY &amp; RISK</span></div>
-    <div class="stat"><span class="num">1990s → NOW</span><span class="caption">REPLACING DECADES-OLD DASHBOARD TOOLING</span></div>
-    <div class="stat"><span class="num">1</span><span class="caption">REUSABLE WIDGET/MODAL SYSTEM BUILT TO SCALE</span></div>
-  </div>
-
-  <div class="cs-hero">
-    <div class="img-ph" style="aspect-ratio:16/9;">jpmorgan-dashboards-hero.jpg</div>
-  </div>
-
-  <div class="cs-section">
-    <p class="eyebrow label">The Problem</p>
-    <div class="content">
-      <p>J.P. Morgan Chase's disaster-resiliency and risk-management teams were still working from a dashboard tool that had been in place since the 1990s — not built for the volume of metrics, stakeholder variety, or regulatory precision the bank's compliance obligations now require. Every new reporting need risked becoming a one-off build, which doesn't hold up when the requirement is standing across government regulation.</p>
+  <header class="cs-head grid">
+    <p class="crumb key"><a href="index.html">← Index</a><span class="num">03 / 08</span></p>
+    <div class="title">
+      <p class="client-line">JPMorgan Chase</p>
+      <h1>Replacing a 1990s dashboard tool with a system built to stay affordable at scale</h1>
+      <p class="thesis">UX Design Lead — ERMA, a centralized resiliency and risk-management platform for bank compliance and planning.</p>
     </div>
-  </div>
+    <dl class="facts">
+      <div><dt>4</dt><dd>Dashboard tabs spanning resiliency &amp; risk</dd></div>
+      <div><dt>1990s → now</dt><dd>Replacing decades-old dashboard tooling</dd></div>
+      <div><dt>1</dt><dd>Reusable widget/modal system built to scale</dd></div>
+    </dl>
+  </header>
 
-  <div class="cs-section">
-    <p class="eyebrow label">My Role</p>
-    <div class="content">
-      <p>I served as UX Design Lead on ERMA, a suite of tools centralizing resiliency data and risk-management activity for the bank — covering incident planning, compliance reporting, and asset/employee protection across a four-tab dashboard structure.</p>
-    </div>
-  </div>
+  <dl class="meta-strip grid">
+    <div><dt class="key">Client</dt><dd>J.P. Morgan Chase</dd></div>
+    <div><dt class="key">Role</dt><dd>UX Design Lead</dd></div>
+    <div><dt class="key">Product</dt><dd>ERMA — resiliency &amp; risk-management platform</dd></div>
+    <div><dt class="key">Scope</dt><dd>Reporting &amp; analytics dashboards; widget and modal system</dd></div>
+  </dl>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Approach</p>
+  <div class="cs-body grid">
+
+    <nav class="rail" aria-label="Case study sections">
+      <span class="key">Contents</span>
+      <ol>
+        <li><a href="#fig-tabs"><span class="num">00</span><span>Dashboard tabs</span></a></li>
+        <li><a href="#problem"><span class="num">01</span><span>The Problem</span></a></li>
+        <li><a href="#role"><span class="num">02</span><span>My Role</span></a></li>
+        <li><a href="#approach"><span class="num">03</span><span>Approach</span></a>
+          <ol>
+            <li><a href="#fig-widgets">Figs. 2–4 — Widgets</a></li>
+            <li><a href="#fig-modals">Figs. 5–6 — Modals</a></li>
+            <li><a href="#fig-states">Fig. 7 — Modal states</a></li>
+          </ol>
+        </li>
+        <li><a href="#outcome"><span class="num">04</span><span>Outcome</span></a></li>
+      </ol>
+      <div class="progress" aria-hidden="true"><i></i></div>
+    </nav>
+
     <div class="content">
-      <p>The critical constraint wasn't features, it was cost of scale: whatever reporting system I designed had to stay affordable to extend as new metrics and regulatory requirements inevitably got added later. Working within Chase's existing design system, I built a modular widget-and-modal pattern that could be dropped anywhere across the reporting and analytics dashboards, rather than custom-building each new report view. Information Hub — a centralized summary surfacing the key metrics from a user's network resilience plan — became the reference implementation for that pattern.</p>
-      <p>Because stakeholder opinions on what a given metric should look like varied widely, and the graph types needed ranged broadly, I created widget and modal templates early, before development started building one-off versions — every one-off avoided there was cost avoided later across the platform's life. Interactive modals let users visualize and refine data with quick export actions built in, so repetitive data-refinement tasks didn't need a new UI pattern every time they came up.</p>
-      <div class="shot-grid">
-        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-dashboards-info-hub.jpg</div>
-        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-dashboards-widgets.jpg</div>
+
+      <!-- Fig. 1 — the product's own tab structure, presented through the same device -->
+      <div class="fig-group lead" id="fig-tabs">
+        <div class="gh">
+          <h3>Dashboard tabs</h3>
+          <p>Three of the four tabs, each shown in the same ERMA Home frame. The fourth, Activity Calendar, isn't in the archive.</p>
+        </div>
+        <figure class="fig span-main tabs-viewer" data-fig="Fig. 1">
+          <div class="tablist" role="tablist" aria-label="ERMA dashboard tabs">
+            <button role="tab" id="t-hub" aria-controls="p-hub" aria-selected="true"><span class="num">1a</span>Info Hub</button>
+            <button role="tab" id="t-action" aria-controls="p-action" aria-selected="false"><span class="num">1b</span>Action Center</button>
+            <button role="tab" id="t-measure" aria-controls="p-measure" aria-selected="false"><span class="num">1c</span>Measurement Viewer</button>
+            <button role="tab" aria-disabled="true" tabindex="-1" title="Not pictured"><span class="num">—</span>Activity Calendar</button>
+          </div>
+          <div class="panel" role="tabpanel" id="p-hub" aria-labelledby="t-hub">
+            <img src="../assets/old-site/erma/files/image-05.png" width="2670" height="1755" loading="lazy"
+                 alt="ERMA Home with the Info Hub tab selected: five summary widgets" data-label="1a — Info Hub">
+          </div>
+          <div class="panel" role="tabpanel" id="p-action" aria-labelledby="t-action" hidden>
+            <img src="../assets/old-site/erma/files/image-03.png" width="2670" height="2332" loading="lazy"
+                 alt="ERMA Home with the Action Center tab selected: nine widgets in two rows" data-label="1b — Action Center">
+          </div>
+          <div class="panel" role="tabpanel" id="p-measure" aria-labelledby="t-measure" hidden>
+            <img src="../assets/old-site/erma/files/image-04.png" width="2670" height="2332" loading="lazy"
+                 alt="ERMA Home with the Measurement Viewer tab selected: monthly bar and line charts" data-label="1c — Measurement Viewer">
+          </div>
+          <figcaption><span class="num">Fig. 1</span><span><b>One frame, four tabs.</b> The record table and navigation stay fixed; only the widget area below the tabs changes. 1a Info Hub — inventory summaries. 1b Action Center — items needing attention. 1c Measurement Viewer — monthly measures over time.</span></figcaption>
+        </figure>
       </div>
-    </div>
-  </div>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Outcome</p>
-    <div class="content">
-      <p>ERMA gave J.P. Morgan Chase's resiliency and risk-management teams a modern replacement for decades-old dashboard tooling, built on a widget system designed to stay cost-effective as the bank's reporting needs keep growing rather than requiring a rebuild each time.</p>
-    </div>
-    <div class="cs-breakout">
-      <div class="breakout-compare" style="text-align:left;">
-        <p class="caption" style="font-style:italic; font-family:Newsreader,serif; font-size:20px; color:var(--ink); text-transform:none; letter-spacing:normal;">"...I want to shout out Fiona for her work with us this quarter. She's stuck with us for a long duration, and she has helped some very strong personalities find their voice with design... and she delivered a great, high quality product with... care."</p>
-        <p class="caption" style="margin-top:16px;">— AMY MEAGER, EXECUTIVE DIRECTOR OF TECHNOLOGY PRODUCT MANAGEMENT, JPMC</p>
+
+      <div class="band">
+        <section class="sec" id="problem">
+          <div class="sec-label"><span class="num">01</span><h2>The Problem</h2></div>
+          <div class="prose">
+            <p>J.P. Morgan Chase's disaster-resiliency and risk-management teams were still working from a dashboard tool that had been in place since the 1990s — not built for the volume of metrics, stakeholder variety, or regulatory precision the bank's compliance obligations now require. Every new reporting need risked becoming a one-off build, which doesn't hold up when the requirement is standing across government regulation.</p>
+          </div>
+        </section>
+        <section class="sec" id="role">
+          <div class="sec-label"><span class="num">02</span><h2>My Role</h2></div>
+          <div class="prose">
+            <p>I served as UX Design Lead on ERMA, a suite of tools centralizing resiliency data and risk-management activity for the bank — covering incident planning, compliance reporting, and asset/employee protection across a four-tab dashboard structure.</p>
+          </div>
+        </section>
       </div>
+
+      <section class="sec" id="approach">
+        <div class="sec-label"><span class="num">03</span><h2>Approach</h2></div>
+        <div class="prose">
+          <p>The critical constraint wasn't features, it was cost of scale: whatever reporting system I designed had to stay affordable to extend as new metrics and regulatory requirements inevitably got added later. Working within Chase's existing design system, I built a modular widget-and-modal pattern that could be dropped anywhere across the reporting and analytics dashboards, rather than custom-building each new report view. Information Hub — a centralized summary surfacing the key metrics from a user's network resilience plan — became the reference implementation for that pattern.</p>
+        </div>
+        <aside class="aside">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-widgets">Fig. 2</a> Widget templates<br>
+          <a class="link" href="#fig-widgets-use">Fig. 3</a> Widgets in use<br>
+          <a class="link" href="#fig-widgets-use">Fig. 4</a> Widget card, two states
+        </aside>
+
+        <!-- Figs. 2–4 — widget system: template, in use, state -->
+        <div class="fig-group" id="fig-widgets">
+          <div class="gh">
+            <h3>Widget system</h3>
+            <p>From template to production: the zones every widget reserves, the widgets built from them, and the card in two states.</p>
+          </div>
+          <figure class="fig span-main" data-fig="Fig. 2">
+            <div class="duo">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-07.svg" width="1261" height="761" loading="lazy" alt="Widget template: two donut widgets with title, chart and legend zones colour-coded" data-label="2a — Donut widget template"></div>
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-08.svg" width="1261" height="760" loading="lazy" alt="Widget template: Measurement Viewer bar-and-line widget with title, chart and axis zones colour-coded" data-label="2b — Measurement Viewer widget template"></div>
+            </div>
+            <figcaption><span class="num">Fig. 2</span><span><b>Widget templates.</b> 2a Summary (donut) widget, paired. 2b Measurement Viewer widget. Pink bands mark reserved spacing; green marks the chart area.</span></figcaption>
+          </figure>
+
+          <figure class="fig span-7" id="fig-widgets-use" data-fig="Fig. 3">
+            <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-06.png" width="2093" height="1636" loading="lazy" alt="Six Action Center widgets: BRPU Inactive Items, BRPU Material Changes, BR Plan Approvals, Asset RTO Mismatches, Missing Strategies, CPOF not TROL" data-label="3 — Action Center widgets"></div>
+            <figcaption><span class="num">Fig. 3</span><span><b>Widgets in use, Action Center.</b> BRPU Inactive Items, BRPU Material Changes, BR Plan Approvals, Asset RTO Mismatches, Missing Strategies, CPOF not TROL — donut and bar types sharing one card, title and legend structure.</span></figcaption>
+          </figure>
+
+          <figure class="fig span-2r" data-fig="Fig. 4">
+            <div class="stack pair-states">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-13.png" width="667" height="765" loading="lazy" alt="Staff widget card with drop shadow" data-label="4a — Staff widget"></div>
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-14.png" width="634" height="753" loading="lazy" alt="Staff widget card, flat" data-label="4b — Staff widget"></div>
+            </div>
+            <figcaption><span class="num">Fig. 4</span><span><b>Staff widget, two card states.</b> 4a with shadow, 4b flat. Fig. 7 shows the Staff modal for the same data.</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="prose" style="margin-top: var(--s5)">
+          <p>Because stakeholder opinions on what a given metric should look like varied widely, and the graph types needed ranged broadly, I created widget and modal templates early, before development started building one-off versions — every one-off avoided there was cost avoided later across the platform's life. Interactive modals let users visualize and refine data with quick export actions built in, so repetitive data-refinement tasks didn't need a new UI pattern every time they came up.</p>
+        </div>
+        <aside class="aside" style="margin-top: var(--s5)">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-modals">Fig. 5</a> Modal template<br>
+          <a class="link" href="#fig-modals">Fig. 6</a> Three modals from it<br>
+          <a class="link" href="#fig-states">Fig. 7</a> One modal, four states
+        </aside>
+
+        <!-- Figs. 5–6 — modal template and instances -->
+        <div class="fig-group" id="fig-modals">
+          <div class="gh">
+            <h3>Modal system</h3>
+            <p>One layout — title, filters, graph, actions, table — reused for each data-refinement task.</p>
+          </div>
+          <div class="span-main quad">
+            <figure class="fig" data-fig="Fig. 5">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-12.png" width="1990" height="1090" loading="lazy" alt="Modal template schematic: Modal Title, Filters, Graph, Actions and Table zones" data-label="5 — Modal template"></div>
+              <figcaption><span class="num">Fig. 5</span><span><b>Modal template.</b> Title across the top; filters, graph and actions in one row; the table full-width beneath.</span></figcaption>
+            </figure>
+            <figure class="fig" data-fig="Fig. 6a">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-09.png" width="2407" height="1295" loading="lazy" alt="Essential Service Approvals modal: asset-type filter checklist, monthly bar and line chart, Export Table action, approvals table" data-label="6a — Essential Service Approvals"></div>
+              <figcaption><span class="num">Fig. 6a</span><span><b>Essential Service Approvals.</b> Asset-type checklist as the filter zone; Export Table as the action.</span></figcaption>
+            </figure>
+            <figure class="fig" data-fig="Fig. 6b">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-10.png" width="2407" height="1295" loading="lazy" alt="Asset Strategy Exceptions modal: asset-type filters, monthly bar chart, exceptions table" data-label="6b — Asset Strategy Exceptions"></div>
+              <figcaption><span class="num">Fig. 6b</span><span><b>Asset Strategy Exceptions.</b> Same filters and structure, different measure.</span></figcaption>
+            </figure>
+            <figure class="fig" data-fig="Fig. 6c">
+              <div class="plate-img matte"><img src="../assets/old-site/erma/files/image-11.png" width="2407" height="1295" loading="lazy" alt="BR Plan Invocations and Related Events by Month modal: Event Escalated to Crisis toggle, paired bar chart, events table" data-label="6c — BR Plan Invocations and Related Events"></div>
+              <figcaption><span class="num">Fig. 6c</span><span><b>BR Plan Invocations and Related Events by Month.</b> A toggle (Event Escalated to Crisis) takes the filter zone instead of a checklist.</span></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Fig. 7 — one modal, four states -->
+        <div class="fig-group" id="fig-states">
+          <div class="gh">
+            <h3>Modal states</h3>
+            <p>Mapped, Unmapped &amp; Multi-Mapped Staff — the modal for the Staff data in Fig. 4, stepped through its toggle and month selection.</p>
+          </div>
+          <figure class="fig span-main" data-fig="Fig. 7">
+            <div class="seq">
+              <div class="state">
+                <p class="state-label"><span class="num">A</span><span><b>Default.</b> Both toggles off; unmapped and multi-mapped staff as paired monthly bars.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/erma/files/image-15.png" width="2407" height="1295" loading="lazy" alt="Staff modal, default state: paired monthly bars, both toggles off" data-label="7A — Default"></div>
+              </div>
+              <div class="state">
+                <p class="state-label"><span class="num">B</span><span><b>Month in focus.</b> Jul ’22 stays at full strength; other months recede.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/erma/files/image-16.png" width="2407" height="1295" loading="lazy" alt="Staff modal: July 2022 bars emphasised, other months dimmed" data-label="7B — Month in focus"></div>
+              </div>
+              <div class="state">
+                <p class="state-label"><span class="num">C</span><span><b>View Total Mapped Staff on.</b> Total plotted as a line; the bars drop back as context.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/erma/files/image-17.png" width="2407" height="1295" loading="lazy" alt="Staff modal with View Total Mapped Staff toggle on: total mapped staff line above dimmed bars" data-label="7C — Total on"></div>
+              </div>
+              <div class="state">
+                <p class="state-label"><span class="num">D</span><span><b>Total on, month in focus.</b> Jul ’22 emphasised in both the line and the bars.</span></p>
+                <div class="plate-img matte-sm"><img src="../assets/old-site/erma/files/image-18.png" width="2407" height="1295" loading="lazy" alt="Staff modal with total line on and July 2022 emphasised" data-label="7D — Total on, month in focus"></div>
+              </div>
+            </div>
+            <figcaption><span class="num">Fig. 7</span><span><b>One modal, four states.</b> The staff table below the chart and the Export Table action stay constant across all four.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="sec" id="outcome">
+        <div class="sec-label"><span class="num">04</span><h2>Outcome</h2></div>
+        <div class="prose">
+          <p>ERMA gave J.P. Morgan Chase's resiliency and risk-management teams a modern replacement for decades-old dashboard tooling, built on a widget system designed to stay cost-effective as the bank's reporting needs keep growing rather than requiring a rebuild each time.</p>
+        </div>
+        <blockquote class="quote">
+          <p>“…I want to shout out Fiona for her work with us this quarter. She's stuck with us for a long duration, and she has helped some very strong personalities find their voice with design… and she delivered a great, high quality product with… care.”</p>
+          <footer><b>Amy Meager</b><span>Executive Director of Technology Product Management, JPMC</span></footer>
+        </blockquote>
+      </section>
+
     </div>
   </div>
 
-  <div class="cs-footer-nav">
-    <a href="case-study-cdc-onelab-reach.html">← CDC OneLab REACH</a>
-    <a href="case-study-jpmorgan-aomt.html">JPMorgan Asset Outage Modeling Tool →</a>
-  </div>
+  <nav class="pager grid" aria-label="More case studies">
+    <a class="prev" href="case-study-cdc-onelab-reach.html"><span class="key">← 02 Previous</span><span class="t">CDC OneLab REACH</span></a>
+    <a class="next" href="case-study-jpmorgan-aomt.html"><span class="key">Next 04 →</span><span class="t">JPMorgan Asset Outage Modeling Tool</span></a>
+  </nav>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="resume.html">Resume</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="resume.html">Resume</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 
+<script src="system.js"></script>
 </body>
 </html>
