@@ -1,0 +1,247 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+  "final_page_url": "https://fionacohendesign.com/work/case/yaffed",
+  "fetched_at": "2026-10-01T03:52:54+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 10,
+    "downloaded": 7,
+    "duplicates_skipped": 3,
+    "filtered_skipped": 0,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [
+    "Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)"
+  ],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/pxfWDLOysdvrZ73m0DCRiKQ.png",
+      "selected_asset_url": "https://framerusercontent.com/images/pxfWDLOysdvrZ73m0DCRiKQ.png",
+      "selected_via": "src",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 650271,
+      "width": 2880,
+      "height": 2258,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b7bf2c836b70cf04877efb0779d1a8759c6da493a1328daf4b81f49fe746279f",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/pxfWDLOysdvrZ73m0DCRiKQ.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/pxfWDLOysdvrZ73m0DCRiKQ.png"
+      ],
+      "also_referenced_at_order": [
+        8
+      ]
+    },
+    {
+      "order": 2,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/MW8EN6EsuK9uDMgoEXdsnuFSdKI.png",
+      "selected_asset_url": "https://framerusercontent.com/images/MW8EN6EsuK9uDMgoEXdsnuFSdKI.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 70526,
+      "width": 1523,
+      "height": 1179,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "2bfd28ebe75d243e723b5db66a8021dd12a103a7c42898877846445245dbb993",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/MW8EN6EsuK9uDMgoEXdsnuFSdKI.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/MW8EN6EsuK9uDMgoEXdsnuFSdKI.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/walsDrPoTYZwtB0vgYUalUWo.png",
+      "selected_asset_url": "https://framerusercontent.com/images/walsDrPoTYZwtB0vgYUalUWo.png",
+      "selected_via": "src",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 163640,
+      "width": 2880,
+      "height": 1722,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "8c55a9c71e4830458cc76982e8471c06bd3163fd315368149e84e8594dd74477",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/walsDrPoTYZwtB0vgYUalUWo.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/walsDrPoTYZwtB0vgYUalUWo.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/ca3PR1vHmsYheRUbv3ql0XGT0.png",
+      "selected_asset_url": "https://framerusercontent.com/images/ca3PR1vHmsYheRUbv3ql0XGT0.png",
+      "selected_via": "src",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 421801,
+      "width": 2880,
+      "height": 1722,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "53888e39d28a575ab6941b93c41580f97477e3d9a98d6ecedf1e4f544e38f309",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/ca3PR1vHmsYheRUbv3ql0XGT0.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/ca3PR1vHmsYheRUbv3ql0XGT0.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/41lLat9AVoKMu645NPxu9feE.png",
+      "selected_asset_url": "https://framerusercontent.com/images/41lLat9AVoKMu645NPxu9feE.png",
+      "selected_via": "src",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 240452,
+      "width": 2880,
+      "height": 2652,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b15c44efab190163e9ce767f0e156fedaaf9a61dfcd324c538a070d3343486c0",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/41lLat9AVoKMu645NPxu9feE.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/41lLat9AVoKMu645NPxu9feE.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/eUA8QsTi2vsm04rbyqQgsGHnGhg.png",
+      "selected_asset_url": "https://framerusercontent.com/images/eUA8QsTi2vsm04rbyqQgsGHnGhg.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 116646,
+      "width": 3840,
+      "height": 2160,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "285b5c94891a6a5943fe6a38f36e088743c14d650b387ab0e0d5ceb625497e4d",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/eUA8QsTi2vsm04rbyqQgsGHnGhg.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/eUA8QsTi2vsm04rbyqQgsGHnGhg.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 7,
+      "source_page_url": "https://fionacohendesign.com/work/case/yaffed",
+      "original_asset_url": "https://framerusercontent.com/images/WQtxhR8tWGRCzb6dYmFLGvAPEo.png",
+      "selected_asset_url": "https://framerusercontent.com/images/WQtxhR8tWGRCzb6dYmFLGvAPEo.png",
+      "selected_via": "src",
+      "local_path": "files/image-07.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 387489,
+      "width": 1440,
+      "height": 900,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "3e38fc8e1ce9101cb7a3aa70b0e1d072df8bdd8af58b53c4fb162f3e1a432e0e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/WQtxhR8tWGRCzb6dYmFLGvAPEo.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/WQtxhR8tWGRCzb6dYmFLGvAPEo.png"
+      ],
+      "also_referenced_at_order": []
+    }
+  ],
+  "skipped": [],
+  "failures": []
+}

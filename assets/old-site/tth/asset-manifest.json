@@ -1,0 +1,472 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/tth",
+  "final_page_url": "https://fionacohendesign.com/work/case/tth",
+  "fetched_at": "2026-10-01T03:52:44+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 53,
+    "downloaded": 12,
+    "duplicates_skipped": 35,
+    "filtered_skipped": 6,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [
+    "Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)"
+  ],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/9tQzBvUPdYNwZt0yRoNlegCtTY.png",
+      "selected_asset_url": "https://framerusercontent.com/images/9tQzBvUPdYNwZt0yRoNlegCtTY.png",
+      "selected_via": "src",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 100333,
+      "width": 2880,
+      "height": 2255,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "05ae510896d9de42fa22f5f4c791ad5442e7141d140a1f7f4959062168b582b0",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/9tQzBvUPdYNwZt0yRoNlegCtTY.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/9tQzBvUPdYNwZt0yRoNlegCtTY.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 2,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/Z5EamTw2xhfRcRCsD18uwlrIugs.png",
+      "selected_asset_url": "https://framerusercontent.com/images/Z5EamTw2xhfRcRCsD18uwlrIugs.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 13015,
+      "width": 831,
+      "height": 721,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "27e9ff3785cce9739e0324906d2260d36fd3836adb68f1b32f27a8e7a758268f",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/Z5EamTw2xhfRcRCsD18uwlrIugs.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/Z5EamTw2xhfRcRCsD18uwlrIugs.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/Ssi163x0kO8FUhGAreruGiNrQ.png",
+      "selected_asset_url": "https://framerusercontent.com/images/Ssi163x0kO8FUhGAreruGiNrQ.png",
+      "selected_via": "src",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 14772,
+      "width": 831,
+      "height": 787,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "65dbf08e05ab354b65e06600d27d61e3dab826eaa1d0da42672dfe251eeb6a7e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/Ssi163x0kO8FUhGAreruGiNrQ.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/Ssi163x0kO8FUhGAreruGiNrQ.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/cxckZ6t2Y5Xigs9fcFHRpYClqSY.png",
+      "selected_asset_url": "https://framerusercontent.com/images/cxckZ6t2Y5Xigs9fcFHRpYClqSY.png",
+      "selected_via": "src",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 12408,
+      "width": 831,
+      "height": 721,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "0fc8e0945f9b3e3b2666c7e03f1317599f821fdf03e620b33c5cb26e4856b966",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/cxckZ6t2Y5Xigs9fcFHRpYClqSY.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/cxckZ6t2Y5Xigs9fcFHRpYClqSY.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/ubTXBatmq0RbzLReSWfPcJV8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/ubTXBatmq0RbzLReSWfPcJV8.png",
+      "selected_via": "src",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 14889,
+      "width": 831,
+      "height": 787,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b94527730d4713502249dd05ddb6fb90d347ba651296646faa556d236b2de9e9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/ubTXBatmq0RbzLReSWfPcJV8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/ubTXBatmq0RbzLReSWfPcJV8.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/xvbS3xlWseT46SDOAdXGx2UWxqA.png",
+      "selected_asset_url": "https://framerusercontent.com/images/xvbS3xlWseT46SDOAdXGx2UWxqA.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 13558,
+      "width": 831,
+      "height": 721,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "819e68cbe30480a00f19a3e39b9d366acc63204437c795c40c3371ca1e5be9fa",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/xvbS3xlWseT46SDOAdXGx2UWxqA.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/xvbS3xlWseT46SDOAdXGx2UWxqA.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 7,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/3pyW0r7qpFWBJwWddFuP0iWRvfo.png",
+      "selected_asset_url": "https://framerusercontent.com/images/3pyW0r7qpFWBJwWddFuP0iWRvfo.png",
+      "selected_via": "src",
+      "local_path": "files/image-07.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 16892,
+      "width": 831,
+      "height": 889,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "531357c3d7c90506cd86d9b0298ebe1ba49f40d6d62ebd3165603af9da4d754e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/3pyW0r7qpFWBJwWddFuP0iWRvfo.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/3pyW0r7qpFWBJwWddFuP0iWRvfo.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 8,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/hXmQSFuCxJtsZ7yH69Njs5wZrHM.png",
+      "selected_asset_url": "https://framerusercontent.com/images/hXmQSFuCxJtsZ7yH69Njs5wZrHM.png",
+      "selected_via": "src",
+      "local_path": "files/image-08.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 16090,
+      "width": 831,
+      "height": 823,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "08e8b2c856ac5ac23870bc36b8f363733728ec9bdfcb01a7d63358f8835dcaa0",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/hXmQSFuCxJtsZ7yH69Njs5wZrHM.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/hXmQSFuCxJtsZ7yH69Njs5wZrHM.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 9,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/DJ23ClpuMTviiuNNPlUK4A5I0n0.png",
+      "selected_asset_url": "https://framerusercontent.com/images/DJ23ClpuMTviiuNNPlUK4A5I0n0.png",
+      "selected_via": "src",
+      "local_path": "files/image-09.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 18202,
+      "width": 831,
+      "height": 1027,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "bc0cd438f77bc5c134e05315c07811d726db80ed5baeb25cf814a3461fcb2657",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/DJ23ClpuMTviiuNNPlUK4A5I0n0.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/DJ23ClpuMTviiuNNPlUK4A5I0n0.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 10,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/DpWAO3sd94kpuiHTi76CiJzFk.png",
+      "selected_asset_url": "https://framerusercontent.com/images/DpWAO3sd94kpuiHTi76CiJzFk.png",
+      "selected_via": "src",
+      "local_path": "files/image-10.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 205866,
+      "width": 2880,
+      "height": 1608,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "56e92e6026c51aee2697ccd3791448823e8ebcee81a33194acc41bf6ad75d585",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/DpWAO3sd94kpuiHTi76CiJzFk.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/DpWAO3sd94kpuiHTi76CiJzFk.png"
+      ],
+      "also_referenced_at_order": [
+        13,
+        16,
+        19,
+        24,
+        27,
+        30,
+        33,
+        38,
+        41,
+        44,
+        47
+      ]
+    },
+    {
+      "order": 11,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/redo1SR8F5COHidLGCztK6IjI00.png",
+      "selected_asset_url": "https://framerusercontent.com/images/redo1SR8F5COHidLGCztK6IjI00.png",
+      "selected_via": "src",
+      "local_path": "files/image-11.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 231801,
+      "width": 2880,
+      "height": 1608,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "6fdfa11a237032e905b676caf5452a70effd2bc77cca0091e7302c272eb38f7e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/redo1SR8F5COHidLGCztK6IjI00.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/redo1SR8F5COHidLGCztK6IjI00.png"
+      ],
+      "also_referenced_at_order": [
+        14,
+        17,
+        20,
+        25,
+        28,
+        31,
+        34,
+        39,
+        42,
+        45,
+        48
+      ]
+    },
+    {
+      "order": 12,
+      "source_page_url": "https://fionacohendesign.com/work/case/tth",
+      "original_asset_url": "https://framerusercontent.com/images/29SMY5b3jLh8JyBB2UETaZ3YuA.png",
+      "selected_asset_url": "https://framerusercontent.com/images/29SMY5b3jLh8JyBB2UETaZ3YuA.png",
+      "selected_via": "src",
+      "local_path": "files/image-12.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 244381,
+      "width": 2880,
+      "height": 1608,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "811df5dfaf9ce7b2bbfc7c15a04810e0e206ada8e48faa8e1c5511338ae635e0",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/29SMY5b3jLh8JyBB2UETaZ3YuA.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/29SMY5b3jLh8JyBB2UETaZ3YuA.png"
+      ],
+      "also_referenced_at_order": [
+        15,
+        18,
+        21,
+        26,
+        29,
+        32,
+        35,
+        40,
+        43,
+        46,
+        49
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "order": 22,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 23,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 36,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 37,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 50,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 51,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    }
+  ],
+  "failures": []
+}

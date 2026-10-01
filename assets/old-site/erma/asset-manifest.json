@@ -1,0 +1,821 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/erma",
+  "final_page_url": "https://fionacohendesign.com/work/case/erma",
+  "fetched_at": "2026-10-01T03:51:54+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 117,
+    "downloaded": 18,
+    "duplicates_skipped": 85,
+    "filtered_skipped": 14,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [
+    "Site-wide share image removed as a duplicate of ../home/files/image-12.png (sha256 f3bfb012b7aa…)"
+  ],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/NQJyOHHnSKK9Zpga5Y35Ybk3yz8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/NQJyOHHnSKK9Zpga5Y35Ybk3yz8.png",
+      "selected_via": "src",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 137142,
+      "width": 2664,
+      "height": 1751,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "6c330538123324d62e0c08339715414a4acdfe433594222a32bb93b92faf1459",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/NQJyOHHnSKK9Zpga5Y35Ybk3yz8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/NQJyOHHnSKK9Zpga5Y35Ybk3yz8.png"
+      ],
+      "also_referenced_at_order": [
+        2
+      ]
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/HfxPNGpSZeL7UJLNGTg54dLGtjs.png",
+      "selected_asset_url": "https://framerusercontent.com/images/HfxPNGpSZeL7UJLNGTg54dLGtjs.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 89950,
+      "width": 2670,
+      "height": 1968,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "70e0e0590f29ca1f86366da6cf1f04609532f24b683087d7d53b89d32e16d7ce",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/HfxPNGpSZeL7UJLNGTg54dLGtjs.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/HfxPNGpSZeL7UJLNGTg54dLGtjs.png"
+      ],
+      "also_referenced_at_order": [
+        6,
+        9,
+        12
+      ]
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png?scale-down-to=2048",
+      "selected_asset_url": "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png",
+      "selected_via": "cdn-original-guess",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 112439,
+      "width": 2670,
+      "height": 2332,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "c07a51e5788dfd669d83539eaf191f71184db1753b28d165bd679621bd200e53",
+      "higher_res_found": true,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png?scale-down-to=2048",
+          "source": "src",
+          "width": 2048,
+          "height": 1789
+        },
+        {
+          "url": "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 447
+        },
+        {
+          "url": "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png",
+          "source": "cdn-original-guess",
+          "width": 2670,
+          "height": 2332
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png?scale-down-to=2048",
+        "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png?scale-down-to=512",
+        "https://framerusercontent.com/images/PcAoP3IWQvDMhnyWkN0Z7zDoVk4.png"
+      ],
+      "also_referenced_at_order": [
+        7,
+        10,
+        13,
+        18,
+        21,
+        24,
+        27,
+        32,
+        35,
+        38,
+        41
+      ]
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/LHwMpm3SqEGaAecocB1pBw7PLC8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/LHwMpm3SqEGaAecocB1pBw7PLC8.png",
+      "selected_via": "src",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 120855,
+      "width": 2670,
+      "height": 2332,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "5c8c0574b8f8b389bcee15ffac2f92f0ca966a334a8765c4058190f10d51c3f2",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/LHwMpm3SqEGaAecocB1pBw7PLC8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/LHwMpm3SqEGaAecocB1pBw7PLC8.png"
+      ],
+      "also_referenced_at_order": [
+        8,
+        11,
+        14,
+        19,
+        22,
+        25,
+        28,
+        33,
+        36,
+        39,
+        42
+      ]
+    },
+    {
+      "order": 17,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/RkWqnNroKc2HzdhwJQ7P2rWTsw.png",
+      "selected_asset_url": "https://framerusercontent.com/images/RkWqnNroKc2HzdhwJQ7P2rWTsw.png",
+      "selected_via": "src",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 136475,
+      "width": 2670,
+      "height": 1755,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b1fa8d07bd654f6a9d37dad037a039816e8866ec3fd203ff62547c229b8db09b",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/RkWqnNroKc2HzdhwJQ7P2rWTsw.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/RkWqnNroKc2HzdhwJQ7P2rWTsw.png"
+      ],
+      "also_referenced_at_order": [
+        20,
+        23,
+        26,
+        31,
+        34,
+        37,
+        40
+      ]
+    },
+    {
+      "order": 45,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png",
+      "selected_asset_url": "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 72982,
+      "width": 2093,
+      "height": 1636,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "e213af4a812898c93ccfbb86f7dd8a97913c099bd14601a40111f48dd298d18c",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png",
+          "source": "src",
+          "width": 2093,
+          "height": 1636
+        },
+        {
+          "url": "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 400
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png",
+        "https://framerusercontent.com/images/CSzCjoTVRNjkVfj9xl9TKSdVxlI.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 46,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=1024",
+      "selected_asset_url": "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=1024",
+      "selected_via": "src",
+      "local_path": "files/image-07.svg",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/svg+xml",
+      "bytes": 38930,
+      "width": 1261,
+      "height": 761,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "e790fefa02c2d4dfddd116f880d5dd27b656fe7b8b88539393f315a6f38b1dc9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=1024",
+          "source": "src",
+          "width": 1261,
+          "height": 761
+        },
+        {
+          "url": "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=512",
+          "source": "srcset",
+          "width": 1261,
+          "height": 761
+        },
+        {
+          "url": "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg",
+          "source": "cdn-original-guess",
+          "width": 1261,
+          "height": 761
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=1024",
+        "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg?scale-down-to=512",
+        "https://framerusercontent.com/images/38oMxAwjJABQtfMmqv6vGyI2r3U.svg"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 47,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=1024",
+      "selected_asset_url": "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=1024",
+      "selected_via": "src",
+      "local_path": "files/image-08.svg",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/svg+xml",
+      "bytes": 57363,
+      "width": 1261,
+      "height": 760,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "4410aa8171f235a51e68958f37480087addfda97f5df93a7bbf91712b4fb1357",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=1024",
+          "source": "src",
+          "width": 1261,
+          "height": 760
+        },
+        {
+          "url": "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=512",
+          "source": "srcset",
+          "width": 1261,
+          "height": 760
+        },
+        {
+          "url": "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg",
+          "source": "cdn-original-guess",
+          "width": 1261,
+          "height": 760
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=1024",
+        "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg?scale-down-to=512",
+        "https://framerusercontent.com/images/K7xAZBv2ETQlcT9kgSx7AkOE.svg"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 48,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/t3f0QQzywYy8FzEnf1pj1SA27TU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/t3f0QQzywYy8FzEnf1pj1SA27TU.png",
+      "selected_via": "src",
+      "local_path": "files/image-09.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 51834,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "03ca4c48e038e271deb98d1c6c2f35da906f322e23c264cf5a984b76756fb801",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/t3f0QQzywYy8FzEnf1pj1SA27TU.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/t3f0QQzywYy8FzEnf1pj1SA27TU.png"
+      ],
+      "also_referenced_at_order": [
+        51,
+        54,
+        57,
+        62,
+        65,
+        68,
+        71
+      ]
+    },
+    {
+      "order": 49,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/be8H3hefdl7fuQnnbPVF1ZpJR4.png",
+      "selected_asset_url": "https://framerusercontent.com/images/be8H3hefdl7fuQnnbPVF1ZpJR4.png",
+      "selected_via": "src",
+      "local_path": "files/image-10.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 53210,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "dc0a6c168c4ed35136b7172be2fc8d4ee60661baaabb4bb2c93e45a1f11e8eef",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/be8H3hefdl7fuQnnbPVF1ZpJR4.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/be8H3hefdl7fuQnnbPVF1ZpJR4.png"
+      ],
+      "also_referenced_at_order": [
+        52,
+        55,
+        58,
+        63,
+        66,
+        69,
+        72
+      ]
+    },
+    {
+      "order": 50,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/hodUBT6L4NxGXzVXoIgTFsKOEo.png",
+      "selected_asset_url": "https://framerusercontent.com/images/hodUBT6L4NxGXzVXoIgTFsKOEo.png",
+      "selected_via": "src",
+      "local_path": "files/image-11.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 50811,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "093ccac579fcae3c2a6d4ce8ad02ac6141ef4d1cfbc98cc3cd154ec41ab1e535",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/hodUBT6L4NxGXzVXoIgTFsKOEo.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/hodUBT6L4NxGXzVXoIgTFsKOEo.png"
+      ],
+      "also_referenced_at_order": [
+        53,
+        56,
+        59,
+        64,
+        67,
+        70,
+        73
+      ]
+    },
+    {
+      "order": 76,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/WSJerCCe6YnAyOpWIfhK15XU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/WSJerCCe6YnAyOpWIfhK15XU.png",
+      "selected_via": "src",
+      "local_path": "files/image-12.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 8349,
+      "width": 1990,
+      "height": 1090,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b420832a084113644279396aa58254bf8bd8ae3d0c56fad435a8bd461137941e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/WSJerCCe6YnAyOpWIfhK15XU.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/WSJerCCe6YnAyOpWIfhK15XU.png"
+      ],
+      "also_referenced_at_order": [
+        77
+      ]
+    },
+    {
+      "order": 78,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/Edn1ZhMbAtViCVsPqpngC3ydS8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/Edn1ZhMbAtViCVsPqpngC3ydS8.png",
+      "selected_via": "src",
+      "local_path": "files/image-13.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 13429,
+      "width": 667,
+      "height": 765,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "36f75edcd8b5f38997301a5e6ae5cc0a1a31ae0d2389fcae0993e3d572bff28d",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/Edn1ZhMbAtViCVsPqpngC3ydS8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/Edn1ZhMbAtViCVsPqpngC3ydS8.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 79,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/yq7v0M6wteBU9D1u0EaUuvvUs.png",
+      "selected_asset_url": "https://framerusercontent.com/images/yq7v0M6wteBU9D1u0EaUuvvUs.png",
+      "selected_via": "src",
+      "local_path": "files/image-14.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 22313,
+      "width": 634,
+      "height": 753,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "82e363988b4a1975535160e330c205efe1d685b3fe3b3ec4e3a06a79d7d7b680",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/yq7v0M6wteBU9D1u0EaUuvvUs.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/yq7v0M6wteBU9D1u0EaUuvvUs.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 80,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/CdZ6kwvrqqiubt772r9jSiwVoPA.png",
+      "selected_asset_url": "https://framerusercontent.com/images/CdZ6kwvrqqiubt772r9jSiwVoPA.png",
+      "selected_via": "src",
+      "local_path": "files/image-15.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 42194,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "5bcc2ea30b0082ed4f205a080e4f36cd28f08f9238da6684e671761c48cf05b5",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/CdZ6kwvrqqiubt772r9jSiwVoPA.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/CdZ6kwvrqqiubt772r9jSiwVoPA.png"
+      ],
+      "also_referenced_at_order": [
+        84,
+        88,
+        92,
+        98,
+        102,
+        106,
+        110
+      ]
+    },
+    {
+      "order": 81,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/QTdcW0lay6wLtNYpS2sdGiYYLKM.png",
+      "selected_asset_url": "https://framerusercontent.com/images/QTdcW0lay6wLtNYpS2sdGiYYLKM.png",
+      "selected_via": "src",
+      "local_path": "files/image-16.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 42445,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "be8e3438845956cb0f22a1f8e9dde03027d5f5a882e8dfaec7ddb0f3f450b198",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/QTdcW0lay6wLtNYpS2sdGiYYLKM.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/QTdcW0lay6wLtNYpS2sdGiYYLKM.png"
+      ],
+      "also_referenced_at_order": [
+        85,
+        89,
+        93,
+        99,
+        103,
+        107,
+        111
+      ]
+    },
+    {
+      "order": 82,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/CXcm4NGrLgY99PRdjTfFnSS4bik.png",
+      "selected_asset_url": "https://framerusercontent.com/images/CXcm4NGrLgY99PRdjTfFnSS4bik.png",
+      "selected_via": "src",
+      "local_path": "files/image-17.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 43049,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "0ec138608d04bab8e18e95531407c3ac503091f2b2cfca96f65f7c6b9571abac",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/CXcm4NGrLgY99PRdjTfFnSS4bik.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/CXcm4NGrLgY99PRdjTfFnSS4bik.png"
+      ],
+      "also_referenced_at_order": [
+        86,
+        90,
+        94,
+        100,
+        104,
+        108,
+        112
+      ]
+    },
+    {
+      "order": 83,
+      "source_page_url": "https://fionacohendesign.com/work/case/erma",
+      "original_asset_url": "https://framerusercontent.com/images/WkS8o5an7Y1tQRHUD6PMKL8cTTs.png",
+      "selected_asset_url": "https://framerusercontent.com/images/WkS8o5an7Y1tQRHUD6PMKL8cTTs.png",
+      "selected_via": "src",
+      "local_path": "files/image-18.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 42731,
+      "width": 2407,
+      "height": 1295,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "6c87a44b84c8003ca3bca01185bb8edef64f3209c16bf24d4f0486880e59cfbb",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/WkS8o5an7Y1tQRHUD6PMKL8cTTs.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/WkS8o5an7Y1tQRHUD6PMKL8cTTs.png"
+      ],
+      "also_referenced_at_order": [
+        87,
+        91,
+        95,
+        101,
+        105,
+        109,
+        113
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "order": 15,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 16,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 29,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 30,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 43,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 44,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 60,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 61,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 74,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 75,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 96,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 97,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 114,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 115,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    }
+  ],
+  "failures": []
+}
