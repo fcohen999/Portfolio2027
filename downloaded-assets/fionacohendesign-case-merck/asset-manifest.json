@@ -1,0 +1,334 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/merck",
+  "final_page_url": "https://fionacohendesign.com/work/case/merck",
+  "fetched_at": "2026-10-01T03:51:37+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 21,
+    "downloaded": 8,
+    "duplicates_skipped": 11,
+    "filtered_skipped": 2,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/IrmObvYiZA3WwZ3vzyqTZLJ9Q.png",
+      "selected_asset_url": "https://framerusercontent.com/images/IrmObvYiZA3WwZ3vzyqTZLJ9Q.png",
+      "selected_via": "src",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 449702,
+      "width": 2846,
+      "height": 1840,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "fa7fc025b2357c47020854e5e7af08a0d533596bb52688ea3c8f4ef62dd4021a",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/IrmObvYiZA3WwZ3vzyqTZLJ9Q.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/IrmObvYiZA3WwZ3vzyqTZLJ9Q.png"
+      ],
+      "also_referenced_at_order": [
+        2
+      ]
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/G6AFmDEBWt4Drw8O3ucLsAp7C5s.png",
+      "selected_asset_url": "https://framerusercontent.com/images/G6AFmDEBWt4Drw8O3ucLsAp7C5s.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 687114,
+      "width": 3453,
+      "height": 2207,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "ca011b8b17896a427ce68ba6df721136a6763128855f9e8d56706b13f9c5e084",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/G6AFmDEBWt4Drw8O3ucLsAp7C5s.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/G6AFmDEBWt4Drw8O3ucLsAp7C5s.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/BahSDtTXcfYy7HU0OfVgstQ5g.png",
+      "selected_asset_url": "https://framerusercontent.com/images/BahSDtTXcfYy7HU0OfVgstQ5g.png",
+      "selected_via": "src",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 486107,
+      "width": 2192,
+      "height": 1465,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "6fae01aaa549f19c77a7cf644e5558433262dae22829c8668d14e3190ee16f5f",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/BahSDtTXcfYy7HU0OfVgstQ5g.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/BahSDtTXcfYy7HU0OfVgstQ5g.png"
+      ],
+      "also_referenced_at_order": [
+        7,
+        10,
+        13
+      ]
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png?scale-down-to=2048",
+      "selected_asset_url": "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png",
+      "selected_via": "cdn-original-guess",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 313881,
+      "width": 2190,
+      "height": 1466,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "7a4c425375eefe326ed129bc46536a5ae781a22e0b43aefe7fdfe23b7505d3cb",
+      "higher_res_found": true,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png?scale-down-to=2048",
+          "source": "src",
+          "width": 2048,
+          "height": 1371
+        },
+        {
+          "url": "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 343
+        },
+        {
+          "url": "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png",
+          "source": "cdn-original-guess",
+          "width": 2190,
+          "height": 1466
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png?scale-down-to=2048",
+        "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png?scale-down-to=512",
+        "https://framerusercontent.com/images/cS3eaTNHoyC9jE8ZyvltZXjP5yg.png"
+      ],
+      "also_referenced_at_order": [
+        8,
+        11,
+        14
+      ]
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png?scale-down-to=2048",
+      "selected_asset_url": "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png",
+      "selected_via": "cdn-original-guess",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 298621,
+      "width": 2190,
+      "height": 1466,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "a9bafe049a6110830b4539271540a2fa87456820ed4f9462d4310a4b7ba5323d",
+      "higher_res_found": true,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png?scale-down-to=2048",
+          "source": "src",
+          "width": 2048,
+          "height": 1371
+        },
+        {
+          "url": "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 343
+        },
+        {
+          "url": "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png",
+          "source": "cdn-original-guess",
+          "width": 2190,
+          "height": 1466
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png?scale-down-to=2048",
+        "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png?scale-down-to=512",
+        "https://framerusercontent.com/images/6hV3ztuMSaIwLQCIIU9hmshqKM.png"
+      ],
+      "also_referenced_at_order": [
+        9,
+        12,
+        15
+      ]
+    },
+    {
+      "order": 18,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/ZMatMLbYJr0R49nrXmIYGH7eSVc.png",
+      "selected_asset_url": "https://framerusercontent.com/images/ZMatMLbYJr0R49nrXmIYGH7eSVc.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 510321,
+      "width": 2190,
+      "height": 1466,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "dd49d35531c9204b20de03c3c2dc357d549a57932246df5aa6d22e20dbc8df9f",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/ZMatMLbYJr0R49nrXmIYGH7eSVc.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/ZMatMLbYJr0R49nrXmIYGH7eSVc.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 19,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/8Rwzvd5YS2okYpUqggPgn02OngE.png",
+      "selected_asset_url": "https://framerusercontent.com/images/8Rwzvd5YS2okYpUqggPgn02OngE.png",
+      "selected_via": "src",
+      "local_path": "files/image-07.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 850272,
+      "width": 4134,
+      "height": 2230,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "1f5de9f99ea09c867465d9c4cf665deb64714ad206d9805c6c87875950597197",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/8Rwzvd5YS2okYpUqggPgn02OngE.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/8Rwzvd5YS2okYpUqggPgn02OngE.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 20,
+      "source_page_url": "https://fionacohendesign.com/work/case/merck",
+      "original_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_via": "meta",
+      "local_path": "files/image-08.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "meta-og:image",
+      "mime_type": "image/png",
+      "bytes": 92583,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "f3bfb012b7aa6cb464cfedabaafe266b7976701e3dab838df761f5065ff7f9a9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+          "source": "meta"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png"
+      ],
+      "also_referenced_at_order": [
+        21
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "order": 16,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 17,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    }
+  ],
+  "failures": []
+}

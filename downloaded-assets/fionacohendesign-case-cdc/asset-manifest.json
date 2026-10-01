@@ -1,0 +1,720 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+  "final_page_url": "https://fionacohendesign.com/work/case/cdc",
+  "fetched_at": "2026-10-01T03:52:26+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 88,
+    "downloaded": 17,
+    "duplicates_skipped": 61,
+    "filtered_skipped": 10,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png?scale-down-to=2048",
+      "selected_asset_url": "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png",
+      "selected_via": "cdn-original-guess",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 228042,
+      "width": 2400,
+      "height": 1600,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "ef745b192b4efb43a742578899ead1783bcaa7815ac8181a71f21e08db217d3d",
+      "higher_res_found": true,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png?scale-down-to=2048",
+          "source": "src",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 341
+        },
+        {
+          "url": "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png",
+          "source": "cdn-original-guess",
+          "width": 2400,
+          "height": 1600
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png?scale-down-to=2048",
+        "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png?scale-down-to=512",
+        "https://framerusercontent.com/images/KiHv059sdXW1IXRF7G1cbKBLw.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 2,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/fDPBZ6nV8lunBD8K1pxu85aM8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/fDPBZ6nV8lunBD8K1pxu85aM8.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 270360,
+      "width": 1592,
+      "height": 1300,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "d38bb4d8fcce5b48b1d87eacd5881244c3c6cb8244605e6a40185022a6777ee5",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/fDPBZ6nV8lunBD8K1pxu85aM8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/fDPBZ6nV8lunBD8K1pxu85aM8.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/i500fmc5fm5FbY8zdlDLaD2AaAU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/i500fmc5fm5FbY8zdlDLaD2AaAU.png",
+      "selected_via": "src",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 129522,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "630a7e0da52c96341453516094daa4ecaa61cad6155b4abc30135b9fba8696ce",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/i500fmc5fm5FbY8zdlDLaD2AaAU.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/i500fmc5fm5FbY8zdlDLaD2AaAU.png"
+      ],
+      "also_referenced_at_order": [
+        12,
+        21,
+        30
+      ]
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/Z0FZo8HZXGXckz6V37BBNqAQ80.png",
+      "selected_asset_url": "https://framerusercontent.com/images/Z0FZo8HZXGXckz6V37BBNqAQ80.png",
+      "selected_via": "src",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 85691,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "97fa8d54abacee6e9c90615eb1b289fa4b26eed7e99840dd609f04be93b5a0da",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/Z0FZo8HZXGXckz6V37BBNqAQ80.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/Z0FZo8HZXGXckz6V37BBNqAQ80.png"
+      ],
+      "also_referenced_at_order": [
+        13,
+        22,
+        31
+      ]
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/G5hq9tfnoFy6KfR81KLocmz6V7o.png",
+      "selected_asset_url": "https://framerusercontent.com/images/G5hq9tfnoFy6KfR81KLocmz6V7o.png",
+      "selected_via": "src",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 170576,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "d12f64f1d5f36ceaa9be9ec505bb174a071d0f14e0677969dfbc7b3e1234c4bd",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/G5hq9tfnoFy6KfR81KLocmz6V7o.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/G5hq9tfnoFy6KfR81KLocmz6V7o.png"
+      ],
+      "also_referenced_at_order": [
+        14,
+        23,
+        32
+      ]
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/l8nqjxGdCH0Ll8YHuxB5Kyvq2mQ.png",
+      "selected_asset_url": "https://framerusercontent.com/images/l8nqjxGdCH0Ll8YHuxB5Kyvq2mQ.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 78728,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "fc8547e2ea0de57dae5b137673cdb5ac05f224e89013c0d6a92365848e81fe12",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/l8nqjxGdCH0Ll8YHuxB5Kyvq2mQ.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/l8nqjxGdCH0Ll8YHuxB5Kyvq2mQ.png"
+      ],
+      "also_referenced_at_order": [
+        7,
+        15,
+        16,
+        24,
+        25,
+        33,
+        34
+      ]
+    },
+    {
+      "order": 8,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/J5bHVdsFrZu1rPMVobRk6heKY.png",
+      "selected_asset_url": "https://framerusercontent.com/images/J5bHVdsFrZu1rPMVobRk6heKY.png",
+      "selected_via": "src",
+      "local_path": "files/image-07.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 60096,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "8d9cfd2cfdd7997d747a6cd66b3b23f67e87bdb5176cab9ea54055b7ebd9611d",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/J5bHVdsFrZu1rPMVobRk6heKY.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/J5bHVdsFrZu1rPMVobRk6heKY.png"
+      ],
+      "also_referenced_at_order": [
+        17,
+        26,
+        35
+      ]
+    },
+    {
+      "order": 9,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/8xwMlsmSks4GU0XmzxM8Um5Mkg8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/8xwMlsmSks4GU0XmzxM8Um5Mkg8.png",
+      "selected_via": "src",
+      "local_path": "files/image-08.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 61137,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "95026462b3153f16c20675c15983b2f47a5b2b72a2892d337bc685e10701bc8c",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/8xwMlsmSks4GU0XmzxM8Um5Mkg8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/8xwMlsmSks4GU0XmzxM8Um5Mkg8.png"
+      ],
+      "also_referenced_at_order": [
+        18,
+        27,
+        36
+      ]
+    },
+    {
+      "order": 10,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/jr5fbmjR2hZp9paIAX8XNcjYY8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/jr5fbmjR2hZp9paIAX8XNcjYY8.png",
+      "selected_via": "src",
+      "local_path": "files/image-09.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 290654,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "29325072105a2b732cae53117eb619a3cfdb2de01b9ea39b59d3ecce89e2fafe",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/jr5fbmjR2hZp9paIAX8XNcjYY8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/jr5fbmjR2hZp9paIAX8XNcjYY8.png"
+      ],
+      "also_referenced_at_order": [
+        19,
+        28,
+        37
+      ]
+    },
+    {
+      "order": 11,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/SWlVEDu7tu7HUq2cbvkINoc.png",
+      "selected_asset_url": "https://framerusercontent.com/images/SWlVEDu7tu7HUq2cbvkINoc.png",
+      "selected_via": "src",
+      "local_path": "files/image-10.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 375979,
+      "width": 3150,
+      "height": 4068,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "f71240966596bc326bcb0c2bb3327c49dad4d94d493329999b49ad507c2689cc",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/SWlVEDu7tu7HUq2cbvkINoc.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/SWlVEDu7tu7HUq2cbvkINoc.png"
+      ],
+      "also_referenced_at_order": [
+        20,
+        29,
+        38
+      ]
+    },
+    {
+      "order": 41,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/cLzrshFVKgC0Jx5Yhzf6rsMvaVQ.png",
+      "selected_asset_url": "https://framerusercontent.com/images/cLzrshFVKgC0Jx5Yhzf6rsMvaVQ.png",
+      "selected_via": "src",
+      "local_path": "files/image-11.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 77300,
+      "width": 2880,
+      "height": 1234,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "30d5fe9fdee532ae77af02940c7759107e151466d60b764a6ed24da8e4592845",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/cLzrshFVKgC0Jx5Yhzf6rsMvaVQ.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/cLzrshFVKgC0Jx5Yhzf6rsMvaVQ.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 42,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/DuexxMODEL0jCq2XC84rSrFv4A.png",
+      "selected_asset_url": "https://framerusercontent.com/images/DuexxMODEL0jCq2XC84rSrFv4A.png",
+      "selected_via": "src",
+      "local_path": "files/image-12.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 317336,
+      "width": 2880,
+      "height": 1234,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "5ecf9c79641fd18097f13aa42f0a27fb46cb94929be90d212f0566a5681cc8e2",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/DuexxMODEL0jCq2XC84rSrFv4A.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/DuexxMODEL0jCq2XC84rSrFv4A.png"
+      ],
+      "also_referenced_at_order": [
+        43
+      ]
+    },
+    {
+      "order": 44,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/ooYuFIfg4QUV7W3SR2MnwBZOKsk.png",
+      "selected_asset_url": "https://framerusercontent.com/images/ooYuFIfg4QUV7W3SR2MnwBZOKsk.png",
+      "selected_via": "src",
+      "local_path": "files/image-13.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 36211,
+      "width": 2880,
+      "height": 1234,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "9006f3cf897c67d252b5093bcd45459c923f2afdc5ce3f1fdb52900bb680d412",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/ooYuFIfg4QUV7W3SR2MnwBZOKsk.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/ooYuFIfg4QUV7W3SR2MnwBZOKsk.png"
+      ],
+      "also_referenced_at_order": [
+        45
+      ]
+    },
+    {
+      "order": 46,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/MCAJx0n1m7Ksi3hUhUvdNgbRFjE.png",
+      "selected_asset_url": "https://framerusercontent.com/images/MCAJx0n1m7Ksi3hUhUvdNgbRFjE.png",
+      "selected_via": "src",
+      "local_path": "files/image-14.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 587708,
+      "width": 2880,
+      "height": 3334,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "c1123ceeed9178246e2387954ec4611b3b3d14f6349e30a66e7eb6957e61fac6",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/MCAJx0n1m7Ksi3hUhUvdNgbRFjE.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/MCAJx0n1m7Ksi3hUhUvdNgbRFjE.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 47,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/xKuE2mRIFyX7ZF5hRvlQFIg58c.png",
+      "selected_asset_url": "https://framerusercontent.com/images/xKuE2mRIFyX7ZF5hRvlQFIg58c.png",
+      "selected_via": "src",
+      "local_path": "files/image-15.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 585620,
+      "width": 2880,
+      "height": 3218,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "165166a10c7b7f794bbc31c74af8dd6dc50205b337c81f0fbf84b2429db7ac8c",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/xKuE2mRIFyX7ZF5hRvlQFIg58c.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/xKuE2mRIFyX7ZF5hRvlQFIg58c.png"
+      ],
+      "also_referenced_at_order": [
+        49,
+        51,
+        53,
+        57,
+        59,
+        61,
+        63,
+        67,
+        69,
+        71,
+        73,
+        77,
+        79,
+        81,
+        83
+      ]
+    },
+    {
+      "order": 48,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png?scale-down-to=2048",
+      "selected_asset_url": "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png",
+      "selected_via": "cdn-original-guess",
+      "local_path": "files/image-16.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 439757,
+      "width": 2880,
+      "height": 3218,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "8a2e3d20092f37a28e79c0f539584855d9a9e2efda9fee1dd78b04f05547d6a0",
+      "higher_res_found": true,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png?scale-down-to=2048",
+          "source": "src",
+          "width": 1833,
+          "height": 2048
+        },
+        {
+          "url": "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png?scale-down-to=1024",
+          "source": "srcset",
+          "width": 916,
+          "height": 1024
+        },
+        {
+          "url": "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png",
+          "source": "cdn-original-guess",
+          "width": 2880,
+          "height": 3218
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png?scale-down-to=2048",
+        "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png?scale-down-to=1024",
+        "https://framerusercontent.com/images/hHKyXIj8iLLLk9lPJBxBcmaF6Q.png"
+      ],
+      "also_referenced_at_order": [
+        50,
+        52,
+        54,
+        58,
+        60,
+        62,
+        64,
+        68,
+        70,
+        72,
+        74,
+        78,
+        80,
+        82,
+        84
+      ]
+    },
+    {
+      "order": 87,
+      "source_page_url": "https://fionacohendesign.com/work/case/cdc",
+      "original_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_via": "meta",
+      "local_path": "files/image-17.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "meta-og:image",
+      "mime_type": "image/png",
+      "bytes": 92583,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "f3bfb012b7aa6cb464cfedabaafe266b7976701e3dab838df761f5065ff7f9a9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+          "source": "meta"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png"
+      ],
+      "also_referenced_at_order": [
+        88
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "order": 39,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 40,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 55,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 56,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 65,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 66,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 75,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 76,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 85,
+      "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "reason": "tiny (40x40)"
+    },
+    {
+      "order": 86,
+      "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "reason": "tiny (40x40)"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,410 @@
+{
+  "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+  "final_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+  "fetched_at": "2026-10-01T03:52:36+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 18,
+    "downloaded": 11,
+    "duplicates_skipped": 7,
+    "filtered_skipped": 0,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png",
+      "selected_asset_url": "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png",
+      "selected_via": "src",
+      "local_path": "files/image-01.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 58272,
+      "width": 2880,
+      "height": 1580,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "c750e59d4b1db91f63a3b1ed7505053a7dab4c5359cf021cc247b9cadf1ff284",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png",
+          "source": "src",
+          "width": 2880,
+          "height": 1580
+        },
+        {
+          "url": "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 281
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png",
+        "https://framerusercontent.com/images/LuRHmU3iX1mRzBXGpOfII9lpd0.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 2,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png",
+      "selected_via": "src",
+      "local_path": "files/image-02.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 65332,
+      "width": 2880,
+      "height": 1580,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "9205d32c32184a323d93b9000fe4aa305d099efde609ab844c5093845be5d5df",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png",
+          "source": "src",
+          "width": 2880,
+          "height": 1580
+        },
+        {
+          "url": "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 281
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png",
+        "https://framerusercontent.com/images/IvVRD4XHv9bpX2ZDF1bOjNBU.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 3,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/8DawxAL5LxBcwnTrmIHSRebQE0.png",
+      "selected_asset_url": "https://framerusercontent.com/images/8DawxAL5LxBcwnTrmIHSRebQE0.png",
+      "selected_via": "src",
+      "local_path": "files/image-03.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 54739,
+      "width": 2880,
+      "height": 1580,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "3a435d920c412bced737c4f2d7439d04b8ca911e66854e894cfc6c5d24637e75",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/8DawxAL5LxBcwnTrmIHSRebQE0.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/8DawxAL5LxBcwnTrmIHSRebQE0.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/1CI5MdVuOVd0Ydji8ET5TqhV8A.png",
+      "selected_asset_url": "https://framerusercontent.com/images/1CI5MdVuOVd0Ydji8ET5TqhV8A.png",
+      "selected_via": "src",
+      "local_path": "files/image-04.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 28284,
+      "width": 2112,
+      "height": 1655,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "4cfa1b3a85815074e1d1cb960dcc68044a1934f48a95fef4450995396d19a53b",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/1CI5MdVuOVd0Ydji8ET5TqhV8A.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/1CI5MdVuOVd0Ydji8ET5TqhV8A.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 5,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/BuvHw1e53PKIiCfEFDC6jLSHIe8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/BuvHw1e53PKIiCfEFDC6jLSHIe8.png",
+      "selected_via": "src",
+      "local_path": "files/image-05.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 138289,
+      "width": 4672,
+      "height": 6992,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "b254cc3db9d42e464c4c20ad9e5b09c0e2cf0884682db3976c7377275cadd3d3",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/BuvHw1e53PKIiCfEFDC6jLSHIe8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/BuvHw1e53PKIiCfEFDC6jLSHIe8.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/assets/wFNiAGZjGyNvGHmos0NLR61DEY.mp4",
+      "selected_asset_url": "https://framerusercontent.com/assets/wFNiAGZjGyNvGHmos0NLR61DEY.mp4",
+      "selected_via": "src",
+      "local_path": "files/video-01.mp4",
+      "reused_existing_file": false,
+      "asset_type": "video",
+      "discovered_from": "video",
+      "mime_type": "video/mp4",
+      "bytes": 1076668,
+      "width": null,
+      "height": null,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "4c9b3a66dd08e909dcdb34dd746434b56ff1d304587acd296023ea08bc7a894b",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/assets/wFNiAGZjGyNvGHmos0NLR61DEY.mp4",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/assets/wFNiAGZjGyNvGHmos0NLR61DEY.mp4"
+      ],
+      "also_referenced_at_order": [
+        7
+      ]
+    },
+    {
+      "order": 8,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png",
+      "selected_via": "src",
+      "local_path": "files/image-06.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 26694,
+      "width": 1170,
+      "height": 1318,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "fcde936a100d76b881ab3cb3d01230943858ac9e3c8e5ca068cecf56c2104558",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png",
+          "source": "src",
+          "width": 1170,
+          "height": 1318
+        },
+        {
+          "url": "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png?scale-down-to=1024",
+          "source": "srcset",
+          "width": 909,
+          "height": 1024
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png",
+        "https://framerusercontent.com/images/H92g3qvWDSqB6vvfigTdEpRwZqU.png?scale-down-to=1024"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 9,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/nOoAee3tPR980ri3XKotl6Bmpw.png",
+      "selected_asset_url": "https://framerusercontent.com/images/nOoAee3tPR980ri3XKotl6Bmpw.png",
+      "selected_via": "src",
+      "local_path": "files/image-07.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 7805,
+      "width": 405,
+      "height": 251,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "a1140b2f5257ecf792823d033e01a1b61868b0e8d82f3f0cddb505d8f463b850",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/nOoAee3tPR980ri3XKotl6Bmpw.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/nOoAee3tPR980ri3XKotl6Bmpw.png"
+      ],
+      "also_referenced_at_order": [
+        12
+      ]
+    },
+    {
+      "order": 10,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/R7VLqA3kxKMSwuuFCy59m2Tao.png",
+      "selected_asset_url": "https://framerusercontent.com/images/R7VLqA3kxKMSwuuFCy59m2Tao.png",
+      "selected_via": "src",
+      "local_path": "files/image-08.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 35093,
+      "width": 1124,
+      "height": 1226,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "8cf36c6746b5cc45c93b2f8c7d8f2eb4f747e4591127c7095738ad9524003629",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/R7VLqA3kxKMSwuuFCy59m2Tao.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/R7VLqA3kxKMSwuuFCy59m2Tao.png"
+      ],
+      "also_referenced_at_order": [
+        13
+      ]
+    },
+    {
+      "order": 11,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/VkfdOsm8338v6Pj8ySYwYRdH4fM.png",
+      "selected_asset_url": "https://framerusercontent.com/images/VkfdOsm8338v6Pj8ySYwYRdH4fM.png",
+      "selected_via": "src",
+      "local_path": "files/image-09.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 28158,
+      "width": 2400,
+      "height": 1200,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "9eb080e3fe35f51d0d1a0de2a5d3041f2c8c60356ae1f9ae08ce44b00d366211",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/VkfdOsm8338v6Pj8ySYwYRdH4fM.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/VkfdOsm8338v6Pj8ySYwYRdH4fM.png"
+      ],
+      "also_referenced_at_order": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "order": 17,
+      "source_page_url": "https://fionacohendesign.com/work/case/outage-modeler",
+      "original_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_via": "meta",
+      "local_path": "files/image-10.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "meta-og:image",
+      "mime_type": "image/png",
+      "bytes": 92583,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "f3bfb012b7aa6cb464cfedabaafe266b7976701e3dab838df761f5065ff7f9a9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+          "source": "meta"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png"
+      ],
+      "also_referenced_at_order": [
+        18
+      ]
+    }
+  ],
+  "skipped": [],
+  "failures": []
+}
