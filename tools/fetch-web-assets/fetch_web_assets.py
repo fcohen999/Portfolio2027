@@ -548,6 +548,15 @@ def list_links(url: str, timeout: int) -> list[str]:
     return out
 
 
+def fetch_page(url: str, out: str, timeout: int = 30, max_probe: int = 6, min_px: int = 48) -> dict:
+    """Fetch one page's assets into `out` and write both manifests. Returns the manifest."""
+    manifest = run(url, out, timeout, max_probe, min_px)  # creates `out` only once the page loads
+    with open(os.path.join(out, "asset-manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    write_markdown(manifest, os.path.join(out, "asset-manifest.md"))
+    return manifest
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Download the highest-resolution media assets from ONE web page.")
     ap.add_argument("url")
@@ -563,16 +572,11 @@ def main(argv=None) -> int:
         return 0
 
     out = args.out or os.path.join("downloaded-assets", page_slug(args.url))
-    os.makedirs(out, exist_ok=True)
     try:
-        manifest = run(args.url, out, args.timeout, args.max_probe, args.min_px)
+        manifest = fetch_page(args.url, out, args.timeout, args.max_probe, args.min_px)
     except requests.RequestException as e:
         print(f"ERROR: could not fetch page {args.url}: {e}", file=sys.stderr)
         return 2
-
-    with open(os.path.join(out, "asset-manifest.json"), "w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=2, ensure_ascii=False)
-    write_markdown(manifest, os.path.join(out, "asset-manifest.md"))
 
     s = manifest["summary"]
     print(f"Page:                 {manifest['final_page_url']}")

@@ -16,10 +16,29 @@ Install the Claude Code skill at user level so it works in every project:
 
 ```bash
 mkdir -p ~/.claude/skills/fetch-web-assets
-cp fetch_web_assets.py SKILL.md README.md ~/.claude/skills/fetch-web-assets/
+cp fetch_web_assets.py app.py SKILL.md README.md ~/.claude/skills/fetch-web-assets/
 ```
 
-## Usage
+## The simple way: a window in your browser
+
+Double-click **`Fetch Web Assets.command`** (Mac), or run `python3 app.py`. A page opens at
+`http://127.0.0.1:8765` with:
+
+- a box for one or more URLs (one per line)
+- **Also fetch every page these link to?** No / Yes (Yes = every same-site page linked from each URL)
+- **Save to**: type a folder or press **Choose…** for the normal folder picker
+  (default `~/Downloads/web-assets`)
+
+Each page is saved to `<folder>/<site>/<page-name>/`, e.g.
+`web-assets/fionacohendesign.com/work-case-merck/`. Progress and any failures show
+on the page, and **Open folder** reveals the result in Finder. It all runs on your
+machine; the server only listens on 127.0.0.1 and rejects requests from other sites.
+
+The first time on a Mac, macOS may block the double-click because the file came from the
+internet: right-click it → **Open** once. The launcher installs the three Python
+packages on first run if they're missing.
+
+## Command line
 
 ```bash
 python3 fetch_web_assets.py URL [-o OUT_DIR] [--min-px 48] [--max-probe 6] [--timeout 30]
