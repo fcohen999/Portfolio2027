@@ -1,0 +1,442 @@
+{
+  "source_page_url": "https://fionacohendesign.com/",
+  "final_page_url": "https://fionacohendesign.com/",
+  "fetched_at": "2026-10-01T03:49:01+00:00",
+  "page_title": "Fiona Cohen • Product Designer in NYC",
+  "summary": {
+    "discovered": 18,
+    "downloaded": 12,
+    "duplicates_skipped": 6,
+    "filtered_skipped": 0,
+    "failures": 0,
+    "ambiguous_resolution": 0
+  },
+  "warnings": [],
+  "assets": [
+    {
+      "order": 1,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png",
+      "selected_asset_url": "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png",
+      "selected_via": "src",
+      "local_path": "files/image-01-merck.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 619285,
+      "width": 3456,
+      "height": 2234,
+      "alt": "",
+      "caption": "Product Design UX Research Data Visualization Merck Vaccination Explorer GIS tool for understanding nationwide HPV vaccination coverage rates",
+      "link_href": "https://fionacohendesign.com/work/case/merck",
+      "sha256": "329b0a0f310ef8d2d16f51c17073cc07828b31c0b110d4891fbafb5635508514",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png",
+          "source": "src",
+          "width": 3456,
+          "height": 2234
+        },
+        {
+          "url": "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 331
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png",
+        "https://framerusercontent.com/images/mtOwLrxVK3bGgtUbNs8c0H26s.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 2,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/uqhypTqCvMbhJ1wmUXAwtw1ddM.png",
+      "selected_asset_url": "https://framerusercontent.com/images/uqhypTqCvMbhJ1wmUXAwtw1ddM.png",
+      "selected_via": "src",
+      "local_path": "files/image-02-erma.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 10554,
+      "width": 1376,
+      "height": 890,
+      "alt": "",
+      "caption": "Product Design UX Research Data Visualization J.P. Morgan Risk Management Dashboards A centralized platform for to develop, implement, and monitor resiliency plans",
+      "link_href": "https://fionacohendesign.com/work/case/erma",
+      "sha256": "933de56110fb09269cca1842458add188808944b45fa28498d6d863979421c34",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/uqhypTqCvMbhJ1wmUXAwtw1ddM.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/uqhypTqCvMbhJ1wmUXAwtw1ddM.png"
+      ],
+      "also_referenced_at_order": [
+        3
+      ]
+    },
+    {
+      "order": 4,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/ervbZfBeuQNRMj6hiBaSlOazRM8.png",
+      "selected_asset_url": "https://framerusercontent.com/images/ervbZfBeuQNRMj6hiBaSlOazRM8.png",
+      "selected_via": "src",
+      "local_path": "files/image-03-cdc.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 210900,
+      "width": 2040,
+      "height": 943,
+      "alt": "",
+      "caption": "Product Design Web Design CDC OneLab Reach An e-learning platform for nurses and first responders",
+      "link_href": "https://fionacohendesign.com/work/case/cdc",
+      "sha256": "bc245c6eabe2e4d9c455635fa9e300d55ef08e55342f1e0a00def9752737b44e",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/ervbZfBeuQNRMj6hiBaSlOazRM8.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/ervbZfBeuQNRMj6hiBaSlOazRM8.png"
+      ],
+      "also_referenced_at_order": [
+        5
+      ]
+    },
+    {
+      "order": 6,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/pLuYKAbTcMhzbMIxMUXFFxRLI.png",
+      "selected_asset_url": "https://framerusercontent.com/images/pLuYKAbTcMhzbMIxMUXFFxRLI.png",
+      "selected_via": "src",
+      "local_path": "files/image-04-outage-modeler.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 98702,
+      "width": 3456,
+      "height": 2234,
+      "alt": "",
+      "caption": "UX Design Research J.P. Morgan Asset Outage Modeling Tool A simulation tool for visualizing outage impacts and asset dependcies.",
+      "link_href": "https://fionacohendesign.com/work/case/outage-modeler",
+      "sha256": "0f62f76e7e9e9f719d7aa0b4298d78d3b6ef3350178007129f9c2472c90fef7b",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/pLuYKAbTcMhzbMIxMUXFFxRLI.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/pLuYKAbTcMhzbMIxMUXFFxRLI.png"
+      ],
+      "also_referenced_at_order": [
+        7
+      ]
+    },
+    {
+      "order": 8,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/5P3x9ktX9P1AKkGPV3Fslv3WE.png",
+      "selected_asset_url": "https://framerusercontent.com/images/5P3x9ktX9P1AKkGPV3Fslv3WE.png",
+      "selected_via": "src",
+      "local_path": "files/image-05-tth.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 41047,
+      "width": 1375,
+      "height": 916,
+      "alt": "",
+      "caption": "UI Design Product Design DOJ Time to Hire A specialized tool to aid HR staff with complex workforce management cases",
+      "link_href": "https://fionacohendesign.com/work/case/tth",
+      "sha256": "fe8a73b0a48032a531ddfdb85a11f30e6d5e533c8c2bfa8ed28a0b0433dd2f26",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/5P3x9ktX9P1AKkGPV3Fslv3WE.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/5P3x9ktX9P1AKkGPV3Fslv3WE.png"
+      ],
+      "also_referenced_at_order": [
+        9
+      ]
+    },
+    {
+      "order": 10,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/c2tfdD2n0CD8XGZ0iKMFXluuT14.png",
+      "selected_asset_url": "https://framerusercontent.com/images/c2tfdD2n0CD8XGZ0iKMFXluuT14.png",
+      "selected_via": "src",
+      "local_path": "files/image-06-yaffed.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 301970,
+      "width": 1476,
+      "height": 1476,
+      "alt": "",
+      "caption": "UI Design Visual Design YAFFED.org A high-converting advocacy website promoting fair access to secular education in New York City",
+      "link_href": "https://fionacohendesign.com/work/case/yaffed",
+      "sha256": "7dd147072a64c155c14469ad85585dd4094ae88d9202e14c78d8cde9ef2655ed",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/c2tfdD2n0CD8XGZ0iKMFXluuT14.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/c2tfdD2n0CD8XGZ0iKMFXluuT14.png"
+      ],
+      "also_referenced_at_order": [
+        11
+      ]
+    },
+    {
+      "order": 12,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/5T1mbu2Ed7uveUslA1EuD7pL2So.svg",
+      "selected_asset_url": "https://framerusercontent.com/images/5T1mbu2Ed7uveUslA1EuD7pL2So.svg",
+      "selected_via": "src",
+      "local_path": "files/image-07.svg",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/svg+xml",
+      "bytes": 249223,
+      "width": 173,
+      "height": 133,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "781f9b8d39dc4bf88fef3c051e905000c00e0f8adafe72c231a33d05322e4fa0",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/5T1mbu2Ed7uveUslA1EuD7pL2So.svg",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/5T1mbu2Ed7uveUslA1EuD7pL2So.svg"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 13,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png",
+      "selected_asset_url": "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png",
+      "selected_via": "src",
+      "local_path": "files/image-08.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 18044,
+      "width": 620,
+      "height": 133,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "369a9dd46d972f1e1435dbc4b8411bb9628a4737f486da1c29e70a2f7df400cb",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png",
+          "source": "src",
+          "width": 620,
+          "height": 133
+        },
+        {
+          "url": "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 110
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png",
+        "https://framerusercontent.com/images/UhwFZPji5IBnecKSIYNBXN1ums.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 14,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/2MqAXsmZ78pyTTdY9iKl3BPQklE.svg",
+      "selected_asset_url": "https://framerusercontent.com/images/2MqAXsmZ78pyTTdY9iKl3BPQklE.svg",
+      "selected_via": "src",
+      "local_path": "files/image-09.svg",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/svg+xml",
+      "bytes": 184993,
+      "width": 768,
+      "height": 768,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "e4b3a8b934695d13a12deb1cb1b957bdec28461e06eaa97c572df4a3eed58aca",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/2MqAXsmZ78pyTTdY9iKl3BPQklE.svg",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/2MqAXsmZ78pyTTdY9iKl3BPQklE.svg"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 15,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/O7VUPIeleFzvPIk25ek5AN3OU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/O7VUPIeleFzvPIk25ek5AN3OU.png",
+      "selected_via": "src",
+      "local_path": "files/image-10.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 46217,
+      "width": 372,
+      "height": 372,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "3e68ee6df2bb985ca77b5101be8cf2be3df479e239bfae5f119223a578c44f1c",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/O7VUPIeleFzvPIk25ek5AN3OU.png",
+          "source": "src"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/O7VUPIeleFzvPIk25ek5AN3OU.png"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 16,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png",
+      "selected_asset_url": "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png",
+      "selected_via": "src",
+      "local_path": "files/image-11.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "img",
+      "mime_type": "image/png",
+      "bytes": 296539,
+      "width": 753,
+      "height": 753,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "ab5704eba68b9a2b6d86e2fce4de79456df3a1ffa48d6621659bb8ef3b79e23b",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "chosen by measured pixel area",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png",
+          "source": "src",
+          "width": 753,
+          "height": 753
+        },
+        {
+          "url": "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png?scale-down-to=512",
+          "source": "srcset",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png",
+        "https://framerusercontent.com/images/5w1tsnobv0tnhMUjSlSgDMVZQY.png?scale-down-to=512"
+      ],
+      "also_referenced_at_order": []
+    },
+    {
+      "order": 17,
+      "source_page_url": "https://fionacohendesign.com/",
+      "original_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_asset_url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+      "selected_via": "meta",
+      "local_path": "files/image-12.png",
+      "reused_existing_file": false,
+      "asset_type": "image",
+      "discovered_from": "meta-og:image",
+      "mime_type": "image/png",
+      "bytes": 92583,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "caption": "",
+      "link_href": "",
+      "sha256": "f3bfb012b7aa6cb464cfedabaafe266b7976701e3dab838df761f5065ff7f9a9",
+      "higher_res_found": false,
+      "resolution_ambiguous": false,
+      "selection_note": "single source",
+      "candidates": [
+        {
+          "url": "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png",
+          "source": "meta"
+        }
+      ],
+      "all_source_urls": [
+        "https://framerusercontent.com/images/2WiH8iyOByxdcP2buIArndR1nU.png"
+      ],
+      "also_referenced_at_order": [
+        18
+      ]
+    }
+  ],
+  "skipped": [],
+  "failures": []
+}
