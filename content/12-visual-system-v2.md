@@ -138,3 +138,17 @@ the files the page still expects.
 
 **Sport Shepherd.** Still waiting on content. The placeholder note is restyled
 and has one image-pending slot.
+
+## Titles (changed on request)
+
+Each project is now titled by name, as on fionacohendesign.com, with the
+current site's one-line description under it. The narrative headline moves
+below that as the hook. On the homepage, the old framing sentence under each
+featured headline is gone; the same sentence still appears on each case-study
+page.
+
+The descriptions come from the current site, with one typo fixed
+("dependcies"). Sound Transit and Sport Shepherd aren't on the current site:
+- **Sound Transit:** the name "Sound Transit Accessibility Strategy" and its
+  description are new. Please check them.
+- **Sport Shepherd:** its existing headline is used as the description.

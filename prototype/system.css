@@ -213,6 +213,7 @@ ul, ol { list-style: none; }
   text-wrap: balance;
   transition: color .15s;
 }
+.entry .descriptor { margin-top: 8px; font-size: 16px; line-height: 1.45; max-width: 46ch; }
 .entry .framing { margin-top: var(--s2); font-size: 15px; line-height: 1.5; color: var(--ink-2); max-width: 46ch; }
 .entry .evidence {
   margin-top: var(--s3);
@@ -278,6 +279,7 @@ ul, ol { list-style: none; }
 .row .r-thumb { grid-column: 11 / 13; justify-self: end; width: 100%; max-width: 132px; aspect-ratio: 3/2; background: var(--paper-2); overflow: hidden; }
 .row .r-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; }
 .row .r-thumb.none { background: none; }
+.row .r-desc { display: block; margin-top: 4px; font-weight: 400; font-size: 14px; line-height: 1.45; color: var(--ink); }
 .row .r-framing { display: block; margin-top: 4px; font-weight: 400; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
 .row:hover .r-title { color: var(--accent); }
 .row:hover .r-framing { color: var(--ink-2); }
@@ -311,13 +313,28 @@ ul, ol { list-style: none; }
   font-weight: 500;
   text-wrap: balance;
 }
+.cs-head .descriptor {
+  margin-top: var(--s2);
+  font-size: 21px;
+  line-height: 1.35;
+  letter-spacing: -0.008em;
+  max-width: 44ch;
+}
 .cs-head .thesis {
   margin-top: var(--s3);
-  font-size: 20px;
-  line-height: 1.4;
-  letter-spacing: -0.006em;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink);
+  max-width: 56ch;
+}
+.cs-head .subhead {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--ink-2);
-  max-width: 44ch;
+  max-width: 62ch;
 }
 .cs-head .facts { grid-column: 10 / 13; padding-top: 8px; }
 
@@ -645,7 +662,7 @@ dialog.lightbox::backdrop { background: rgba(20,20,20,.5); }
   .cs-head .crumb .num { margin-top: 0; }
   .cs-head .title { grid-column: 1 / -1; }
   .cs-head h1 { font-size: 28px; line-height: 1.14; }
-  .cs-head .thesis { font-size: 17px; }
+  .cs-head .descriptor { font-size: 18px; }
   .cs-head .facts { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 12px; padding-top: 0; }
   .cs-head .facts > div:last-child { border-bottom: 1px solid var(--rule); }
 
