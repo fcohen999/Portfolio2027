@@ -157,7 +157,7 @@ The descriptions come from the current site, with one typo fixed
 
 **Stats removed.** The number column at the top of each case study is gone,
 and the title takes the space. Every figure that mattered is still in the body
-copy. The homepage intro still has its three stats (8 yrs, $3M+, 4 sectors).
+copy. The homepage intro stats (8 yrs, $3M+, 4 sectors) are removed too.
 
 **Diagram language.** This is part of `system.css`, under DIAGRAMS. The
 diagrams below are redrawn in it instead of shown as pasted images:
