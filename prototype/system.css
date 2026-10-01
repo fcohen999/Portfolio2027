@@ -304,7 +304,7 @@ ul, ol { list-style: none; }
 .cs-head .crumb a { text-decoration: none; color: var(--ink-3); }
 .cs-head .crumb a:hover { color: var(--accent); }
 .cs-head .crumb .num { display: block; font-size: 13px; color: var(--ink); margin-top: 6px; }
-.cs-head .title { grid-column: 4 / 10; }
+.cs-head .title { grid-column: 4 / 12; }
 .cs-head .client-line { font-size: 15px; font-weight: 600; margin-bottom: var(--s2); }
 .cs-head h1 {
   font-size: 42px;
@@ -825,6 +825,140 @@ dialog.lightbox::backdrop { background: rgba(20,20,20,.5); }
   .phases { grid-template-columns: minmax(0, 1fr); row-gap: var(--s3); }
   .content.solo { grid-column: 1 / -1; }
   .specimens .plate-img, .states .plate-img { margin-left: 0 !important; margin-right: 0 !important; width: auto !important; }
+}
+
+
+/* ==========================================================
+   DIAGRAMS — native redraws in the site's own language.
+   One vocabulary everywhere:
+     action   = outlined box (a person does this)
+     system   = filled pill (the product responds)
+     optional = dashed outline
+     decision = small diamond marker + branches
+     relation = mono label on a hairline arrow
+     emphasis = accent (the path or zone the caption is about)
+   Zones in anatomy drawings use hatching, never pastel fills.
+   ========================================================== */
+
+:root { --dg-line: var(--ink-3); --dg-fill: var(--paper-2); --dg-hatch: color-mix(in srgb, var(--accent) 22%, transparent); }
+
+.dg { background: var(--paper); border-top: 1px solid var(--ink); padding: var(--s3) 0 var(--s2); }
+.dg-legend { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: var(--s3); padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--ink-2); }
+.dg-legend span { display: inline-flex; align-items: center; gap: 8px; }
+.dg-legend i { display: inline-block; width: 22px; height: 14px; }
+.dg-legend .l-act { border: 1px solid var(--ink); }
+.dg-legend .l-sys { background: var(--dg-fill); border-radius: 7px; }
+.dg-legend .l-opt { border: 1px dashed var(--ink); }
+.dg-legend .l-dec { width: 10px; height: 10px; border: 1px solid var(--ink); transform: rotate(45deg); }
+.dg-legend .l-loop { width: 22px; height: 0; border-top: 1.5px solid var(--accent); }
+.dg-legend .l-hatch { background: repeating-linear-gradient(-45deg, var(--dg-hatch) 0 2px, transparent 2px 6px); border: 1px solid var(--accent); }
+
+/* nodes */
+.dg-node {
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  padding: 8px 10px;
+  font-size: 13px; line-height: 1.3;
+  min-height: 56px;
+  display: flex; align-items: center;
+  min-width: 0;
+}
+.dg-node.sys { border-color: transparent; background: var(--dg-fill); border-radius: 28px; padding-left: 14px; padding-right: 14px; }
+.dg-node.opt { border-style: dashed; }
+.dg-node .n { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); margin-right: 8px; align-self: flex-start; }
+
+/* a workflow row: numbered lane label + nodes joined by arrows */
+.dg-lane { display: grid; grid-template-columns: 56px minmax(0, 1fr); column-gap: var(--s2); padding: var(--s2) 0; border-bottom: 1px solid var(--rule); }
+.dg-lane:last-of-type { border-bottom: 0; }
+.dg-lane > .key { padding-top: 4px; }
+.dg-steps { display: grid; grid-template-columns: repeat(var(--n, 6), minmax(0, 1fr)); column-gap: 22px; align-items: stretch; }
+.dg-steps > * { position: relative; }
+.dg-steps > *:not(:last-child)::after {
+  content: ""; position: absolute; top: 50%; right: -18px; width: 14px; height: 1px; background: var(--dg-line);
+}
+.dg-steps > *:not(:last-child)::before {
+  content: ""; position: absolute; top: calc(50% - 3px); right: -18px; width: 6px; height: 6px;
+  border-top: 1px solid var(--dg-line); border-right: 1px solid var(--dg-line); transform: rotate(45deg);
+}
+.dg-loops { grid-column: 2; margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 12.5px; color: var(--ink-2); }
+.dg-loops span::before { content: "\21BA"; color: var(--accent); margin-right: 6px; font-family: var(--mono); }
+
+/* decision node */
+.dg-dec { display: grid; gap: 6px; align-content: center; font-size: 12.5px; line-height: 1.3; }
+.dg-dec > div { display: flex; gap: 8px; align-items: baseline; }
+.dg-dec > div::before { content: ""; flex: none; width: 8px; height: 8px; border: 1px solid var(--ink); transform: rotate(45deg) translateY(-1px); }
+.dg-dec .no { color: var(--accent); }
+.dg-dec .no::before { border-color: var(--accent); }
+
+/* relation rows (asset A —depends on→ B) */
+.dg-rel { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 0; }
+.dg-rel .a { border: 1px solid var(--ink); border-radius: 16px; padding: 4px 12px; font-size: 13px; white-space: nowrap; }
+.dg-rel .a.hi { background: var(--ink); color: var(--paper); }
+.dg-rel .r { font-family: var(--mono); font-size: 11px; color: var(--ink-3); padding: 0 10px; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
+.dg-rel .r::after { content: "\2192"; color: var(--ink-3); }
+.dg-patterns { display: grid; gap: 0; }
+.dg-patterns > div { display: grid; grid-template-columns: 56px minmax(0, 1fr); column-gap: var(--s2); padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.dg-patterns > div > .lines { display: grid; gap: 8px; }
+.dg-rel.loop .r, .dg-rel.loop .r::after { color: var(--accent); }
+.dg-rel.loop .r { font-weight: 500; }
+.dg-rel.loop2 .r, .dg-rel.loop2 .r::after { color: var(--ink); }
+
+/* SVG diagrams share tokens */
+.dg svg { display: block; width: 100%; height: auto; overflow: visible; }
+.dg svg text { font-family: var(--sans); fill: var(--ink); }
+.dg svg .mono { font-family: var(--mono); fill: var(--ink-3); font-size: 11px; }
+.dg svg .edge { stroke: var(--dg-line); stroke-width: 1; fill: none; }
+.dg svg .node { fill: var(--paper); stroke: var(--ink); stroke-width: 1; }
+.dg svg .node.hi { fill: var(--ink); }
+.dg svg .node-t.hi { fill: var(--paper); }
+.dg svg .arrowhead { fill: var(--dg-line); }
+
+/* anatomy drawings (templates): zones with hatched spacing bands */
+.anat { display: grid; gap: var(--gutter); grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); }
+.anat-card { border: 1px solid var(--ink); background: var(--paper); display: grid; }
+.anat-z { position: relative; display: flex; align-items: center; justify-content: center; font-size: 13px; min-height: 36px; padding: 6px 10px; text-align: center; }
+.anat-z.pad { min-height: 14px; padding: 0; background: repeating-linear-gradient(-45deg, var(--dg-hatch) 0 2px, transparent 2px 6px); }
+.anat-z.chart { min-height: 150px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.anat-z .tag { position: absolute; left: 8px; top: 6px; font-family: var(--mono); font-size: 10.5px; color: var(--accent); text-transform: uppercase; letter-spacing: .02em; }
+.anat-z.title { font-weight: 600; font-size: 15px; }
+.anat-z.legend { display: grid; gap: 4px; justify-items: stretch; font-size: 12.5px; color: var(--ink-2); padding: 10px 18% 14px; }
+.anat-z.legend > div { display: flex; justify-content: space-between; gap: 12px; }
+.anat-z.legend i { display: inline-block; width: 10px; height: 10px; margin-right: 8px; vertical-align: -1px; }
+.sw1 { background: var(--ink-3); } .sw2 { background: var(--ink-2); } .sw3 { background: var(--ink); }
+.anat-donut { width: 110px; height: 110px; border-radius: 50%; background: conic-gradient(var(--ink) 0 8%, var(--ink-2) 8% 20%, var(--ink-3) 20% 100%); display: grid; place-items: center; }
+.anat-donut span { width: 58%; height: 58%; border-radius: 50%; background: var(--paper); display: grid; place-items: center; font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+.anat-bars { display: flex; align-items: flex-end; gap: 6px; height: 110px; width: 100%; padding: 0 6%; border-bottom: 1px solid var(--ink-3); }
+.anat-bars i { flex: 1; background: var(--ink-3); }
+.anat-bars i.hi { background: var(--ink); }
+
+/* modal template schematic */
+.anat-modal { border: 1px solid var(--ink); background: var(--paper); display: grid; grid-template-columns: 18fr 58fr 18fr; grid-template-rows: auto minmax(120px, auto) minmax(90px, auto); gap: 8px; padding: 8px; }
+.anat-modal > div { border: 1px solid var(--rule); position: relative; padding: 22px 10px 10px; font-size: 12.5px; color: var(--ink-2); }
+.anat-modal > div .tag { position: absolute; left: 8px; top: 6px; font-family: var(--mono); font-size: 10.5px; color: var(--ink); text-transform: uppercase; letter-spacing: .02em; }
+.anat-modal .m-title { grid-column: 1 / 3; padding: 10px; min-height: 0; }
+.anat-modal .m-title .tag { position: static; }
+.anat-modal .m-actions { grid-column: 3; grid-row: 1 / 3; }
+.anat-modal .m-table { grid-column: 1 / -1; }
+.anat-modal .hi { border-color: var(--accent); }
+.anat-modal .hi .tag { color: var(--accent); }
+
+.orig { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--rule); margin-left: 6px; white-space: nowrap; }
+.orig:hover { color: var(--accent); }
+
+@media (max-width: 1180px) {
+  .dg-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 14px; }
+  .dg-steps > *:nth-child(3n)::after, .dg-steps > *:nth-child(3n)::before { display: none; }
+}
+@media (max-width: 860px) {
+  .dg-lane, .dg-patterns > div { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
+  .dg-loops { grid-column: 1; }
+  .dg-steps { grid-template-columns: minmax(0, 1fr); row-gap: 14px; }
+  .dg-steps > *:not(:last-child)::after { top: auto; bottom: -11px; right: auto; left: 20px; width: 1px; height: 8px; }
+  .dg-steps > *:not(:last-child)::before { top: auto; bottom: -11px; right: auto; left: 17px; transform: rotate(135deg); }
+  .dg-steps > *:nth-child(3n)::after, .dg-steps > *:nth-child(3n)::before { display: block; }
+  .dg-node { min-height: 0; }
+  .anat { grid-template-columns: minmax(0, 1fr); }
+  .anat-modal { grid-template-columns: 1fr 2fr 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

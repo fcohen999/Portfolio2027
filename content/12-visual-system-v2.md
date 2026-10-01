@@ -152,3 +152,34 @@ The descriptions come from the current site, with one typo fixed
 - **Sound Transit:** the name "Sound Transit Accessibility Strategy" and its
   description are new. Please check them.
 - **Sport Shepherd:** its existing headline is used as the description.
+
+## Diagrams and stats (changed on request)
+
+**Stats removed.** The number column at the top of each case study is gone,
+and the title takes the space. Every figure that mattered is still in the body
+copy. The homepage intro still has its three stats (8 yrs, $3M+, 4 sectors).
+
+**Diagram language.** This is part of `system.css`, under DIAGRAMS. The
+diagrams below are redrawn in it instead of shown as pasted images:
+- AOMT Fig. 2: analyst workflow
+- AOMT Fig. 3: dependency model
+- AOMT Fig. 4: dependency patterns
+- ERMA Fig. 2: widget templates
+- ERMA Fig. 5: modal template
+
+Every redrawn diagram uses the same vocabulary:
+- **Analyst action:** outlined box
+- **System response:** filled pill
+- **Optional step:** dashed box
+- **Decision:** diamond
+- **Loop:** accent arrow
+- **Relation:** mono label on a hairline arrow
+- **Reserved spacing:** accent hatching
+
+Each caption has an "Original" link that opens the archived image, so the
+originals are still one click away. Screenshots, design-system sheets and
+infographics stay as images.
+
+Open question: the original AOMT dependency-pattern diagram marks two loops
+red and one green. The redraw keeps that as accent vs. ink but doesn't say
+what the colours meant.
