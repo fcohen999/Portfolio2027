@@ -69,7 +69,8 @@
 
   // ---- Lightbox: inspect any figure at full resolution ----
   var figImgs = document.querySelectorAll('.fig img, .tabs-viewer .panel img');
-  if (!figImgs.length || !window.HTMLDialogElement) return;
+  var origLinks = document.querySelectorAll('a.orig');
+  if ((!figImgs.length && !origLinks.length) || !window.HTMLDialogElement) return;
   var dlg = document.createElement('dialog');
   dlg.className = 'lightbox';
   dlg.innerHTML =
@@ -85,21 +86,26 @@
     dlg.classList.toggle('actual', on);
     sizeBtn.textContent = on ? 'Fit to screen' : 'Actual size';
   }
+  // label is "<fig no.> — <title>"
+  function open(src, alt, label) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    var parts = (label || alt || '').split(' — ');
+    lbCap.innerHTML = '';
+    if (parts.length > 1) {
+      var n = document.createElement('span'); n.className = 'num'; n.textContent = 'Fig. ' + parts.shift();
+      lbCap.appendChild(n);
+    }
+    lbCap.appendChild(document.createTextNode(parts.join(' — ')));
+    setActual(false);
+    dlg.showModal();
+  }
   figImgs.forEach(function (img) {
-    img.addEventListener('click', function () {
-      lbImg.src = img.currentSrc || img.src;
-      lbImg.alt = img.alt;
-      // data-label is "<fig no.> — <title>"
-      var parts = (img.getAttribute('data-label') || img.alt).split(' — ');
-      lbCap.innerHTML = '';
-      if (parts.length > 1) {
-        var n = document.createElement('span'); n.className = 'num'; n.textContent = 'Fig. ' + parts.shift();
-        lbCap.appendChild(n);
-      }
-      lbCap.appendChild(document.createTextNode(parts.join(' — ')));
-      setActual(false);
-      dlg.showModal();
-    });
+    img.addEventListener('click', function () { open(img.currentSrc || img.src, img.alt, img.getAttribute('data-label')); });
+  });
+  // "Original" links: without JS they simply open the file
+  origLinks.forEach(function (a) {
+    a.addEventListener('click', function (e) { e.preventDefault(); open(a.href, a.getAttribute('data-label'), a.getAttribute('data-label')); });
   });
   sizeBtn.addEventListener('click', function () { setActual(!dlg.classList.contains('actual')); });
   lbImg.addEventListener('click', function () { setActual(!dlg.classList.contains('actual')); });

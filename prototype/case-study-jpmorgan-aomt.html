@@ -4,18 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JPMorgan Asset Outage Modeling Tool — Fiona Cohen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running"><span class="num">04 / 08</span>J.P. Morgan Asset Outage Modeling Tool<span class="sep">/</span><span data-current></span></p>
+    <nav aria-label="Site">
       <a href="index.html">Work</a>
       <a href="resume.html">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
@@ -23,76 +21,221 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="page">
 
-  <a class="back-link" href="index.html">← Work</a>
-
-  <div class="cs-title">
-    <p class="eyebrow">JPMorgan Chase</p>
-    <h1>Modeling cascading infrastructure failure, grounded in one analyst's real workflow</h1>
-    <p class="subhead">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team over 8 months.</p>
-  </div>
-
-  <div class="cs-stats">
-    <div class="stat"><span class="num">8 MO</span><span class="caption">ENGAGEMENT TIMELINE</span></div>
-    <div class="stat"><span class="num">2</span><span class="caption">CORE WORKFLOWS THE TOOL WAS SCOPED AROUND</span></div>
-    <div class="stat"><span class="num">3</span><span class="caption">PERSON TEAM — DESIGN LEAD, SPECIALIST, PM</span></div>
-  </div>
-
-  <div class="cs-hero">
-    <div class="img-ph" style="aspect-ratio:16/9;">jpmorgan-aomt-hero.jpg</div>
-  </div>
-
-  <div class="cs-section">
-    <p class="eyebrow label">The Problem</p>
-    <div class="content">
-      <p>J.P. Morgan Chase's disaster management team needed to model the impact of essential service outages and cascading failures across critical financial infrastructure — the kind of scenario planning that directly feeds emergency preparation and regulatory compliance. Without a purpose-built tool, that analysis relied on manual, calculation-heavy workflows that ate into the time analysts should have spent on the actual strategic judgment calls.</p>
+  <header class="cs-head grid">
+    <p class="crumb key"><a href="index.html">← Index</a><span class="num">04 / 08</span></p>
+    <div class="title">
+      <h1>J.P. Morgan Asset Outage Modeling Tool</h1>
+      <p class="descriptor">A simulation tool for visualizing outage impacts and asset dependencies</p>
+      <p class="thesis">Modeling cascading infrastructure failure, grounded in one analyst's real workflow</p>
+      <p class="subhead">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team over 8 months.</p>
     </div>
-  </div>
+  </header>
 
-  <div class="cs-section">
-    <p class="eyebrow label">My Role</p>
-    <div class="content">
-      <p>I served as Reporting and Analytics Lead, working end-to-end from strategy through scoping, design, and final delivery, on a team with a Design Lead (Bill Hess), a Disaster Management Specialist (Meghan Hensley), and a PM (Eric Albright). My workstream owned the reporting and analytics side of the tool and the client relationship for that stream directly.</p>
-    </div>
-  </div>
+  <dl class="meta-strip grid">
+    <div><dt class="key">Client</dt><dd>J.P. Morgan Chase</dd></div>
+    <div><dt class="key">Role</dt><dd>Reporting &amp; Analytics Lead</dd></div>
+    <div><dt class="key">Team</dt><dd>Bill Hess (Design Lead), Meghan Hensley (Disaster Management Specialist), Eric Albright (PM)</dd></div>
+    <div><dt class="key">Duration</dt><dd>8 months</dd></div>
+  </dl>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Approach</p>
+  <div class="cs-body grid">
+
+    <nav class="rail" aria-label="Case study sections">
+      <span class="key">Contents</span>
+      <ol>
+        <li><a href="#fig-walkthrough"><span class="num">00</span><span>Walkthrough</span></a></li>
+        <li><a href="#problem"><span class="num">01</span><span>The Problem</span></a></li>
+        <li><a href="#role"><span class="num">02</span><span>My Role</span></a></li>
+        <li><a href="#approach"><span class="num">03</span><span>Approach</span></a>
+          <ol>
+            <li><a href="#fig-workflow">Figs. 2–4 — Workflow &amp; dependencies</a></li>
+            <li><a href="#fig-steps">Figs. 5–9 — Building a model</a></li>
+          </ol>
+        </li>
+        <li><a href="#outcome"><span class="num">04</span><span>Outcome</span></a></li>
+      </ol>
+      <div class="progress" aria-hidden="true"><i></i></div>
+    </nav>
+
     <div class="content">
-      <p>I grounded the research in the disaster management team's actual workflow rather than assumptions: user interviews, workflow observation sessions, and a direct study of government disaster-readiness regulations, specifically to understand how dependencies between assets work in practice. That research surfaced a two-task core workflow — search across assets and compliance criteria, then map the interdependencies between them to expose cascading failure risk — and I used a concrete hypothetical scenario (modeling hurricane-season disruption to Florida's infrastructure) to keep every design decision tied to a real use case instead of an abstraction.</p>
-      <p>From that research, I made a specific interaction call: analysts needed to adjust their models without starting over, watching the impact of a criteria change in real time. That requirement drove a two-pane layout — criteria selection always visible on one side, the dependency view reacting live on the other — rather than a linear wizard-style flow that would have forced analysts to commit to criteria before seeing any impact. Because most analysts' actual workflow ended in Excel, I made data-table export a first-class action throughout, not an afterthought bolted onto the end.</p>
-      <div class="shot-grid">
-        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-aomt-criteria-panel.jpg</div>
-        <div class="img-ph" style="aspect-ratio:4/3;">jpmorgan-aomt-dependency-view.jpg</div>
+
+      <div class="fig-group lead" id="fig-walkthrough">
+        <div class="gh">
+          <h3>Walkthrough</h3>
+          <p>The modeler from an empty state to a dependency view, recorded in the prototype. 34 seconds, no sound.</p>
+        </div>
+        <figure class="fig span-main" data-fig="Fig. 1">
+          <video controls muted playsinline preload="metadata" poster="../assets/old-site/outage-modeler/files/image-01.png" width="2490" height="1362">
+            <source src="../assets/old-site/outage-modeler/files/video-01.mp4" type="video/mp4">
+          </video>
+          <figcaption><span class="num">Fig. 1</span><span><b>Asset Outage Modeler, end to end.</b> Enter criteria, create the model, switch to Filters, then use the Dependency Selector to see what the selected asset depends on. Each step is broken out in Figs. 5–9.</span></figcaption>
+        </figure>
       </div>
+
+      <div class="band">
+        <section class="sec" id="problem">
+          <div class="sec-label"><span class="num">01</span><h2>The Problem</h2></div>
+          <div class="prose">
+            <p>J.P. Morgan Chase's disaster management team needed to model the impact of essential service outages and cascading failures across critical financial infrastructure — the kind of scenario planning that directly feeds emergency preparation and regulatory compliance. Without a purpose-built tool, that analysis relied on manual, calculation-heavy workflows that ate into the time analysts should have spent on the actual strategic judgment calls.</p>
+          </div>
+        </section>
+        <section class="sec" id="role">
+          <div class="sec-label"><span class="num">02</span><h2>My Role</h2></div>
+          <div class="prose">
+            <p>I served as Reporting and Analytics Lead, working end-to-end from strategy through scoping, design, and final delivery, on a team with a Design Lead (Bill Hess), a Disaster Management Specialist (Meghan Hensley), and a PM (Eric Albright). My workstream owned the reporting and analytics side of the tool and the client relationship for that stream directly.</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="sec" id="approach">
+        <div class="sec-label"><span class="num">03</span><h2>Approach</h2></div>
+        <div class="prose">
+          <p>I grounded the research in the disaster management team's actual workflow rather than assumptions: user interviews, workflow observation sessions, and a direct study of government disaster-readiness regulations, specifically to understand how dependencies between assets work in practice. That research surfaced a two-task core workflow — search across assets and compliance criteria, then map the interdependencies between them to expose cascading failure risk — and I used a concrete hypothetical scenario (modeling hurricane-season disruption to Florida's infrastructure) to keep every design decision tied to a real use case instead of an abstraction.</p>
+        </div>
+        <aside class="aside">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-workflow">Fig. 2</a> Analyst workflow<br>
+          <a class="link" href="#fig-workflow">Fig. 3</a> Dependency model<br>
+          <a class="link" href="#fig-workflow">Fig. 4</a> Dependency patterns
+        </aside>
+
+        <div class="fig-group" id="fig-workflow">
+          <div class="gh">
+            <h3>Workflow &amp; dependencies</h3>
+            <p>What the research produced: the analyst's task flow, and how assets depend on one another.</p>
+          </div>
+          <figure class="fig span-main dg" data-fig="Fig. 2">
+            <div class="dg-lane"><span class="key">Lane 1</span><div class="dg-steps" style="--n: 6">
+              <div class="dg-node"><span>Select criteria type</span></div>
+              <div class="dg-node"><span>Search for asset or enter Asset ID</span></div>
+              <div class="dg-node"><span>Click Add Criteria</span></div>
+              <div class="dg-node sys"><span>Selection appears in table</span></div>
+              <div class="dg-node"><span>Review criteria selection(s) in table</span></div>
+              <div class="dg-node opt"><span>Select criteria restrictions</span></div>
+            </div>
+            <p class="dg-loops"><span>Click Add Criteria → back to Select criteria type, as needed</span></p>
+            </div>
+            <div class="dg-lane"><span class="key">Lane 2</span><div class="dg-steps" style="--n: 6">
+              <div class="dg-node"><span>Select applicable work stream / office…</span></div>
+              <div class="dg-node"><span>Generate model</span></div>
+              <div class="dg-node sys"><span>Wait</span></div>
+              <div class="dg-node sys"><span>Model is generated</span></div>
+              <div class="dg-node"><span>View model</span></div>
+              <div class="dg-dec"><div class="no">Not correct</div><div>Correct → lane 3</div></div>
+            </div>
+            <p class="dg-loops"><span>Model not correct → back to lane 1</span></p>
+            </div>
+            <div class="dg-lane"><span class="key">Lane 3</span><div class="dg-steps" style="--n: 6">
+              <div class="dg-node opt"><span>Select outage timeframe</span></div>
+              <div class="dg-node opt"><span>Click “Go”</span></div>
+              <div class="dg-node sys"><span>Model adjusts</span></div>
+              <div class="dg-node opt"><span>View model</span></div>
+              <div class="dg-node opt"><span>Select optional filters</span></div>
+              <div class="dg-node sys"><span>Model adjusts</span></div>
+            </div>
+            </div>
+            <div class="dg-lane"><span class="key">Lane 4</span><div class="dg-steps" style="--n: 6">
+              <div class="dg-node"><span>Click on number in direct impacts or supportin…</span></div>
+              <div class="dg-node sys"><span>Modal with data table opens</span></div>
+              <div class="dg-node"><span>Download table in Excel format for later use</span></div>
+              <div class="dg-node"><span>Select row in table to begin to use dependency…</span></div>
+              <div class="dg-node"><span>Toggle on either dependency selector to v…</span></div>
+              <div class="dg-node sys"><span>Second table appears in right pane</span></div>
+            </div>
+            <p class="dg-loops"><span>Download → back to Click on number, as needed</span><span>Toggle → back to Select row, as needed</span><span>Second table → back to Select row, as needed</span></p>
+            </div>
+            <p class="dg-legend"><span><i class="l-act"></i>Analyst action</span><span><i class="l-sys"></i>System response</span><span><i class="l-opt"></i>Optional step</span><span><i class="l-dec"></i>Decision</span><span><i class="l-loop"></i>Repeat as needed</span></p>
+            <figcaption><span class="num">Fig. 2</span><span><b>Analyst workflow.</b> Define criteria, generate and check the model, adjust it, then open, export and trace dependencies. Lanes read left to right; the last step of each lane leads to the next.<a class="orig" href="../assets/old-site/home/files/image-04-outage-modeler.png" data-label="2 — Analyst workflow (original)">Original</a></span></figcaption>
+          </figure>
+          <figure class="fig span-a dg" data-fig="Fig. 3">
+            <svg viewBox="0 0 500 300" role="img" aria-label="Asset 1 depends on Assets 2, 3, 4 and 5"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="arrowhead"/></marker></defs><line class="edge" x1="218.9" y1="236.3" x2="112.9" y2="189.5" marker-end="url(#ah)"/><text class="mono" x="173.9" y="212.9">depends on</text><line class="edge" x1="230.6" y1="222.0" x2="135.5" y2="84.6" marker-end="url(#ah)"/><text class="mono" x="191.1" y="153.3">depends on</text><line class="edge" x1="254.8" y1="216.3" x2="269.9" y2="110.6" marker-end="url(#ah)"/><text class="mono" x="270.4" y="163.5">depends on</text><line class="edge" x1="277.6" y1="230.1" x2="400.8" y2="141.1" marker-end="url(#ah)"/><text class="mono" x="347.2" y="185.6">depends on</text><circle class="node" cx="80" cy="175" r="34"/><text x="80" y="180" text-anchor="middle" font-size="13">Asset 2</text><circle class="node" cx="115" cy="55" r="34"/><text x="115" y="60" text-anchor="middle" font-size="13">Asset 3</text><circle class="node" cx="275" cy="75" r="34"/><text x="275" y="80" text-anchor="middle" font-size="13">Asset 4</text><circle class="node" cx="430" cy="120" r="34"/><text x="430" y="125" text-anchor="middle" font-size="13">Asset 5</text><circle class="node hi" cx="250" cy="250" r="34"/><text class="node-t hi" x="250" y="255" text-anchor="middle" font-size="13" font-weight="600">Asset 1</text></svg>
+            <figcaption><span class="num">Fig. 3</span><span><b>Dependency model.</b> One asset depending on four others — the unit the modeler reasons about.<a class="orig" href="../assets/old-site/outage-modeler/files/image-04.png" data-label="3 — Dependency model (original)">Original</a></span></figcaption>
+          </figure>
+          <figure class="fig span-b dg" data-fig="Fig. 4">
+            <div class="dg-patterns">
+              <div><span class="key">1</span><div class="lines"><div class="dg-rel "><span class="a">Asset A</span><span class="r">depends on</span><span class="a">Asset B</span></div><div class="dg-rel "><span class="a">Asset B</span><span class="r">is a dependency for</span><span class="a">Asset A</span></div></div></div>
+              <div><span class="key">2</span><div class="lines"><div class="dg-rel "><span class="a">Asset A</span><span class="r">depends on</span><span class="a">Asset B</span></div><div class="dg-rel loop"><span class="a">Asset B</span><span class="r">depends on</span><span class="a">Asset A</span></div></div></div>
+              <div><span class="key">3</span><div class="lines"><div class="dg-rel "><span class="a">Asset B</span><span class="r">depends on</span><span class="a">Asset C</span><span class="r">depends on</span><span class="a">Asset D</span></div><div class="dg-rel "><span class="a">Asset D</span><span class="r">is a dependency for</span><span class="a">Asset B</span></div></div></div>
+              <div><span class="key">4</span><div class="lines"><div class="dg-rel "><span class="a">Asset B</span><span class="r">depends on</span><span class="a">Asset C</span><span class="r">depends on</span><span class="a">Asset D</span></div><div class="dg-rel loop"><span class="a">Asset D</span><span class="r">depends on</span><span class="a">Asset B</span></div></div></div>
+              <div><span class="key">5</span><div class="lines"><div class="dg-rel "><span class="a">Asset B</span><span class="r">depends on</span><span class="a">Asset F</span><span class="r">depends on</span><span class="a">Asset G</span></div><div class="dg-rel loop2"><span class="a">Asset G</span><span class="r">depends on</span><span class="a">Asset B</span></div></div></div>
+            </div>
+            <p class="dg-legend"><span><i class="l-loop"></i>Loop — red in the original</span><span><i style="border-top:1.5px solid var(--ink);height:0"></i>Loop — green in the original</span></p>
+            <figcaption><span class="num">Fig. 4</span><span><b>Dependency patterns.</b> The same relationship read both ways (1, 3), a two-asset loop (2), and loops through a chain (4, 5).<a class="orig" href="../assets/old-site/outage-modeler/files/image-05.png" data-label="4 — Dependency patterns (original)">Original</a></span></figcaption>
+          </figure>
+        </div>
+
+        <div class="prose" style="margin-top: var(--s5)">
+          <p>From that research, I made a specific interaction call: analysts needed to adjust their models without starting over, watching the impact of a criteria change in real time. That requirement drove a two-pane layout — criteria selection always visible on one side, the dependency view reacting live on the other — rather than a linear wizard-style flow that would have forced analysts to commit to criteria before seeing any impact. Because most analysts' actual workflow ended in Excel, I made data-table export a first-class action throughout, not an afterthought bolted onto the end.</p>
+        </div>
+        <aside class="aside" style="margin-top: var(--s5)">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-steps">Figs. 5–9</a> Building a model, step by step
+        </aside>
+
+        <div class="fig-group" id="fig-steps">
+          <div class="gh">
+            <h3>Building a model</h3>
+            <p>The same two-pane screen at each step, with the control that changed shown at full size beside it.</p>
+          </div>
+
+          <div class="step">
+            <p class="step-head"><span class="num">Fig. 5</span><b>Empty state.</b><span>Criteria panel on the left; the results pane explains what to do first.</span></p>
+            <figure class="fig step-main"><div class="plate-img matte-sm"><img src="../assets/old-site/outage-modeler/files/image-01.png" width="2880" height="1580" loading="lazy" alt="Asset Outage Modeler empty state: criteria panel and an Enter Search Criteria prompt" data-label="5 — Empty state"></div></figure>
+          </div>
+
+          <div class="step">
+            <p class="step-head"><span class="num">Fig. 6</span><b>Criteria added, model created.</b><span>Direct Impacts and Supporting Assets fill the right pane; the criteria stay editable on the left.</span></p>
+            <figure class="fig step-main"><div class="plate-img matte-sm"><img src="../assets/old-site/outage-modeler/files/image-02.png" width="2880" height="1580" loading="lazy" alt="Modeler with one application criterion selected and Direct Impacts and Supporting Assets tables" data-label="6 — Model created"></div></figure>
+            <figure class="fig step-side"><div class="plate-img matte"><img src="../assets/old-site/outage-modeler/files/image-06.png" width="1170" height="1318" loading="lazy" alt="Detail: Criteria tab with criteria type, ID search, selected criteria table, site usage, hierarchy and Create Model" data-label="6 — Criteria panel, detail"></div>
+              <figcaption><span class="num">6, detail</span><span>Criteria panel: type, ID, selected criteria, site usage, hierarchy.</span></figcaption></figure>
+          </div>
+
+          <div class="step">
+            <p class="step-head"><span class="num">Fig. 7</span><b>Filters tab.</b><span>Outage timeframe, CPOF/TROL asset filters and the Dependency Selector, with the results still in view.</span></p>
+            <figure class="fig step-main"><div class="plate-img matte-sm"><img src="../assets/old-site/outage-modeler/files/image-03.png" width="2880" height="1580" loading="lazy" alt="Filters tab with outage timeframe of 72 hours, CPOF only, and Dependency Selector; dependent impacts tables on the right" data-label="7 — Filters tab"></div></figure>
+            <figure class="fig step-side"><div class="plate-img matte"><img src="../assets/old-site/outage-modeler/files/image-07.png" width="405" height="251" loading="lazy" alt="Detail: Dependency Selector with View Dependents on and View Dependent On off" data-label="7 — Dependency Selector, detail"></div>
+              <figcaption><span class="num">7, detail</span><span>Dependency Selector: View Dependents / View Dependent On.</span></figcaption></figure>
+          </div>
+
+          <div class="step">
+            <p class="step-head"><span class="num">Fig. 8</span><b>Dependent impacts.</b><span>With a dependency toggle on, selecting a row in Direct Impacts opens a second set of tables in the right pane.</span></p>
+            <figure class="fig step-main" style="grid-column: 1 / 5"><div class="plate-img matte"><img src="../assets/old-site/outage-modeler/files/image-08.png" width="1124" height="1226" loading="lazy" alt="Direct Impacts with Essential Services selected, beside Dependent Direct Impacts and Dependent Supporting Assets tables" data-label="8 — Dependent impacts"></div></figure>
+          </div>
+
+          <div class="step">
+            <p class="step-head"><span class="num">Fig. 9</span><b>Export.</b><span>Clicking a quantity opens its data table in a modal; Download exports it for Excel.</span></p>
+            <figure class="fig step-main"><div class="plate-img matte"><img src="../assets/old-site/outage-modeler/files/image-09.png" width="2400" height="1200" loading="lazy" alt="Impacted Essential Services modal listing six services with a Download button" data-label="9 — Export modal"></div></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="outcome">
+        <div class="sec-label"><span class="num">04</span><h2>Outcome</h2></div>
+        <div class="prose">
+          <p>AOMT gave J.P. Morgan's disaster management analysts a tool that automated the calculation-heavy parts of outage modeling, so their time went toward strategic judgment instead of manual analysis — while integrating with the Excel-based habits analysts already had, rather than asking them to abandon their existing workflow.</p>
+        </div>
+      </section>
+
     </div>
   </div>
 
-  <div class="cs-section">
-    <p class="eyebrow label">Outcome</p>
-    <div class="content">
-      <p>AOMT gave J.P. Morgan's disaster management analysts a tool that automated the calculation-heavy parts of outage modeling, so their time went toward strategic judgment instead of manual analysis — while integrating with the Excel-based habits analysts already had, rather than asking them to abandon their existing workflow.</p>
-    </div>
-  </div>
-
-  <div class="cs-footer-nav">
-    <a href="case-study-jpmorgan-dashboards.html">← JPMorgan Risk Management Dashboards</a>
-    <a href="case-study-doj.html">DOJ Time to Hire →</a>
-  </div>
+  <nav class="pager grid" aria-label="More case studies">
+    <a class="prev" href="case-study-jpmorgan-dashboards.html"><span class="key">← 03 Previous</span><span class="t">J.P. Morgan Risk Management Dashboards</span></a>
+    <a class="next" href="case-study-doj.html"><span class="key">Next 05 →</span><span class="t">DOJ Time to Hire</span></a>
+  </nav>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="resume.html">Resume</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="resume.html">Resume</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 
+<script src="system.js"></script>
 </body>
 </html>
