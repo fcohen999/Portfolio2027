@@ -29,7 +29,7 @@
       <h1>J.P. Morgan Asset Outage Modeling Tool</h1>
       <p class="descriptor">A simulation tool for visualizing outage impacts and asset dependencies</p>
       <p class="thesis">Modeling cascading infrastructure failure, grounded in one analyst's real workflow</p>
-      <p class="subhead">Reporting &amp; Analytics Lead — the Asset Outage Modeling Tool, built with a 3-person team over 8 months.</p>
+      <p class="subhead">Reporting &amp; Analytics Lead on a 3-person core team — 8 weeks to turn an unsolved modeling problem into a tool J.P. Morgan put in front of its own stakeholders.</p>
     </div>
   </header>
 
@@ -37,7 +37,7 @@
     <div><dt class="key">Client</dt><dd>J.P. Morgan Chase</dd></div>
     <div><dt class="key">Role</dt><dd>Reporting &amp; Analytics Lead</dd></div>
     <div><dt class="key">Team</dt><dd>Bill Hess (Design Lead), Meghan Hensley (Disaster Management Specialist), Eric Albright (PM)</dd></div>
-    <div><dt class="key">Duration</dt><dd>8 months</dd></div>
+    <div><dt class="key">Duration</dt><dd>8 weeks to delivery</dd></div>
   </dl>
 
   <div class="cs-body grid">
@@ -46,15 +46,19 @@
       <span class="key">Contents</span>
       <ol>
         <li><a href="#fig-walkthrough"><span class="num">00</span><span>Walkthrough</span></a></li>
-        <li><a href="#problem"><span class="num">01</span><span>The Problem</span></a></li>
-        <li><a href="#role"><span class="num">02</span><span>My Role</span></a></li>
-        <li><a href="#approach"><span class="num">03</span><span>Approach</span></a>
+        <li><a href="#problem"><span class="num">01</span><span>The problem</span></a></li>
+        <li><a href="#concrete"><span class="num">02</span><span>Making it concrete</span></a>
           <ol>
             <li><a href="#fig-workflow">Figs. 2–4 — Workflow &amp; dependencies</a></li>
+          </ol>
+        </li>
+        <li><a href="#decisions"><span class="num">03</span><span>Product decisions</span></a>
+          <ol>
             <li><a href="#fig-steps">Figs. 5–9 — Building a model</a></li>
           </ol>
         </li>
-        <li><a href="#outcome"><span class="num">04</span><span>Outcome</span></a></li>
+        <li><a href="#workstream"><span class="num">04</span><span>Representing the workstream</span></a></li>
+        <li><a href="#outcome"><span class="num">05</span><span>Outcome</span></a></li>
       </ol>
       <div class="progress" aria-hidden="true"><i></i></div>
     </nav>
@@ -74,25 +78,32 @@
         </figure>
       </div>
 
-      <div class="band">
-        <section class="sec" id="problem">
-          <div class="sec-label"><span class="num">01</span><h2>The Problem</h2></div>
-          <div class="prose">
-            <p>J.P. Morgan Chase's disaster management team needed to model the impact of essential service outages and cascading failures across critical financial infrastructure — the kind of scenario planning that directly feeds emergency preparation and regulatory compliance. Without a purpose-built tool, that analysis relied on manual, calculation-heavy workflows that ate into the time analysts should have spent on the actual strategic judgment calls.</p>
-          </div>
-        </section>
-        <section class="sec" id="role">
-          <div class="sec-label"><span class="num">02</span><h2>My Role</h2></div>
-          <div class="prose">
-            <p>I served as Reporting and Analytics Lead, working end-to-end from strategy through scoping, design, and final delivery, on a team with a Design Lead (Bill Hess), a Disaster Management Specialist (Meghan Hensley), and a PM (Eric Albright). My workstream owned the reporting and analytics side of the tool and the client relationship for that stream directly.</p>
-          </div>
-        </section>
-      </div>
-
-      <section class="sec" id="approach">
-        <div class="sec-label"><span class="num">03</span><h2>Approach</h2></div>
+      <section class="sec" id="problem">
+        <div class="sec-label"><span class="num">01</span><h2>The problem</h2></div>
         <div class="prose">
-          <p>I grounded the research in the disaster management team's actual workflow rather than assumptions: user interviews, workflow observation sessions, and a direct study of government disaster-readiness regulations, specifically to understand how dependencies between assets work in practice. That research surfaced a two-task core workflow — search across assets and compliance criteria, then map the interdependencies between them to expose cascading failure risk — and I used a concrete hypothetical scenario (modeling hurricane-season disruption to Florida's infrastructure) to keep every design decision tied to a real use case instead of an abstraction.</p>
+          <p>J.P. Morgan's disaster management team needed to model how outages across critical financial infrastructure could cascade through the assets and services that depended on them — the kind of scenario planning that feeds directly into emergency preparation and regulatory compliance.</p>
+          <p>The problem had resisted an earlier internal attempt. The hard part wasn't simply visualizing complicated data. An asset could depend on one thing while simultaneously supporting another, with those relationships extending into increasingly complicated chains.</p>
+          <p>We had to translate that abstract, bidirectional dependency logic into something an analyst could actually use to make decisions under time pressure.</p>
+          <h3>My role</h3>
+          <p>I led Reporting &amp; Analytics end-to-end — research, scoping, product decisions, design, delivery, and the direct client relationship — alongside Bill Hess, Design Lead for the broader ERMA platform; Meghan Hensley, Disaster Management Specialist; and Eric Albright, PM.</p>
+          <p>Bill owned design direction for ERMA as a whole. I owned the outage modeling and reporting experience specifically, working with Meghan to understand the domain, the product team to translate business requirements into priorities, and engineering to keep those decisions buildable.</p>
+          <p>That put me in the room translating disaster-management requirements into product decisions — and defending those decisions with the client directly.</p>
+        </div>
+        <aside class="aside">
+          <span class="key">See</span>
+          <a class="link" href="#fig-workflow">Figs. 3–4</a> The dependency model and its patterns
+        </aside>
+      </section>
+
+      <section class="sec" id="concrete">
+        <div class="sec-label"><span class="num">02</span><h2>Making the abstraction concrete</h2></div>
+        <div class="prose">
+          <p>I couldn't design against "cascading infrastructure failure" as a concept, so I made it concrete.</p>
+          <p>I built one scenario: <strong>a hurricane disrupting Florida's critical infrastructure during the 2024 season.</strong></p>
+          <p>Then I worked through it the way an analyst would: What would they search for? Which criteria mattered? What relationships would they need to inspect? What would they need to understand from the result to make a decision?</p>
+          <p>That exercise reduced a sprawling modeling problem to two core jobs:</p>
+          <p><strong>Build the model. Understand its impact.</strong></p>
+          <p>Those became the organizing principle for the product.</p>
         </div>
         <aside class="aside">
           <span class="key">In this section</span>
@@ -165,11 +176,19 @@
             <figcaption><span class="num">Fig. 4</span><span><b>Dependency patterns.</b> The same relationship read both ways (1, 3), a two-asset loop (2), and loops through a chain (4, 5).<a class="orig" href="../assets/old-site/outage-modeler/files/image-05.png" data-label="4 — Dependency patterns (original)">Original</a></span></figcaption>
           </figure>
         </div>
+      </section>
 
-        <div class="prose" style="margin-top: var(--s5)">
-          <p>From that research, I made a specific interaction call: analysts needed to adjust their models without starting over, watching the impact of a criteria change in real time. That requirement drove a two-pane layout — criteria selection always visible on one side, the dependency view reacting live on the other — rather than a linear wizard-style flow that would have forced analysts to commit to criteria before seeing any impact. Because most analysts' actual workflow ended in Excel, I made data-table export a first-class action throughout, not an afterthought bolted onto the end.</p>
+      <section class="sec" id="decisions">
+        <div class="sec-label"><span class="num">03</span><h2>Turning complexity into product decisions</h2></div>
+        <div class="prose">
+          <p>Working through the scenario exposed something the interface had to make intuitive: <strong>dependency wasn't one-directional.</strong></p>
+          <p>Analysts needed to understand both what depended on an asset and what that asset depended on. Rather than create separate workflows for each direction, I collapsed that complexity into one control: <strong>View Dependents / View Dependent On.</strong></p>
+          <p>That same requirement shaped the larger interaction model. Analysts needed to change their criteria and immediately understand the effect, so I pushed for a persistent <strong>two-pane experience instead of a linear wizard</strong>. Criteria remained visible while the resulting dependencies updated beside them, letting analysts refine a model without repeatedly starting over.</p>
+          <p>But simplifying the experience also meant deciding where <em>not</em> to spend engineering effort.</p>
+          <p>Multi-level dependency chains were expensive to support and weren't necessary to make the core workflow useful, so I kept them out of v1. And when analysts reached the point where they needed deeper manipulation of the data, I didn't recreate mature functionality they already had in Excel. I made structured export part of the workflow instead.</p>
+          <p><strong>Spend complexity where it changes the analyst's job, not where it simply makes the product bigger.</strong></p>
         </div>
-        <aside class="aside" style="margin-top: var(--s5)">
+        <aside class="aside">
           <span class="key">In this section</span>
           <a class="link" href="#fig-steps">Figs. 5–9</a> Building a model, step by step
         </aside>
@@ -211,10 +230,25 @@
         </div>
       </section>
 
-      <section class="sec" id="outcome">
-        <div class="sec-label"><span class="num">04</span><h2>Outcome</h2></div>
+      <section class="sec" id="workstream">
+        <div class="sec-label"><span class="num">04</span><h2>From designing the product to representing the workstream</h2></div>
         <div class="prose">
-          <p>AOMT gave J.P. Morgan's disaster management analysts a tool that automated the calculation-heavy parts of outage modeling, so their time went toward strategic judgment instead of manual analysis — while integrating with the Excel-based habits analysts already had, rather than asking them to abandon their existing workflow.</p>
+          <p>As AOMT took shape, the work stopped functioning only as an internal design deliverable.</p>
+          <p>My wireframes became the material J.P. Morgan used to put the product in front of its own LOB/CF representatives. That meant I wasn't only responsible for making the interaction work; I was representing the product decisions behind it as requirements continued to evolve.</p>
+          <p>Meghan Hensley put that shift on record:</p>
+        </div>
+        <blockquote class="quote">
+          <p>“I want to recognize Fiona for her work on the [JPMC ERMA] Asset Outage Modeler. She has enthusiastically accepted the challenge of creating a seemingly million wireframes for the modeler as the requirements are refined. Her wires were leveraged today for the presentation to the LOB/CF representatives with great success.”</p>
+          <footer><b>Meghan Hensley</b><span>Disaster Management Specialist, JPMC</span></footer>
+        </blockquote>
+      </section>
+
+      <section class="sec" id="outcome">
+        <div class="sec-label"><span class="num">05</span><h2>Outcome</h2></div>
+        <div class="prose">
+          <p>J.P. Morgan <strong>extended the engagement by six months and provided budget to add three people to the project team.</strong> The tool also continued to pick up features and grow in usage after delivery.</p>
+          <p>AOMT started as an abstract modeling problem that had resisted an earlier attempt. Eight weeks later, J.P. Morgan was using the work with its own stakeholders and investing additional time, budget, and people in the engagement.</p>
+          <p><strong>The strongest validation wasn't simply that we delivered the tool. It was that the client chose to keep investing in the workstream behind it.</strong></p>
         </div>
       </section>
 

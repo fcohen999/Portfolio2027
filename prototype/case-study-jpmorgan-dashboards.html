@@ -28,16 +28,16 @@
     <div class="title">
       <h1>J.P. Morgan Risk Management Dashboards</h1>
       <p class="descriptor">Designing dashboards for bank resiliency, planning, risk management, and compliance</p>
-      <p class="thesis">Replacing a 1990s dashboard tool with a system built to stay affordable at scale</p>
-      <p class="subhead">UX Design Lead — ERMA, a centralized resiliency and risk-management platform for bank compliance and planning.</p>
+      <p class="thesis">Turning endless reporting requests into a system JPMC could actually afford to scale</p>
+      <p class="subhead">Reporting &amp; Analytics Lead for ERMA, J.P. Morgan Chase's enterprise resiliency and risk-management platform. I was brought onto the project specifically to lead reporting and analytics because of my background in data design.</p>
     </div>
   </header>
 
   <dl class="meta-strip grid">
     <div><dt class="key">Client</dt><dd>J.P. Morgan Chase</dd></div>
-    <div><dt class="key">Role</dt><dd>UX Design Lead</dd></div>
+    <div><dt class="key">Role</dt><dd>Reporting &amp; Analytics Lead</dd></div>
     <div><dt class="key">Product</dt><dd>ERMA — resiliency &amp; risk-management platform</dd></div>
-    <div><dt class="key">Scope</dt><dd>Reporting &amp; analytics dashboards; widget and modal system</dd></div>
+    <div><dt class="key">Engagement</dt><dd>1 year; 4 core dashboard areas; 1 reusable widget + modal system</dd></div>
   </dl>
 
   <div class="cs-body grid">
@@ -46,16 +46,25 @@
       <span class="key">Contents</span>
       <ol>
         <li><a href="#fig-tabs"><span class="num">00</span><span>Dashboard tabs</span></a></li>
-        <li><a href="#problem"><span class="num">01</span><span>The Problem</span></a></li>
-        <li><a href="#role"><span class="num">02</span><span>My Role</span></a></li>
-        <li><a href="#approach"><span class="num">03</span><span>Approach</span></a>
+        <li><a href="#problem"><span class="num">01</span><span>The problem</span></a></li>
+        <li><a href="#variety"><span class="num">02</span><span>Less variety than it looked</span></a></li>
+        <li><a href="#system"><span class="num">03</span><span>A small system</span></a>
           <ol>
             <li><a href="#fig-widgets">Figs. 2–4 — Widgets</a></li>
+          </ol>
+        </li>
+        <li><a href="#layers"><span class="num">04</span><span>Layers, not less</span></a>
+          <ol>
             <li><a href="#fig-modals">Figs. 5–6 — Modals</a></li>
+          </ol>
+        </li>
+        <li><a href="#metric"><span class="num">05</span><span>Metric to data</span></a>
+          <ol>
             <li><a href="#fig-states">Fig. 7 — Modal states</a></li>
           </ol>
         </li>
-        <li><a href="#outcome"><span class="num">04</span><span>Outcome</span></a></li>
+        <li><a href="#pressure"><span class="num">06</span><span>Keeping it intact</span></a></li>
+        <li><a href="#outcome"><span class="num">07</span><span>The foundation</span></a></li>
       </ol>
       <div class="progress" aria-hidden="true"><i></i></div>
     </nav>
@@ -91,26 +100,50 @@
         </figure>
       </div>
 
-
-      <div class="band">
-        <section class="sec" id="problem">
-          <div class="sec-label"><span class="num">01</span><h2>The Problem</h2></div>
-          <div class="prose">
-            <p>J.P. Morgan Chase's disaster-resiliency and risk-management teams were still working from a dashboard tool that had been in place since the 1990s — not built for the volume of metrics, stakeholder variety, or regulatory precision the bank's compliance obligations now require. Every new reporting need risked becoming a one-off build, which doesn't hold up when the requirement is standing across government regulation.</p>
-          </div>
-        </section>
-        <section class="sec" id="role">
-          <div class="sec-label"><span class="num">02</span><h2>My Role</h2></div>
-          <div class="prose">
-            <p>I served as UX Design Lead on ERMA, a suite of tools centralizing resiliency data and risk-management activity for the bank — covering incident planning, compliance reporting, and asset/employee protection across a four-tab dashboard structure.</p>
-          </div>
-        </section>
-      </div>
-
-      <section class="sec" id="approach">
-        <div class="sec-label"><span class="num">03</span><h2>Approach</h2></div>
+      <section class="sec" id="problem">
+        <div class="sec-label"><span class="num">01</span><h2>The problem</h2></div>
         <div class="prose">
-          <p>The critical constraint wasn't features, it was cost of scale: whatever reporting system I designed had to stay affordable to extend as new metrics and regulatory requirements inevitably got added later. Working within Chase's existing design system, I built a modular widget-and-modal pattern that could be dropped anywhere across the reporting and analytics dashboards, rather than custom-building each new report view. Information Hub — a centralized summary surfacing the key metrics from a user's network resilience plan — became the reference implementation for that pattern.</p>
+          <p>J.P. Morgan Chase was replacing disaster management and resiliency planning software that had been in use since the 1990s with ERMA: a centralized platform for developing, implementing, and monitoring the bank's resiliency and risk-management plans.</p>
+          <p>This wasn't reporting for its own sake. Disaster management and resiliency planning is how a bank the size of JPMC protects customers, employees, and assets when something goes wrong — and it's also how the bank demonstrates to regulators that it's meeting its obligations. If ERMA's reporting layer couldn't keep pace with what resiliency specialists and risk teams needed to see, that wasn't a UI inconvenience. It was a gap in the bank's ability to show its own compliance.</p>
+          <p>Risk and compliance teams used ERMA's reporting directly — it wasn't a downstream summary someone translated later. Whatever the reporting layer could or couldn't show <em>was</em> what those teams had to work with.</p>
+          <p>Reporting and analytics had every reason to become unmanageable trying to meet that bar.</p>
+          <p>JPMC had a tremendous amount of data, limited engineering capacity, and a large group of business analysts, resiliency specialists, and other stakeholders who all had opinions about what the product should report. Requests changed constantly. New metrics appeared. Stakeholders asked for different graph types and different ways of representing essentially the same kinds of information.</p>
+          <p>The engineers responsible for building it were already overstretched.</p>
+          <p>I had been brought in specifically to lead Reporting &amp; Analytics because data design was an area I was known for. My job wasn't simply to turn that backlog of requests into dashboards. I needed to figure out how much of that complexity the product actually needed to inherit.</p>
+          <p>If every reporting request became a bespoke design and engineering problem, ERMA would become increasingly expensive to build every time it grew — and the reporting a regulated bank depended on would be at the mercy of whatever engineering capacity happened to be available that quarter.</p>
+        </div>
+      </section>
+
+      <section class="sec" id="variety">
+        <div class="sec-label"><span class="num">02</span><h2>The apparent variety wasn't actually that varied</h2></div>
+        <div class="prose">
+          <p>Once I looked across the reporting requirements, a pattern became obvious.</p>
+          <p>Despite stakeholders asking for many different graphs, the overwhelming majority of the data could be represented through a much smaller visualization vocabulary — primarily pie charts and histograms. Even data being requested in other formats could generally be communicated effectively through those same structures.</p>
+          <p>That changed the problem.</p>
+          <p>I didn't need to design an interface capable of accommodating an unlimited number of visualization types. I needed to design a small number of patterns flexible enough to accommodate a very large number of <strong>metrics</strong>.</p>
+          <p>So I deliberately constrained the system.</p>
+          <p>Rather than giving every request its own graph type, component, and implementation, I established a limited visualization vocabulary and designed the reporting architecture around it.</p>
+          <p>That was the central product decision: <strong>give JPMC flexibility in what it could report without creating infinite flexibility in how the software had to work.</strong></p>
+        </div>
+        <aside class="aside">
+          <span class="key">See</span>
+          <a class="link" href="#fig-tabs">Fig. 1b</a> The full Action Center dashboard
+        </aside>
+      </section>
+
+      <section class="sec" id="system">
+        <div class="sec-label"><span class="num">03</span><h2>Making a small system do a lot of work</h2></div>
+        <div class="prose">
+          <p>Constraining the visualization vocabulary only worked if the resulting system could still handle the breadth and density of JPMC's reporting needs.</p>
+          <p>I designed reusable widgets that shared a common structure while supporting different metrics, visualizations, legends, values, labels, and states. Instead of engineering treating every new report as a new interface, the same underlying components could be configured around different data.</p>
+          <p>The system supported four major reporting areas:</p>
+          <ul>
+            <li><strong>Information Hub</strong> — an inventory and summary of resiliency records</li>
+            <li><strong>Action Center</strong> — work requiring attention</li>
+            <li><strong>Measurement Viewer</strong> — reporting and performance metrics</li>
+            <li><strong>Activity Calendar</strong> — time-based resiliency activity</li>
+          </ul>
+          <p>Across those dashboards, the information could change substantially without requiring the interaction model to change with it.</p>
         </div>
         <aside class="aside">
           <span class="key">In this section</span>
@@ -173,14 +206,34 @@
           </figure>
         </div>
 
-        <div class="prose" style="margin-top: var(--s5)">
-          <p>Because stakeholder opinions on what a given metric should look like varied widely, and the graph types needed ranged broadly, I created widget and modal templates early, before development started building one-off versions — every one-off avoided there was cost avoided later across the platform's life. Interactive modals let users visualize and refine data with quick export actions built in, so repetitive data-refinement tasks didn't need a new UI pattern every time they came up.</p>
+        <div class="prose after">
+          <h3>Designing the grammar, not just the screens</h3>
+          <p>I defined the anatomy of the widgets so that variation happened inside intentional boundaries.</p>
+          <p>Titles, values, visualizations, legends, labels, supporting information, and actions each had a predictable place. Different configurations could accommodate meaningful differences in the data without requiring a new component every time someone requested a different metric.</p>
+          <p>This wasn't standardization for its own sake. Every additional visualization or layout pattern carried a real cost in design, development, testing, and maintenance. With limited engineering capacity and requirements that were going to continue changing, the architecture needed to absorb new requests rather than multiply with them.</p>
+          <p>The templates also gave us a way to respond to stakeholders without treating every preference as a new product requirement.</p>
+          <p>Instead of starting with, <em>Which graph do you want?</em></p>
+          <p>I could start with, <em>What are you actually trying to understand?</em></p>
+          <p>Then I could determine which existing pattern communicated it.</p>
         </div>
-        <aside class="aside" style="margin-top: var(--s5)">
+      </section>
+
+      <section class="sec" id="layers">
+        <div class="sec-label"><span class="num">04</span><h2>Constraint didn't mean removing the complexity</h2></div>
+        <div class="prose">
+          <p>A small set of widgets was enough for monitoring. It wasn't enough for investigation.</p>
+          <p>Resiliency data could become extremely detailed, and users still needed to understand what sat behind a summary metric. I didn't want to solve the scalability problem by flattening the analytical experience.</p>
+          <p>So I designed the system in layers.</p>
+          <p>The dashboard handled the first question: <strong>What is happening?</strong></p>
+          <p>Selecting a widget opened a reusable modal for the next questions: <strong>Why is it happening? What records are behind it? How can I narrow the data? What do I need to do with it next?</strong></p>
+          <p>Within the modal, users could move from a larger visualization into the underlying records, refine the dataset with filters, work through detailed tabular information, and export data when they needed to continue analysis outside ERMA.</p>
+          <p>I standardized this layer too.</p>
+          <p>The visualization occupied a predictable region. Filters had a consistent home. Detailed records followed beneath the visualization. Actions remained in expected locations. The content could change without forcing users — or engineering — to relearn the structure.</p>
+        </div>
+        <aside class="aside">
           <span class="key">In this section</span>
           <a class="link" href="#fig-modals">Fig. 5</a> Modal template<br>
-          <a class="link" href="#fig-modals">Fig. 6</a> Three modals from it<br>
-          <a class="link" href="#fig-states">Fig. 7</a> One modal, four states
+          <a class="link" href="#fig-modals">Fig. 6</a> Three modals from it
         </aside>
 
         <!-- Figs. 5–6 — modal template and instances -->
@@ -215,6 +268,24 @@
           </div>
         </div>
 
+        <div class="prose after">
+          <p>This was the balance I was trying to maintain throughout Reporting &amp; Analytics:</p>
+          <p><strong>Constrain the number of patterns without constraining what users could learn from the data.</strong></p>
+        </div>
+      </section>
+
+      <section class="sec" id="metric">
+        <div class="sec-label"><span class="num">05</span><h2>From a metric to the data behind it</h2></div>
+        <div class="prose">
+          <p>The widget and modal systems were designed as one interaction model, not two collections of components.</p>
+          <p>A user could scan a dashboard, identify a metric that needed attention, open it for deeper analysis, refine the information, inspect the individual records behind it, and export the results when necessary.</p>
+          <p>That meant ERMA could support both quick situational awareness and much deeper analytical work without putting all of that complexity on the dashboard at once.</p>
+        </div>
+        <aside class="aside">
+          <span class="key">In this section</span>
+          <a class="link" href="#fig-states">Fig. 7</a> One modal, four states
+        </aside>
+
         <!-- Fig. 7 — one modal, four states -->
         <div class="fig-group" id="fig-states">
           <div class="gh">
@@ -243,16 +314,37 @@
             <figcaption><span class="num">Fig. 7</span><span><b>One modal, four states.</b> The staff table below the chart and the Export Table action stay constant across all four.</span></figcaption>
           </figure>
         </div>
+
+        <div class="prose after">
+          <p>The result was an interface that could be information-dense without becoming structurally unpredictable. Users encountered the same basic grammar as they moved between different reporting needs, while the data — not a constantly changing UI — remained the variable.</p>
+        </div>
+      </section>
+
+      <section class="sec" id="pressure">
+        <div class="sec-label"><span class="num">06</span><h2>Keeping the system intact in a high-pressure environment</h2></div>
+        <div class="prose">
+          <p>The design problem wasn't happening in isolation.</p>
+          <p>ERMA had business analysts, resiliency specialists, product leadership, engineering, and other stakeholders deeply involved in the work. Requirements moved frequently, people had strong opinions about how information should be represented, and the project itself operated under significant pressure.</p>
+          <p>A reusable system only mattered if it survived that environment.</p>
+          <p>As Reporting &amp; Analytics Lead, I had to understand the expertise behind people's requests without automatically translating every request into another feature or pattern. I worked across groups that didn't always agree with one another and became someone who could maintain productive relationships even with stakeholders other team members found difficult to work with.</p>
+          <p>That mattered to the product. Every request to make one dashboard behave differently could have weakened the architecture. Keeping the system coherent required both design judgment and the ability to explain why a constraint existed, understand what someone was actually trying to accomplish, and find a solution inside the system whenever possible.</p>
+          <p>The architecture gave us boundaries.</p>
+          <p>My job was to make those boundaries useful enough that the organization could work within them.</p>
+        </div>
       </section>
 
       <section class="sec" id="outcome">
-        <div class="sec-label"><span class="num">04</span><h2>Outcome</h2></div>
+        <div class="sec-label"><span class="num">07</span><h2>The system became the foundation</h2></div>
         <div class="prose">
-          <p>ERMA gave J.P. Morgan Chase's resiliency and risk-management teams a modern replacement for decades-old dashboard tooling, built on a widget system designed to stay cost-effective as the bank's reporting needs keep growing rather than requiring a rebuild each time.</p>
+          <p>The constraint held.</p>
+          <p>Engineering reused the widget and modal templates, and they became the foundation for ERMA's dashboards as the platform continued to expand. New metrics did not automatically require new interface patterns. New reporting needs could be incorporated into an architecture the team already understood how to design, build, and use.</p>
+          <p>That mattered beyond the product itself. Risk and compliance teams were working directly from this reporting layer — a system that could absorb new disaster management and resiliency planning requirements without falling behind meant JPMC's ability to monitor and demonstrate its own compliance could keep pace with the bank's actual needs, not with however much engineering time happened to be available.</p>
+          <p>That was the outcome I had been designing toward from the beginning: <strong>ERMA could grow without its reporting interface — and the compliance work that depended on it — growing at the same rate as stakeholder requests.</strong></p>
+          <p>The engagement grew too. My firm added <strong>two additional people to the contract</strong>, and the trust I built through ERMA led directly to my next J.P. Morgan assignment: the Asset Outage Modeling Tool.</p>
         </div>
         <blockquote class="quote">
           <p>“…I want to shout out Fiona for her work with us this quarter. She's stuck with us for a long duration, and she has helped some very strong personalities find their voice with design… and she delivered a great, high quality product with… care.”</p>
-          <footer><b>Amy Meager</b><span>Executive Director of Technology Product Management, JPMC</span></footer>
+          <footer><b>Amy Mauger</b><span>Executive Director of Technology Product Management, JPMC</span></footer>
         </blockquote>
       </section>
 

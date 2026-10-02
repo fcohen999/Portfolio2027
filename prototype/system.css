@@ -1011,3 +1011,11 @@ dialog.lightbox::backdrop { background: rgba(20,20,20,.5); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Long-form case-study text (final copy) */
+.standfirst { grid-column: 1 / 8; font-size: 20px; line-height: 1.45; letter-spacing: -0.006em; margin-bottom: var(--s6); }
+.prose * + h3 { margin-top: 1.8em; }
+.prose strong { font-weight: 600; }
+.prose.after { margin-top: var(--s4); }
+@media (max-width: 1180px) { .standfirst { grid-column: 1 / -1; } }
+@media (max-width: 860px) { .standfirst { font-size: 18px; margin-bottom: var(--s5); } }
