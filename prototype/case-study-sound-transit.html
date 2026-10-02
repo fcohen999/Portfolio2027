@@ -146,28 +146,23 @@
         <div class="prose">
           <p>The deduplicated data showed accessibility problems followed the site's own architecture — components, then templates, then pages — while the Jira backlog had flattened all three into one list. I rebuilt remediation around where a fix would actually propagate:</p>
         </div>
-        <figure class="diagram fig" data-fig="Fig. 7">
-          <span class="key">Fig. 7 — Order of operations</span>
-          <div class="phases">
-            <div>
-              <span class="key">Phase 1</span>
-              <h3>“80%.”</h3>
-              <p>Shared components first — one fix resolved every page inheriting from it. Highest leverage, went first regardless of the existing backlog's priority order.</p>
-              <p class="scope-of">Components</p>
-            </div>
-            <div>
-              <span class="key">Phase 2</span>
-              <h3>“Template Pages.”</h3>
-              <p>Narrower blast radius, still propagating across every page on that template.</p>
-              <p class="scope-of">Templates</p>
-            </div>
-            <div>
-              <span class="key">Phase 3</span>
-              <h3>“Everything Else.”</h3>
-              <p>The long tail of isolated findings — explicitly deprioritized, since fixing these first would have reproduced the same trap the original 7,000-ticket backlog was already in.</p>
-              <p class="scope-of">Pages</p>
-            </div>
-          </div>
+        <figure class="fig dg cascade-fig" data-fig="Fig. 7">
+          <ol class="cascade">
+            <li class="hi">
+              <div class="ph"><span class="key">Phase 1 · Components</span><h3>“80%.”</h3><p>Shared components first — one fix resolved every page inheriting from it. Highest leverage, went first regardless of the existing backlog's priority order.</p></div>
+              <div class="reach"><span class="src">1 component fix</span><span class="fan" aria-hidden="true"></span><span class="pages"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="rl">every page inheriting from it</span></div>
+            </li>
+            <li class="">
+              <div class="ph"><span class="key">Phase 2 · Templates</span><h3>“Template Pages.”</h3><p>Narrower blast radius, still propagating across every page on that template.</p></div>
+              <div class="reach"><span class="src">1 template fix</span><span class="fan" aria-hidden="true"></span><span class="pages"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="rl">every page on that template</span></div>
+            </li>
+            <li class="low">
+              <div class="ph"><span class="key">Phase 3 · Pages</span><h3>“Everything Else.”</h3><p>The long tail of isolated findings — explicitly deprioritized, since fixing these first would have reproduced the same trap the original 7,000-ticket backlog was already in.</p></div>
+              <div class="reach"><span class="src">1 page fix</span><span class="fan" aria-hidden="true"></span><span class="pages"><i></i></span><span class="rl">that page</span></div>
+            </li>
+          </ol>
+          <p class="dg-legend"><span><i style="width:10px;height:10px;background:var(--ink)"></i>A page the fix resolves</span><span>Square counts are schematic, not data</span></p>
+          <figcaption><span class="num">Fig. 7</span><span><b>Order of operations.</b> Phases follow the site's own architecture — components, then templates, then pages — so each fix lands where it propagates furthest.</span></figcaption>
         </figure>
         <div class="prose">
           <p>Fix once, resolve everywhere. The real move wasn't finding more issues — it was proving "thousands of tickets" was actually a two-dozen-components problem, and getting the client to act on that instead of the ticket count.</p>
