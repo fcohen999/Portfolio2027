@@ -1,7 +1,7 @@
 # Portfolio2027
 
-Working draft for the fionacohendesign.com content + styling overhaul.
-Nothing here is published live.
+The portfolio site for fionacohendesign.com, published with GitHub Pages at
+https://fcohen999.github.io/Portfolio2027/ — whatever is on `main` is live.
 
 ## Contents
 
@@ -19,8 +19,9 @@ Nothing here is published live.
   current site, one folder per page (see its README)
 - `content/12-visual-system-v2.md` — the current visual system (type, grid,
   colour, figures, navigation) and the ERMA asset map
-- `prototype/` — coded HTML/CSS prototype, responsive down to phone width.
-  Open `prototype/index.html` directly in a browser. The homepage and all
+- The site itself is at the top of the repo: `index.html`, `resume.html`
+  and the `case-study-*.html` pages. Open `index.html` in a browser to view
+  it locally. The homepage and all
   eight case studies use the v2 system (`system.css`, `system.js`,
   self-hosted fonts in `fonts/`). The resume page still uses the older
   `styles.css`.
