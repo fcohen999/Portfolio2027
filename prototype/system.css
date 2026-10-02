@@ -903,6 +903,32 @@ dialog.lightbox::backdrop { background: rgba(20,20,20,.5); }
 .dg-rel.loop .r { font-weight: 500; }
 .dg-rel.loop2 .r, .dg-rel.loop2 .r::after { color: var(--ink); }
 
+/* pipeline: stages as boxes joined by arrows (not tabs) */
+.pipe-fig { grid-column: 1 / -1; }
+.pipe { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); column-gap: 26px; align-items: stretch; }
+.pipe-n { position: relative; border: 1px solid var(--ink); padding: 12px 12px 14px; display: flex; flex-direction: column; gap: 6px; min-height: 170px; background: var(--paper); }
+.pipe-n .num { color: var(--ink-3); }
+.pipe-n b { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.15; }
+.pipe-n .tool { font-family: var(--mono); font-size: 11px; color: var(--ink-2); }
+.pipe-n .pd { font-size: 13px; line-height: 1.4; color: var(--ink-2); margin-top: auto; }
+.pipe-n.in { border-style: dashed; }
+.pipe-n.hi { border: 1.5px solid var(--accent); background: repeating-linear-gradient(-45deg, var(--dg-hatch) 0 2px, transparent 2px 7px), var(--paper); }
+.pipe-n.hi b, .pipe-n.hi .num { color: var(--accent); }
+.pipe-n.out { border: 0; border-top: 2px solid var(--accent); padding-left: 0; }
+.pipe-n.out .big { font-size: 46px; line-height: 1; letter-spacing: -0.03em; font-weight: 500; color: var(--accent); }
+.pipe-n:not(:last-child)::after { content: ""; position: absolute; right: -22px; top: 50%; width: 16px; height: 1px; background: var(--ink); }
+.pipe-n:not(:last-child)::before { content: ""; position: absolute; right: -22px; top: calc(50% - 4px); width: 7px; height: 7px; border-top: 1px solid var(--ink); border-right: 1px solid var(--ink); transform: rotate(45deg); }
+@media (max-width: 1180px) {
+  .pipe { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 26px; }
+  .pipe-n:nth-child(3n)::after, .pipe-n:nth-child(3n)::before { display: none; }
+}
+@media (max-width: 860px) {
+  .pipe { grid-template-columns: minmax(0, 1fr); row-gap: 22px; }
+  .pipe-n { min-height: 0; }
+  .pipe-n:not(:last-child)::after { display: block; right: auto; left: 24px; top: auto; bottom: -18px; width: 1px; height: 14px; }
+  .pipe-n:not(:last-child)::before { display: block; right: auto; left: 20px; top: auto; bottom: -18px; transform: rotate(135deg); }
+}
+
 /* SVG diagrams share tokens */
 .dg svg { display: block; width: 100%; height: auto; overflow: visible; }
 .dg svg text { font-family: var(--sans); fill: var(--ink); }

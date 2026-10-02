@@ -103,25 +103,22 @@
 
       <section class="sec" id="system">
         <div class="sec-label"><span class="num">04</span><h2>Building the System</h2></div>
+        <figure class="fig dg pipe-fig" data-fig="Fig. 3">
+          <div class="pipe" role="list" aria-label="Audit pipeline">
+            <div class="pipe-n in" role="listitem"><span class="num">In</span><b>URLs</b><span class="pd">The list of pages to test</span></div>
+            <div class="pipe-n" role="listitem"><span class="num">01</span><b>Audit</b><span class="tool">Audit app</span><span class="pd">Turns URLs into structured findings</span></div>
+            <div class="pipe-n" role="listitem"><span class="num">02</span><b>Aggregate</b><span class="tool">Aggregator</span><span class="pd">Normalizes results across testing sources</span></div>
+            <div class="pipe-n hi" role="listitem"><span class="num">03</span><b>Deduplicate</b><span class="tool">Deduplicator — the pivotal piece</span><span class="pd">Collapses occurrences into root causes: a component failing on 100 pages becomes one systemic issue, not 100 tickets</span></div>
+            <div class="pipe-n" role="listitem"><span class="num">04</span><b>Analyze</b><span class="tool">Analytics</span><span class="pd">Makes the dataset queryable</span></div>
+            <div class="pipe-n out" role="listitem"><span class="num">Out</span><b class="big">~80%</b><span class="pd">of all issues traced back to shared components</span></div>
+          </div>
+          <p class="dg-legend"><span><i class="l-act"></i>Tool I designed and built</span><span><i class="l-hatch"></i>Where 100 tickets become one issue</span></p>
+          <figcaption><span class="num">Fig. 3</span><span><b>The audit pipeline.</b> Four reusable tools between a list of URLs and the finding that shaped the remediation strategy.</span></figcaption>
+        </figure>
         <div class="prose">
           <p>Manual testing dropped straight into Jira couldn't produce the structured data a real strategy needs — it could only produce more tickets. So I designed a four-part, reusable system: URLs → Audit → Aggregate → Deduplicate → Analyze. An audit app turned URLs into structured findings. An aggregator normalized results across testing sources. A deduplicator — the pivotal piece — collapsed occurrences into root causes, so a component failing on 100 pages became one systemic issue, not 100 tickets. Analytics made the dataset queryable, which is how I found the number that shaped everything after: roughly 80% of all issues traced back to shared components.</p>
           <p>I wasn't automating accessibility judgment — I was automating the work around it, so manual testing time went to the ambiguous cases that actually needed a human.</p>
         </div>
-        <aside class="aside">
-          <span class="key">The number</span>
-          <span style="display:block; font-size: 44px; line-height: 1; letter-spacing: -0.03em; color: var(--accent); font-weight: 500; margin: 4px 0 6px">~80%</span>
-          of all issues traced back to shared components.
-        </aside>
-        <figure class="diagram fig" data-fig="Fig. 3" style="--n: 5">
-          <span class="key">Fig. 3 — The pipeline</span>
-          <div class="flow" style="--n: 5">
-            <div><span class="t">URLs</span></div>
-            <div><span class="t">Audit</span><span class="d">Audit app turns URLs into structured findings</span></div>
-            <div><span class="t">Aggregate</span><span class="d">Normalizes results across testing sources</span></div>
-            <div class="hi"><span class="t">Deduplicate</span><span class="d">Collapses occurrences into root causes — 100 pages, one issue</span></div>
-            <div><span class="t">Analyze</span><span class="d">Makes the dataset queryable</span></div>
-          </div>
-        </figure>
         <figure class="fig span-a" data-fig="Fig. 4">
           <div class="pending"><span class="key">Image pending — sound-transit-audit-app.jpg</span></div>
           <figcaption><span class="num">Fig. 4</span><span><b>Audit app.</b> Not in the archive yet.</span></figcaption>
