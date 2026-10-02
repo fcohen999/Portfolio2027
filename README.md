@@ -19,8 +19,8 @@ Nothing here is published live.
   current site, one folder per page (see its README)
 - `content/12-visual-system-v2.md` — the current visual system (type, grid,
   colour, figures, navigation) and the ERMA asset map
-- `prototype/` — coded HTML/CSS prototype, responsive down to phone width.
-  Open `prototype/index.html` directly in a browser. The homepage and the
+- `docs/` — coded HTML/CSS prototype, responsive down to phone width.
+  Open `docs/index.html` directly in a browser. The homepage and the
   J.P. Morgan dashboards case study use the v2 system (`system.css`,
   `system.js`, self-hosted fonts in `fonts/`). The other pages still use
   the older `styles.css` until they are converted.
