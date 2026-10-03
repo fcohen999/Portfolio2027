@@ -18,9 +18,9 @@
 .resume-doc {
   --page-width: 8.5in;
   --page-height: 11in;
-  --page-pad-x: 0.5in;
-  --page-pad-y: 0.45in;
-  --column-gap: 0.2in;
+  --page-pad-x: 0.32in;
+  --page-pad-y: 0.3in;
+  --column-gap: 0.17in;
 
   --text: #111;
   --muted: #777;
@@ -28,7 +28,7 @@
   --sheet: #fff;
 
   /* type scale — 8pt floor */
-  --t-name: 22pt;
+  --t-name: 20pt;
   --t-headline: 8.5pt;
   --t-section: 9.5pt;
   --t-group: 8pt;
@@ -41,8 +41,8 @@
 
   color: var(--text);
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-feature-settings: "tnum" 0;
-  line-height: 1.35;
+    line-height: 1.35;
+  letter-spacing: -0.012em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -51,7 +51,7 @@
 .resume-doc *::after { box-sizing: border-box; }
 
 /* zero-specificity resets so the component classes below always win */
-:where(.resume-doc) :where(h1, h2, h3, h4, p, ul) { margin: 0; padding: 0; font: inherit; letter-spacing: normal; }
+:where(.resume-doc) :where(h1, h2, h3, h4, p, ul) { margin: 0; padding: 0; font: inherit; }
 :where(.resume-doc) :where(a) { color: inherit; text-decoration: none; }
 :where(.resume-doc) :where(strong) { font-weight: 700; }
 
@@ -79,8 +79,8 @@
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 0.2in;
   align-items: end;
-  padding-bottom: 0.11in;
-  margin-bottom: 0.15in;
+  padding-bottom: 0.08in;
+  margin-bottom: 0.1in;
   border-bottom: 1px solid var(--text);
 }
 
@@ -92,7 +92,7 @@
 }
 
 .r-headline {
-  margin-top: 6pt;
+  margin-top: 4pt;
   font-size: var(--t-headline);
   font-weight: 700;
   line-height: 1.28;
@@ -105,13 +105,14 @@
   font-size: var(--t-meta);
   line-height: 1.3;
 }
-.r-contact .links { margin-top: 2pt; white-space: nowrap; }
+.r-contact .links { white-space: nowrap; }
+.r-contact .links + .links { margin-top: 1pt; }
 .r-contact .sep { color: var(--muted); margin: 0 3pt; }
 .r-contact a:hover { text-decoration: underline; }
 
 /* ---------- columns ---------- */
-.r-main { grid-column: 1 / span 8; min-width: 0; }
-.r-side { grid-column: 9 / -1; min-width: 0; }
+.r-main { grid-column: 1 / span 7; min-width: 0; }
+.r-side { grid-column: 8 / -1; min-width: 0; }
 
 /* ---------- section labels ---------- */
 .r-section {
@@ -126,7 +127,7 @@
 /* secondary / tertiary labels: smaller is not available below the
    floor, so they step down through tracking and weight instead */
 .r-group {
-  margin-bottom: 8pt;
+  margin-bottom: 5pt;
   font-size: var(--t-group);
   font-weight: 800;
   line-height: 1.05;
@@ -166,21 +167,21 @@
   margin-top: 3pt;
   font-size: var(--t-meta);
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.15;
 }
 .r-roles .yr { color: var(--muted); font-weight: 700; }
 .r-roles .gap { display: inline-block; width: 10pt; }
 
 .r-summary {
-  margin-top: 5pt;
+  margin-top: 3pt;
   font-size: var(--t-body);
-  line-height: 1.42;
+  line-height: 1.15;
 }
 
 /* ---------- flagship projects ---------- */
 .r-project {
-  padding-top: 8pt;
-  margin-top: 8pt;
+  padding-top: 4pt;
+  margin-top: 4pt;
   border-top: 1px solid var(--rule);
   break-inside: avoid;
 }
@@ -211,14 +212,14 @@
 }
 
 .r-project ul {
-  margin: 5pt 0 0 11pt;
+  margin: 3pt 0 0 11pt;
   list-style: disc;
 }
 .r-project li {
-  margin: 0 0 3pt;
+  margin: 0 0 1pt;
   padding-left: 1pt;
   font-size: var(--t-body);
-  line-height: 1.4;
+  line-height: 1.15;
 }
 .r-project li::marker { color: var(--muted); }
 
@@ -230,16 +231,16 @@
 }
 
 .r-employer.later {
-  padding-top: 9pt;
-  margin-top: 9pt;
+  padding-top: 4pt;
+  margin-top: 4pt;
   border-top: 1px solid var(--rule);
   break-inside: avoid;
 }
 
 /* ---------- sidebar ---------- */
 .r-block {
-  padding-bottom: 8pt;
-  margin-bottom: 8pt;
+  padding-bottom: 4pt;
+  margin-bottom: 4pt;
   border-bottom: 1px solid var(--rule);
   break-inside: avoid;
 }
@@ -264,12 +265,12 @@
 }
 
 .r-copy {
-  margin-top: 4pt;
+  margin-top: 2pt;
   font-size: var(--t-body);
-  line-height: 1.4;
+  line-height: 1.15;
 }
-.r-copy.sub { margin-top: 5pt; }
-.r-copy.sub strong { display: block; margin-bottom: 1pt; font-weight: 800; }
+.r-copy.sub { margin-top: 2pt; }
+.r-copy.sub strong { font-weight: 800; }
 .r-copy.note { font-weight: 700; }
 
 .r-edu-school {
@@ -359,6 +360,13 @@
   .r-row { flex-wrap: wrap; }
   .r-subrow { flex-direction: column; gap: 2px; }
   .r-role { text-align: left; }
+
+  /* the print sheet is set tight to fit one page; give screens room */
+  .r-summary, .r-project li, .r-copy { line-height: 1.45; }
+  .r-project li { margin-bottom: 6px; }
+  .r-copy.sub { margin-top: 8px; }
+  .r-project, .r-employer.later { padding-top: 12px; margin-top: 12px; }
+  .r-block { padding-bottom: 12px; margin-bottom: 12px; }
 }
 
 /* ==========================================================
@@ -366,7 +374,7 @@
    ========================================================== */
 @page {
   size: Letter;
-  margin: 0.45in 0;
+  margin: 0.3in 0;
 }
 
 @media print {
