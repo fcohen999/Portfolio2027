@@ -1,0 +1,395 @@
+/* Résumé document
+   One stylesheet drives both the on-screen sheet (resume.html) and the
+   downloadable PDF (Fiona_Cohen_Resume.pdf, built by scripts/build-resume-pdf.mjs
+   from this page's print styles). Layout and hierarchy follow the v16
+   "typography refined" résumé: a US Letter sheet on a 12-column grid,
+   experience in columns 1–8, supporting work in 9–12.
+
+   Type is set in points so print sizes are exact. Nothing is smaller
+   than 8pt; hierarchy below that floor is carried by weight, case
+   and colour instead of size. */
+
+/* static weights, not the variable font: Chromium embeds variable fonts in
+   PDFs as Type 3 glyphs, which space unevenly in some viewers */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/inter-400.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/inter-700.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/inter-800.woff2) format("woff2"); }
+
+.resume-doc {
+  --page-width: 8.5in;
+  --page-height: 11in;
+  --page-pad-x: 0.32in;
+  --page-pad-y: 0.3in;
+  --column-gap: 0.17in;
+
+  --text: #111;
+  --muted: #777;
+  --rule: #d7d7d7;
+  --sheet: #fff;
+
+  /* type scale — 8pt floor */
+  --t-name: 20pt;
+  --t-headline: 8.5pt;
+  --t-section: 9.5pt;
+  --t-group: 8pt;
+  --t-employer: 11.5pt;
+  --t-client: 9pt;
+  --t-client-side: 8.5pt;
+  --t-project: 8.5pt;
+  --t-body: 8pt;
+  --t-meta: 8pt;
+
+  color: var(--text);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+    line-height: 1.35;
+  letter-spacing: -0.012em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.resume-doc *,
+.resume-doc *::before,
+.resume-doc *::after { box-sizing: border-box; }
+
+/* zero-specificity resets so the component classes below always win */
+:where(.resume-doc) :where(h1, h2, h3, h4, p, ul) { margin: 0; padding: 0; font: inherit; }
+:where(.resume-doc) :where(a) { color: inherit; text-decoration: none; }
+:where(.resume-doc) :where(strong) { font-weight: 700; }
+
+/* ---------- sheet ---------- */
+.sheet {
+  width: var(--page-width);
+  min-height: var(--page-height);
+  margin: 0 auto;
+  padding: var(--page-pad-y) var(--page-pad-x);
+  background: var(--sheet);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 8px 28px rgba(0, 0, 0, .07);
+}
+
+.sheet-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--column-gap);
+  align-items: start;
+}
+
+/* ---------- header ---------- */
+.r-header {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.2in;
+  align-items: end;
+  padding-bottom: 0.08in;
+  margin-bottom: 0.1in;
+  border-bottom: 1px solid var(--text);
+}
+
+.r-name {
+  font-size: var(--t-name);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.r-headline {
+  margin-top: 4pt;
+  font-size: var(--t-headline);
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.r-contact {
+  text-align: right;
+  font-size: var(--t-meta);
+  line-height: 1.3;
+}
+.r-contact .links { white-space: nowrap; }
+.r-contact .links + .links { margin-top: 1pt; }
+.r-contact .sep { color: var(--muted); margin: 0 3pt; }
+.r-contact a:hover { text-decoration: underline; }
+
+/* ---------- columns ---------- */
+.r-main { grid-column: 1 / span 7; min-width: 0; }
+.r-side { grid-column: 8 / -1; min-width: 0; }
+
+/* ---------- section labels ---------- */
+.r-section {
+  margin-bottom: 9pt;
+  font-size: var(--t-section);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+/* secondary / tertiary labels: smaller is not available below the
+   floor, so they step down through tracking and weight instead */
+.r-group {
+  margin-bottom: 5pt;
+  font-size: var(--t-group);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/* ---------- employers ---------- */
+.r-employer { margin-bottom: 4pt; }
+.r-employer + .r-project { margin-top: 6pt; }
+
+.r-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10pt;
+}
+
+.r-company {
+  font-size: var(--t-employer);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+}
+
+.r-date {
+  flex: 0 0 auto;
+  font-size: var(--t-meta);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.r-roles {
+  margin-top: 3pt;
+  font-size: var(--t-meta);
+  font-weight: 700;
+  line-height: 1.15;
+}
+.r-roles .yr { color: var(--muted); font-weight: 700; }
+.r-roles .gap { display: inline-block; width: 10pt; }
+
+.r-summary {
+  margin-top: 3pt;
+  font-size: var(--t-body);
+  line-height: 1.15;
+}
+
+/* ---------- flagship projects ---------- */
+.r-project {
+  padding-top: 4pt;
+  margin-top: 4pt;
+  border-top: 1px solid var(--rule);
+  break-inside: avoid;
+}
+
+.r-client {
+  font-size: var(--t-client);
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+}
+
+.r-subrow { margin-top: 2pt; }
+
+.r-project-title {
+  min-width: 0;
+  font-size: var(--t-project);
+  font-weight: 700;
+  line-height: 1.26;
+}
+
+.r-role {
+  flex: 0 0 auto;
+  font-size: var(--t-meta);
+  font-weight: 700;
+  line-height: 1.26;
+  text-align: right;
+}
+
+.r-project ul {
+  margin: 3pt 0 0 11pt;
+  list-style: disc;
+}
+.r-project li {
+  margin: 0 0 1pt;
+  padding-left: 1pt;
+  font-size: var(--t-body);
+  line-height: 1.15;
+}
+.r-project li::marker { color: var(--muted); }
+
+.r-award {
+  margin-top: 4pt;
+  font-size: var(--t-meta);
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.r-employer.later {
+  padding-top: 4pt;
+  margin-top: 4pt;
+  border-top: 1px solid var(--rule);
+  break-inside: avoid;
+}
+
+/* ---------- sidebar ---------- */
+.r-block {
+  padding-bottom: 4pt;
+  margin-bottom: 4pt;
+  border-bottom: 1px solid var(--rule);
+  break-inside: avoid;
+}
+.r-block:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+
+.r-side-client {
+  min-width: 0;
+  font-size: var(--t-client-side);
+  font-weight: 800;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+
+.r-side-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1pt;
+  margin-top: 2pt;
+  font-size: var(--t-meta);
+  font-weight: 700;
+  line-height: 1.26;
+}
+
+.r-copy {
+  margin-top: 2pt;
+  font-size: var(--t-body);
+  line-height: 1.15;
+}
+.r-copy.sub { margin-top: 2pt; }
+.r-copy.sub strong { font-weight: 800; }
+.r-copy.note { font-weight: 700; }
+
+.r-edu-school {
+  font-size: var(--t-body);
+  font-weight: 800;
+  line-height: 1.26;
+}
+.r-block .r-copy:first-of-type { margin-top: 2pt; }
+
+/* ==========================================================
+   Screen: the web page around the sheet
+   ========================================================== */
+@media screen {
+  .resume-page { padding: var(--s4) var(--margin) 0; }
+
+  .resume-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--s2);
+    max-width: 8.5in;
+    margin: 0 auto var(--s3);
+    font-size: 14px;
+    color: var(--ink-2);
+  }
+  .resume-bar .key { color: var(--ink-3); }
+
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background .15s, border-color .15s;
+  }
+  .btn-download:hover { background: var(--accent); border-color: var(--accent); }
+  .btn-download svg { width: 14px; height: 14px; flex: none; }
+
+  /* larger screens: present the sheet a little above actual size */
+  @media (min-width: 1200px) {
+    .resume-bar { max-width: calc(8.5in * 1.2); }
+    .sheet { zoom: 1.2; }
+  }
+}
+
+/* ---------- small screens: reflow the document ---------- */
+@media screen and (max-width: 860px) {
+  .resume-page { padding: var(--s3) 0 0; }
+  .resume-bar { padding: 0 var(--margin); flex-wrap: wrap; }
+  .resume-bar .key { display: none; }
+
+  .resume-doc {
+    --t-name: 30px;
+    --t-headline: 11.5px;
+    --t-section: 13px;
+    --t-group: 11.5px;
+    --t-employer: 17px;
+    --t-client: 13px;
+    --t-client-side: 12.5px;
+    --t-project: 13px;
+    --t-body: 14px;
+    --t-meta: 12.5px;
+  }
+
+  .sheet {
+    width: 100%;
+    min-height: 0;
+    padding: var(--s3) var(--margin) var(--s4);
+    box-shadow: none;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .sheet-grid { grid-template-columns: minmax(0, 1fr); }
+  .r-header, .r-main, .r-side { grid-column: 1 / -1; }
+  .r-header { grid-template-columns: 1fr; align-items: start; gap: 10px; }
+  .r-contact { text-align: left; }
+  .r-contact .links { display: flex; flex-wrap: wrap; white-space: normal; }
+  .r-side { margin-top: var(--s4); }
+
+  .r-row { flex-wrap: wrap; }
+  .r-subrow { flex-direction: column; gap: 2px; }
+  .r-role { text-align: left; }
+
+  /* the print sheet is set tight to fit one page; give screens room */
+  .r-summary, .r-project li, .r-copy { line-height: 1.45; }
+  .r-project li { margin-bottom: 6px; }
+  .r-copy.sub { margin-top: 8px; }
+  .r-project, .r-employer.later { padding-top: 12px; margin-top: 12px; }
+  .r-block { padding-bottom: 12px; margin-bottom: 12px; }
+}
+
+/* ==========================================================
+   Print / PDF: the sheet alone, on US Letter
+   ========================================================== */
+@page {
+  size: Letter;
+  margin: 0.3in 0;
+}
+
+@media print {
+  html, body { background: #fff !important; }
+  .masthead, .site-footer, .resume-bar { display: none !important; }
+  .resume-page { padding: 0; margin: 0; }
+
+  /* page margins come from @page so that every page — not just the
+     first — gets the same top and bottom space */
+  .sheet {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0 var(--page-pad-x);
+    box-shadow: none;
+    zoom: 1;
+  }
+}

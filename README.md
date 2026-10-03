@@ -23,8 +23,18 @@ https://fcohen999.github.io/Portfolio2027/ — whatever is on `main` is live.
   and the `case-study-*.html` pages. Open `index.html` in a browser to view
   it locally. The homepage and all
   eight case studies use the v2 system (`system.css`, `system.js`,
-  self-hosted fonts in `fonts/`). The resume page still uses the older
-  `styles.css`.
+  self-hosted fonts in `fonts/`). The resume page uses the v2 masthead
+  and footer around a printable résumé sheet styled by `resume.css`.
+
+## Résumé PDF
+
+`Fiona_Cohen_Resume.pdf` (the page's "Download PDF" button) is generated
+from `resume.html`'s print styles, so edit the page, then rebuild:
+
+    node scripts/build-resume-pdf.mjs
+
+The script needs Playwright and stops with an error if any résumé text
+is set below 8pt.
 
 ## Still needed from you
 
