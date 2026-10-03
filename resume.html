@@ -4,151 +4,161 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Résumé — Fiona Cohen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800&family=Archivo+Expanded:wght@700;800&family=Newsreader:ital,wght@0,400;1,400;0,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="system.css">
+<link rel="stylesheet" href="resume.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="wordmark">FIONA COHEN</a>
-    <button class="nav-toggle" onclick="document.querySelector('nav.links').classList.toggle('open')">MENU</button>
-    <nav class="links">
+<header class="masthead">
+  <div class="page grid">
+    <a href="index.html" class="wordmark">Fiona Cohen</a>
+    <p class="running">Résumé</p>
+    <nav aria-label="Site">
       <a href="index.html">Work</a>
-      <a href="resume.html">Resume</a>
+      <a href="resume.html" aria-current="page">Resume</a>
       <a href="mailto:hello@fionacohendesign.com">Contact</a>
     </nav>
   </div>
 </header>
 
-<main class="wrap">
+<main class="resume-page">
 
-  <div class="resume-header">
-    <div>
-      <h1>FIONA COHEN</h1>
-      <p class="title-line">Senior Product Designer · Complex Systems · Data &amp; AI Products</p>
-      <p class="location caption">New York, NY</p>
-      <p class="contact-row caption">
-        <a href="mailto:hello@fionacohendesign.com">Email</a>·
-        <a href="index.html">Portfolio</a>·
-        <a href="#">LinkedIn</a>
-      </p>
-    </div>
-    <a class="btn" href="#">Download PDF</a>
+  <div class="resume-bar">
+    <span class="key">US Letter · PDF</span>
+    <a class="btn-download" href="Fiona_Cohen_Resume.pdf" download="Fiona_Cohen_Resume.pdf">
+      <svg viewBox="0 0 14 14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 1v8.5M3.5 6 7 9.5 10.5 6M1.5 12.5h11"/></svg>
+      Download PDF
+    </a>
   </div>
 
-  <section class="resume-section">
-    <p class="eyebrow">Experience</p>
+  <article class="resume-doc sheet" aria-label="Résumé">
+    <div class="sheet-grid">
 
-    <div class="role-block">
-      <p class="company-line">Guidehouse — 2020–2026</p>
-      <p class="title-line">Senior UX Consultant, 2023–2026 · UX Consultant, 2020–2023</p>
-      <ul>
-        <li>Go-to product design expert across the practice, trusted to lead complex engagements, advise teams on product strategy, mentor three designers, and present complex product and technical ideas to audiences from engineers to executive leadership.</li>
-        <li>Worked the full engagement lifecycle — RFPs and executive pitches through research, design, implementation, and QA — contributing to $2M+ in new contracts in 2023.</li>
-      </ul>
+      <header class="r-header">
+        <div>
+          <h1 class="r-name">FIONA COHEN</h1>
+          <p class="r-headline">Senior Product Designer · Complex Systems · Data &amp; AI Products</p>
+        </div>
+        <div class="r-contact">
+          <p>New York, NY</p>
+          <p class="links"><a href="mailto:hello@fionacohendesign.com">hello@fionacohendesign.com</a><span class="sep">·</span><a href="https://fionacohendesign.com">fionacohendesign.com</a><span class="sep">·</span>LinkedIn</p>
+        </div>
+      </header>
+
+      <section class="r-main" aria-labelledby="experience-h">
+        <h2 class="r-section" id="experience-h">Experience</h2>
+
+        <section class="r-employer">
+          <div class="r-row"><h3 class="r-company">Guidehouse</h3><span class="r-date">2020–2026</span></div>
+          <p class="r-roles">Senior UX Consultant <span class="yr">| 2023–2026</span><span class="gap"></span>UX Consultant <span class="yr">| 2020–2023</span></p>
+          <p class="r-summary">Go-to product design expert across the practice, trusted to lead complex engagements, advise teams on product strategy, mentor <strong>3 designers</strong>, and present complex product and technical ideas clearly and persuasively to audiences ranging from engineers to executive leadership. Worked across the engagement lifecycle—from requests for proposals and executive pitches through research, product design, implementation, and quality assurance—contributing to <strong>$2M+ in new contracts in 2023</strong>.</p>
+        </section>
+
+        <article class="r-project">
+          <div class="r-row"><h4 class="r-client">Sound Transit</h4><span class="r-date">2025</span></div>
+          <div class="r-row r-subrow"><p class="r-project-title">Digital Accessibility Audit &amp; Remediation Strategy</p><p class="r-role">Accessibility Lead</p></div>
+          <ul>
+            <li>Inherited an accessibility program stalled after a prior audit produced thousands of Jira tickets with no actionable path to remediation. Reframed the effort around systemic impact, reducing a <strong>7,000+ page</strong> site to the <strong>160 highest-traffic pages and 29 shared templates</strong> needed for meaningful coverage.</li>
+            <li>Built four reusable applications for audit collection, aggregation, deduplication, and analytics, turning thousands of findings into structured data for identifying systemic issues and prioritizing remediation.</li>
+            <li>Built a repeatable manual accessibility testing system by automating routine checks, defining clear testing protocols, and creating a workflow a team member could execute consistently under my direction.</li>
+            <li>Developed a three-phase strategy—shared components, templates, then isolated issues—directing engineering toward fixes with the greatest system-wide impact.</li>
+            <li>Brought client and engineering teams around a shared approach, then transferred the tooling, documentation, and training needed to continue remediation independently.</li>
+          </ul>
+        </article>
+
+        <article class="r-project">
+          <div class="r-row"><h4 class="r-client">U.S. Department of Justice — Office of the Chief Information Officer</h4><span class="r-date">2023–2025</span></div>
+          <div class="r-row r-subrow"><p class="r-project-title">Enterprise Employee Services Platform &amp; Design System</p><p class="r-role">Design Lead</p></div>
+          <ul>
+            <li>Established the Office of the Chief Information Officer’s product design foundation: shared components, interaction patterns, accessibility standards, and implementation guidance for applications, websites, and internal tools.</li>
+            <li>Created a common design language across product and engineering while accommodating the independent technical environments of domain-separated DOJ organizations.</li>
+            <li>Architected the foundation for reuse, enabling teams to clone and adapt it to independent products rather than repeatedly starting from scratch.</li>
+            <li>Presented design direction and recommendations directly to Department of Justice executive leadership, including the Chief Information Officer, communicating complex product and technical decisions at the executive level.</li>
+            <li>Applied the system as design lead for <strong>Time to Hire</strong>, simplifying a complex HR process through integrations, intelligent fields, and automated document generation while partnering with engineering through implementation and QA.</li>
+          </ul>
+          <p class="r-award">DOJ Special Commendation — Excellence in Product Work</p>
+        </article>
+
+        <article class="r-project">
+          <div class="r-row"><h4 class="r-client">JPMorgan Chase</h4><span class="r-date">2021–2023</span></div>
+          <div class="r-row r-subrow"><p class="r-project-title">Disaster Management Analytics Platform</p><p class="r-role">Design Lead</p></div>
+          <ul>
+            <li>Set product and design direction for JPMorgan Chase's disaster management reporting and analytics platform across incident monitoring, impact assessment, comparative analysis, reporting, and executive decision-making.</li>
+            <li>Managed two designers, setting direction, delegating ownership, and raising team quality through ongoing critique while coordinating decisions across client stakeholders and engineering.</li>
+            <li>Created a shared information architecture for complex operational data, translating it into role-specific workflows and visualizations for disaster specialists, analysts, and executives.</li>
+            <li>Owned design through implementation and QA across 400+ high-fidelity screens as the engagement grew from one to four consultants and generated $1.16M in additional work.</li>
+          </ul>
+        </article>
+
+        <section class="r-employer later">
+          <div class="r-row"><h3 class="r-company">YAFFED</h3><span class="r-date">2019</span></div>
+          <p class="r-roles">Design Lead &amp; Developer</p>
+          <p class="r-summary">Led the redesign and development of YAFFED's website end to end, restructuring the experience around core advocacy goals including petitions, donations, newsletter signups, and content discovery. Unified conversion paths and calls to action, then built the final responsive product in HTML/CSS.</p>
+        </section>
+      </section>
+
+      <aside class="r-side" aria-labelledby="selected-h">
+        <h2 class="r-group" id="selected-h">Selected Guidehouse Work</h2>
+
+        <article class="r-block">
+          <div class="r-row"><h3 class="r-side-client">CDC</h3><span class="r-date">2021</span></div>
+          <p class="r-side-meta"><span>Digital Product &amp; Data Modernization Initiatives</span><span class="role">Design Lead</span></p>
+          <p class="r-copy sub"><strong>OneLab REACH</strong>Shaped a live continuing-education experience for medical and public health professionals earning P.A.C.E. credits. Built its design system and reusable component library, prototyped and tested core workflows, and partnered through development.</p>
+          <p class="r-copy sub"><strong>CFA Evaluation</strong>Evaluated site architecture and developed streamlined, reusable components and templates aligned to CDC standards.</p>
+          <p class="r-copy sub"><strong>Data Modernization Initiative</strong>Created branded proof-of-concept websites and flexible modern UI patterns for a high-profile data modernization effort.</p>
+          <p class="r-copy sub"><strong>OneLab REACH Development Recommendation</strong>Researched the development process and delivered a formal recommendation for a hybrid design/development approach.</p>
+          <p class="r-copy note">Strong research and product work deepened the firm’s relationship with CDC, resulting in continued work across multiple initiatives.</p>
+        </article>
+
+        <article class="r-block">
+          <div class="r-row"><h3 class="r-side-client">Confidential Client</h3><span class="r-date">2020–2021</span></div>
+          <p class="r-side-meta"><span>Specialized Parts Production Tracking Software</span><span class="role">UX Lead</span></p>
+          <p class="r-copy">Directed UX across interconnected production applications, replacing cross-product inconsistencies with shared workflows and reusable patterns. Strengthened design-to-development QA with engineering, contributing to <strong>~70% fewer post-release defects</strong>.</p>
+        </article>
+
+        <article class="r-block">
+          <div class="r-row"><h3 class="r-side-client">Merck</h3><span class="r-date">2020–2021</span></div>
+          <p class="r-side-meta"><span>Geospatial Analytics Platform</span><span class="role">Product Designer</span></p>
+          <p class="r-copy">Translated user feedback and geospatial visualization research into clearer ways to explore complex map-based data, establishing reusable UI and visualization standards. <strong>Merck returned for additional design work based on the strength of the engagement.</strong></p>
+        </article>
+
+        <article class="r-block">
+          <div class="r-row"><h3 class="r-side-client">Tampa General Hospital</h3><span class="r-date">2020–2021</span></div>
+          <p class="r-side-meta"><span>Patient Billing &amp; Financial Experience</span><span class="role">Product Designer &amp; Researcher</span></p>
+          <p class="r-copy">Conducted user interviews plus qualitative and quantitative analysis to understand and improve patients' experience of finance and billing. Synthesized findings into product and service recommendations, created and led trainings for Tampa General Hospital teams, and presented findings and recommendations directly to Tampa General Hospital’s Chief Executive Officer.</p>
+        </article>
+
+        <article class="r-block">
+          <div class="r-row"><h3 class="r-side-client">U.S. Department of Veterans Affairs</h3><span class="r-date">2020–2021</span></div>
+          <p class="r-side-meta"><span>Digital Healthcare &amp; Emerging Technology Initiatives</span><span class="role">Product Designer</span></p>
+          <p class="r-copy sub"><strong>Healthcare Access Experience Concept</strong>Created an Art of the Possible concept for improving access to VA healthcare.</p>
+          <p class="r-copy sub"><strong>Generative AI Facility Planning Tool</strong>Also contributed to an early AI-assisted facility-planning tool that generated preliminary blueprints and floorplans for new VA centers from input criteria.</p>
+        </article>
+
+        <section class="r-block">
+          <h2 class="r-group">Education</h2>
+          <p class="r-edu-school">Maryland Institute College of Art (MICA)</p>
+          <p class="r-copy">B.F.A., Graphic Design</p>
+          <p class="r-copy"><strong>Stuyvesant High School</strong><br>New York, NY</p>
+        </section>
+
+        <section class="r-block">
+          <h2 class="r-group">Expertise</h2>
+          <p class="r-copy">Product Strategy · Complex Systems · Data Visualization · Design Systems · Accessibility · Research &amp; Testing · Design Leadership · Information Architecture</p>
+        </section>
+      </aside>
+
     </div>
-
-    <div class="role-block">
-      <p class="company-line">Sound Transit — 2025</p>
-      <p class="title-line">Accessibility Lead · Digital Accessibility Audit &amp; Remediation Strategy</p>
-      <ul>
-        <li>Inherited an accessibility program stalled after a prior audit produced thousands of un-actionable Jira tickets. Reframed around systemic impact, reducing a 7,000+ page site to the 160 highest-traffic pages and 29 shared templates needed for meaningful coverage.</li>
-        <li>Built four reusable applications for audit collection, aggregation, deduplication, and analytics, turning thousands of findings into structured data for identifying systemic issues and prioritizing remediation.</li>
-        <li>Built a repeatable manual accessibility testing system by automating routine checks, defining testing protocols, and creating a workflow a team member could execute consistently under my direction.</li>
-        <li>Developed a three-phase strategy — shared components, templates, then isolated issues — directing engineering toward the fixes with greatest system-wide impact.</li>
-        <li>Brought client and engineering teams around a shared approach, then transferred tooling, documentation, and training for independent continuation.</li>
-      </ul>
-    </div>
-
-    <div class="role-block">
-      <p class="company-line">U.S. DOJ — Office of the CIO — 2023–2025</p>
-      <p class="title-line">Design Lead · Enterprise Employee Services Platform &amp; Design System</p>
-      <ul>
-        <li>Established OCIO's product design foundation: shared components, interaction patterns, accessibility standards, implementation guidance.</li>
-        <li>Created a common design language across product and engineering while accommodating independent technical environments of domain-separated DOJ orgs.</li>
-        <li>Architected the foundation for reuse, enabling teams to clone and adapt it rather than starting from scratch.</li>
-        <li>Presented design direction directly to DOJ executive leadership, including the CIO.</li>
-        <li>Applied the system as design lead for Time to Hire, simplifying a complex HR process through integrations, intelligent fields, and automated document generation.</li>
-        <li><strong>Award:</strong> DOJ Special Commendation — Excellence in Product Work</li>
-      </ul>
-    </div>
-
-    <div class="role-block">
-      <p class="company-line">JPMorgan Chase — 2021–2023</p>
-      <p class="title-line">Design Lead · Disaster Management Analytics Platform</p>
-      <ul>
-        <li>Set product and design direction for JPMorgan Chase's disaster management reporting and analytics platform (incident monitoring, impact assessment, comparative analysis, reporting, executive decision-making).</li>
-        <li>Managed two designers — direction, delegation, ongoing critique — while coordinating across client stakeholders and engineering.</li>
-        <li>Created a shared information architecture for complex operational data, translated into role-specific workflows/visualizations for specialists, analysts, and executives.</li>
-        <li>Owned design through implementation and QA across 400+ high-fidelity screens as the engagement grew from one to four consultants, generating $1.16M in additional work.</li>
-      </ul>
-    </div>
-
-    <div class="role-block">
-      <p class="company-line">YAFFED — 2019</p>
-      <p class="title-line">Design Lead &amp; Developer</p>
-      <ul>
-        <li>Led the redesign and development of YAFFED's website end to end, restructuring the experience around core advocacy goals (petitions, donations, newsletter signups, content discovery). Unified conversion paths and CTAs, built the final responsive product in HTML/CSS.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="resume-section dense-section">
-    <div class="wrap" style="padding:0;">
-      <p class="eyebrow">Selected Guidehouse Work</p>
-
-      <div class="dense-client">
-        <p class="name">CDC <span class="meta caption">— 2021 · Design Lead · Digital Product &amp; Data Modernization Initiatives</span></p>
-        <p>OneLab REACH (design system + component library for a live CE platform for medical/public health professionals), CFA Evaluation, Data Modernization Initiative (branded proof-of-concept sites), OneLab REACH Development Recommendation. Deepened the firm's relationship with CDC, leading to continued multi-initiative work.</p>
-      </div>
-
-      <div class="dense-client">
-        <p class="name">Confidential Client <span class="meta caption">— 2020–2021 · UX Lead · Specialized Parts Production Tracking Software</span></p>
-        <p>Unified cross-product workflows/patterns, ~70% fewer post-release defects.</p>
-      </div>
-
-      <div class="dense-client">
-        <p class="name">Merck <span class="meta caption">— 2020–2021 · Product Designer · Geospatial Analytics Platform</span></p>
-        <p>Translated research into clearer map-based data exploration, reusable UI/viz standards. Merck returned for additional work.</p>
-      </div>
-
-      <div class="dense-client">
-        <p class="name">Tampa General Hospital <span class="meta caption">— 2020–2021 · Product Designer &amp; Researcher · Patient Billing &amp; Financial Experience</span></p>
-        <p>Interviews + qual/quant analysis, trainings led, findings presented directly to Tampa General's CEO.</p>
-      </div>
-
-      <div class="dense-client">
-        <p class="name">U.S. Dept of Veterans Affairs <span class="meta caption">— 2020–2021 · Product Designer · Digital Healthcare &amp; Emerging Tech Initiatives</span></p>
-        <p>Healthcare Access Experience Concept (Art of the Possible), Generative AI Facility Planning Tool (blueprint/floorplan generation from input criteria).</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="footer-band">
-    <div>
-      <p class="eyebrow">Education</p>
-      <p>MICA — B.F.A., Graphic Design</p>
-      <p>Stuyvesant High School, New York, NY</p>
-    </div>
-    <div>
-      <p class="eyebrow">Expertise</p>
-      <p class="caption">Product Strategy · Complex Systems · Data Visualization · Design Systems · Accessibility · Research &amp; Testing · Design Leadership · Information Architecture</p>
-    </div>
-  </section>
+  </article>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="contact-row">
-      <a href="index.html">Work</a>
-      <a href="mailto:hello@fionacohendesign.com">Email</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="copyright caption">© Fiona Cohen</p>
+  <div class="page grid">
+    <span class="who">Fiona Cohen</span>
+    <span class="contact"><a href="index.html">Work</a><a href="mailto:hello@fionacohendesign.com">Email</a><a href="#">LinkedIn</a></span>
+    <span class="copy">© Fiona Cohen</span>
   </div>
 </footer>
 
